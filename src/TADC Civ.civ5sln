@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# ModBuddy Solution File, Format Version 11.00
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "TADC Mod", "TADC Civ\TADC Mod.civ5proj", "{820F6D0C-CD49-4BC7-B1AF-620E4284133F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|x86 = Default|x86
+		Deploy Only|x86 = Deploy Only|x86
+		Package Only|x86 = Package Only|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{820F6D0C-CD49-4BC7-B1AF-620E4284133F}.Default|x86.ActiveCfg = Default|x86
+		{820F6D0C-CD49-4BC7-B1AF-620E4284133F}.Default|x86.Build.0 = Default|x86
+		{820F6D0C-CD49-4BC7-B1AF-620E4284133F}.Deploy Only|x86.ActiveCfg = Deploy Only|x86
+		{820F6D0C-CD49-4BC7-B1AF-620E4284133F}.Deploy Only|x86.Build.0 = Deploy Only|x86
+		{820F6D0C-CD49-4BC7-B1AF-620E4284133F}.Package Only|x86.ActiveCfg = Package Only|x86
+		{820F6D0C-CD49-4BC7-B1AF-620E4284133F}.Package Only|x86.Build.0 = Package Only|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
