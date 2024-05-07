@@ -25,14 +25,20 @@
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>Civ1_Caine/XML/Civilizations/Civ_TADC1.xml</FileName>
+        <FileName>XML/Civilizations/Civ_TADC1.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>Civ1_Caine/XML/NewText/GameText.xml</FileName>
+        <FileName>XML/NewText/GameText.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/GameInfo/CIV5IconTextureAtlases.xml</FileName>
       </Action>
     </ModActions>
+    <ModProperties />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -46,56 +52,51 @@
     <DeployMod>true</DeployMod>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="Civ1_Caine\Art\" />
-    <Folder Include="Civ1_Caine\Lua" />
-    <Folder Include="Civ1_Caine\XML\" />
-    <Folder Include="Civ1_Caine\XML\Civilizations\" />
-    <Folder Include="Civ1_Caine\XML\GameInfo" />
-    <Folder Include="Civ1_Caine\XML\Leaders" />
-    <Folder Include="Civ1_Caine\XML\NewText\" />
-    <Folder Include="Civ1_Caine" />
-    <Folder Include="Civ2_Pomni" />
-    <Folder Include="Civ3_Jax" />
-    <Folder Include="Civ4_Candy" />
+    <Folder Include="Art\" />
+    <Folder Include="XML\" />
+    <Folder Include="XML\Civilizations\" />
+    <Folder Include="XML\GameInfo\" />
+    <Folder Include="XML\Leaders\" />
+    <Folder Include="XML\NewText\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Civ1_Caine\Art\CivSymbolsColorLegends128.dds">
+    <Content Include="Art\CivSymbolsColorTadc128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\CivSymbolsColorTadc256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\CivSymbolsColorTadc32.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\CivSymbolsColorTadc45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\CivSymbolsColorTadc64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\CivSymbolsColorTadc80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\Civilizations\Civ_TADC1.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="Civ1_Caine\Art\CivSymbolsColorLegends256.dds">
+    <Content Include="XML\GameInfo\CIV5IconTextureAtlases.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="Civ1_Caine\Art\CivSymbolsColorLegends32.dds">
+    <Content Include="XML\Leaders\CIV5Leader_Caine.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="Civ1_Caine\Art\CivSymbolsColorLegends45.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="Civ1_Caine\Art\CivSymbolsColorLegends64.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="Civ1_Caine\Art\CivSymbolsColorLegends80.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="Civ1_Caine\XML\Civilizations\Civ_TADC1.xml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="Civ1_Caine\XML\GameInfo\CIV5IconTextureAtlases.xml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="Civ1_Caine\XML\Leaders\CIV5Leader_Caine.xml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="Civ1_Caine\XML\NewText\GameText.xml">
+    <Content Include="XML\NewText\GameText.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
