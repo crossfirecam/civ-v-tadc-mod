@@ -20,5 +20,25 @@
 				Placeholder
 			</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC1_CAINE_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC1_CAINE_TEXT_1">
+			<Text>
+				Placeholder text about Caine's history.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC1_CAINE_LIVED">
+			<Text>?? - ?? AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC1_CAINE_NAME">
+			<Text>Caine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC1_CAINE_SUBTITLE">
+			<Text>Ringmaster of The Amazing Digital Circus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TADC1_CAINE">
+			<Text>Caine</Text>
+		</Row>
 	</Language_en_US>
 </GameData>
