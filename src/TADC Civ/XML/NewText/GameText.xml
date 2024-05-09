@@ -45,10 +45,27 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_GAELIC_WARRIOR">
-			<Text>Gaelic Warrior</Text>
+			<Text>Placeholder</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_GAELIC_WARRIOR">
-			<Text>This unit's ability to ignore terrain allows it to quickly rush into enemy lands.</Text>
+			<Text>Placeholder</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_BUILDING_TADC_CIRCUS">
+			<Text>Digital Circus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TADC_CIRCUS_STRATEGY">
+			<Text>
+				Spawns an 'NPC' - Provides a random unit from the current Era (from Tech you have researched, limited to Medieval Era).
+				Does not require a [ICON_RES_HORSE] Horse or [ICON_RES_IVORY] Elephant to construct.
+				Grants +1 [ICON_HAPPINESS_1] Happiness upon discovering Electricity.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_TADC_CIRCUS_TEXT">
+			<Text>
+				Placeholder
+			</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

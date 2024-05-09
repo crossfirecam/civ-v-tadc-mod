@@ -47,6 +47,16 @@
         <Type>UpdateDatabase</Type>
         <FileName>XML/Units/CIV5Units.xml</FileName>
       </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/Buildings/CIV5BuildingClasses.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/Buildings/CIV5Buildings.xml</FileName>
+      </Action>
     </ModActions>
     <ModProperties />
   </PropertyGroup>
@@ -63,14 +73,32 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Art\" />
+    <Folder Include="LUA" />
     <Folder Include="XML\" />
     <Folder Include="XML\Civilizations\" />
     <Folder Include="XML\GameInfo\" />
     <Folder Include="XML\Leaders\" />
+    <Folder Include="XML\Buildings" />
     <Folder Include="XML\Units" />
     <Folder Include="XML\NewText\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Art\CivSymbolsBuildingsTadc128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\CivSymbolsBuildingsTadc256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\CivSymbolsBuildingsTadc45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\CivSymbolsBuildingsTadc64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="Art\CivSymbolsColorTadc128.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -110,6 +138,18 @@
     <Content Include="Art\CaineDOM.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="LUA\Lua Script1.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\Buildings\CIV5Buildings.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\Buildings\CIV5BuildingClasses.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="XML\Civilizations\Civ_TADC1.xml">
       <SubType>Lua</SubType>

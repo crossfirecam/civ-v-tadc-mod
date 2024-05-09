@@ -1,0 +1,27 @@
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_TADC_CIRCUS</Type>
+			<BuildingClass>BUILDINGCLASS_CIRCUS</BuildingClass>
+			<Cost>60</Cost>
+			<PrereqTech>TECH_TRAPPING</PrereqTech>
+			<Help>TXT_KEY_BUILDING_TADC_CIRCUS_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_TADC_CIRCUS</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_TADC_CIRCUS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_TADC_CIRCUS_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_CIRCUS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>BUILDING_ATLAS_TADC</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_FreeUnits>
+		<Row>
+			<BuildingType>BUILDING_TADC_CIRCUS</BuildingType>
+			<UnitType>UNIT_XCOM_SQUAD</UnitType>
+			<NumUnits>6</NumUnits>
+		</Row>
+	</Building_FreeUnits>
+</GameData>

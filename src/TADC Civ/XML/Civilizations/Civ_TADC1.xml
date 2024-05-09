@@ -65,15 +65,15 @@
 	<Civilization_UnitClassOverrides>
 		<Row>
 			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
-			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
-			<UnitType>UNIT_GAELIC_WARRIOR</UnitType>
+			<UnitClassType>UNITCLASS_SCOUT</UnitClassType>
+			<UnitType>UNIT_ALL_SEEING_EYE</UnitType>
 		</Row>
 	</Civilization_UnitClassOverrides>
-	<Civilization_UnitClassOverrides>
+	<Civilization_BuildingClassOverrides>
 		<Row>
 			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
-			<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
-			<UnitType>UNIT_GAELIC_WARRIOR</UnitType>
+			<BuildingClassType>BUILDINGCLASS_CIRCUS</BuildingClassType>
+			<BuildingType>BUILDING_TADC_CIRCUS</BuildingType>
 		</Row>
-	</Civilization_UnitClassOverrides>
+		</Civilization_BuildingClassOverrides>
 </GameData>

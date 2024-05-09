@@ -66,5 +66,35 @@
 			<IconsPerRow>8</IconsPerRow>
 			<IconsPerColumn>8</IconsPerColumn>
 		</Row>
+		
+		<!-- Buildings -->
+		<Row>
+			<Atlas>BUILDING_ATLAS_TADC</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>CivSymbolsBuildingsTadc256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BUILDING_ATLAS_TADC</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>CivSymbolsBuildingsTadc128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BUILDING_ATLAS_TADC</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>CivSymbolsBuildingsTadc64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BUILDING_ATLAS_TADC</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>CivSymbolsBuildingsTadc45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
 	</IconTextureAtlases>
 </GameData>
