@@ -3,14 +3,16 @@
 		<Row>
 			<Type>BUILDING_TADC_CIRCUS</Type>
 			<BuildingClass>BUILDINGCLASS_CIRCUS</BuildingClass>
-			<Cost>60</Cost>
+			<Cost>90</Cost>
 			<PrereqTech>TECH_TRAPPING</PrereqTech>
 			<Help>TXT_KEY_BUILDING_TADC_CIRCUS_STRATEGY</Help>
 			<Description>TXT_KEY_BUILDING_TADC_CIRCUS</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_TADC_CIRCUS_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_TADC_CIRCUS_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_CIRCUS</ArtDefineTag>
+			<EnhancedYieldTech>TECH_AGRICULTURE</EnhancedYieldTech>
 			<MinAreaSize>-1</MinAreaSize>
+			<Happiness>2</Happiness>
 			<HurryCostModifier>25</HurryCostModifier>
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>BUILDING_ATLAS_TADC</IconAtlas>
@@ -20,8 +22,15 @@
 	<Building_FreeUnits>
 		<Row>
 			<BuildingType>BUILDING_TADC_CIRCUS</BuildingType>
-			<UnitType>UNIT_XCOM_SQUAD</UnitType>
-			<NumUnits>6</NumUnits>
+			<UnitType>UNIT_ARCHER</UnitType>
+			<NumUnits>1</NumUnits> <!-- Placeholder -->
 		</Row>
 	</Building_FreeUnits>
+	<Building_TechEnhancedYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_TADC_CIRCUS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_TechEnhancedYieldChanges>
 </GameData>

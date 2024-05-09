@@ -1,0 +1,18 @@
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_SLOWER_HEAL</Type>
+			<Description>TXT_KEY_PROMOTION_SLOWER_HEAL</Description>
+			<Help>TXT_KEY_PROMOTION_SLOWER_HEAL_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<EnemyHealChange>-5</EnemyHealChange>
+			<NeutralHealChange>-5</NeutralHealChange>
+			<FriendlyHealChange>-10</FriendlyHealChange>
+			<PortraitIndex>57</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_SLOWER_HEAL</PediaEntry>
+		</Row>
+	</UnitPromotions>
+</GameData>

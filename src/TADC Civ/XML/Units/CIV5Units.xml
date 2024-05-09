@@ -1,75 +1,70 @@
 <GameData>
+	<!-- All-Seeing Eye: Scout Replacement for Caine. Provides Scouting I & Slower Heal Promotion. -->
+	<!-- Values are mostly the same as base Scout, except Combat Strength is halved, images/text changed, and promotions are applied. -->
 	<Units>
 		<Row>
-			<Class>UNITCLASS_WARRIOR</Class>
-			<Type>UNIT_GAELIC_WARRIOR</Type>
-			<Combat>6</Combat>
-			<Cost>40</Cost>
+			<Class>UNITCLASS_SCOUT</Class>
+			<Type>UNIT_CAINIC_ALL_SEEING_EYE</Type>
+			<Combat>4</Combat>
+			<Cost>25</Cost>
+			<FaithCost>50</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
-			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<CombatClass>UNITCOMBAT_RECON</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_GAELIC_WARRIOR</Description>
-			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_WARRIOR_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_WARRIOR_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_GAELIC_WARRIOR</Help>
+			<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_CAINIC_ALL_SEEING_EYE</Description>
+			<Civilopedia>TXT_KEY_CIV5_CAINIC_ALL_SEEING_EYE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_CAINIC_ALL_SEEING_EYE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_CAINIC_ALL_SEEING_EYE</Help>
+			<NoBadGoodies>true</NoBadGoodies>
+			<Pillage>true</Pillage>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<Pillage>true</Pillage>
-			<ObsoleteTech>TECH_METAL_CASTING</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_SPEARMAN</GoodyHutUpgradeUnitClass>
+			<ObsoleteTech>TECH_SCIENTIFIC_THEORY</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_ARCHER</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>10</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
-			<Conscription>1</Conscription>
-			<UnitArtInfo>ART_DEF_UNIT_GAELIC_WARRIOR</UnitArtInfo>
-			<UnitFlagIconOffset>3</UnitFlagIconOffset>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
-			<PortraitIndex>3</PortraitIndex>
+			<UnitArtInfo>ART_DEF_UNIT_SCOUT</UnitArtInfo> <!-- Placeholder -->
+			<UnitFlagIconOffset>5</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>	<!-- Placeholder -->
+			<PortraitIndex>5</PortraitIndex> <!-- Placeholder -->
 		</Row>
 	</Units>
 	<Unit_FreePromotions>
 		<Row>
-			<UnitType>UNIT_GAELIC_WARRIOR</UnitType>
+			<UnitType>UNIT_CAINIC_ALL_SEEING_EYE</UnitType>
 			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CAINIC_ALL_SEEING_EYE</UnitType>
+			<PromotionType>PROMOTION_SCOUTING_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CAINIC_ALL_SEEING_EYE</UnitType>
+			<PromotionType>PROMOTION_SLOWER_HEAL</PromotionType>
 		</Row>
 	</Unit_FreePromotions>
 	<Unit_AITypes>
 		<Row>
-			<UnitType>UNIT_GAELIC_WARRIOR</UnitType>
+			<UnitType>UNIT_CAINIC_ALL_SEEING_EYE</UnitType>
 			<UnitAIType>UNITAI_ATTACK</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_GAELIC_WARRIOR</UnitType>
+			<UnitType>UNIT_CAINIC_ALL_SEEING_EYE</UnitType>
 			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_GAELIC_WARRIOR</UnitType>
+			<UnitType>UNIT_CAINIC_ALL_SEEING_EYE</UnitType>
 			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
 		</Row>
 	</Unit_AITypes>
-	<Unit_ClassUpgrades>
-		<Row>
-			<UnitType>UNIT_GAELIC_WARRIOR</UnitType>
-			<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
-		</Row>
-	</Unit_ClassUpgrades>
 	<Unit_Flavors>
 		<Row>
-			<UnitType>UNIT_GAELIC_WARRIOR</UnitType>
+			<UnitType>UNIT_CAINIC_ALL_SEEING_EYE</UnitType>
 			<FlavorType>FLAVOR_RECON</FlavorType>
-			<Flavor>1</Flavor>
-			T h e M o d d e r s G u i d e t o C i v i l i z a t i o n V - P a g e | 45
-		</Row>
-		<Row>
-			<UnitType>UNIT_GAELIC_WARRIOR</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GAELIC_WARRIOR</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>2</Flavor>
+			<Flavor>7</Flavor>
 		</Row>
 	</Unit_Flavors>
 </GameData>

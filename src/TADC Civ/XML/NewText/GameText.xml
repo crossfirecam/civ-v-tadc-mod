@@ -1,5 +1,6 @@
 <GameData>
 	<Language_en_US>
+		<!-- Cainic Civ -->
 		<Row Tag="TXT_KEY_CITY_NAME_TADC_THE_TENT">
 			<Text>The Tent</Text>
 		</Row>
@@ -7,26 +8,22 @@
 			<Text>Cainic</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV_TADC1_DESC">
-			<Text>The Amazing Digital Circus</Text>
+			<Text>The Cainic Empire</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV_TADC1_SHORT_DESC">
 			<Text>The Circus</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TADC1_HEADING_1">
-			<Text>Placeholder</Text>
+			<Text>Placeholder (Civlopedia Cainic Empire Heading)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TADC1_TEXT_1">
-			<Text>
-				Placeholder
-			</Text>
+			<Text>Placeholder (Civlopedia Cainic Empire Text)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC1_CAINE_HEADING_1">
-			<Text>History</Text>
+			<Text>Placeholder (Civlopedia Cainie Heading)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC1_CAINE_TEXT_1">
-			<Text>
-				Placeholder text about Caine's history.
-			</Text>
+			<Text>Placeholder (Civlopedia Cainie Text)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC1_CAINE_LIVED">
 			<Text>?? - ?? AD</Text>
@@ -41,31 +38,42 @@
 			<Text>Caine</Text>
 		</Row>
 
-
-
-
-		<Row Tag="TXT_KEY_UNIT_GAELIC_WARRIOR">
-			<Text>Placeholder</Text>
-		</Row>
-		<Row Tag="TXT_KEY_UNIT_HELP_GAELIC_WARRIOR">
-			<Text>Placeholder</Text>
-		</Row>
 		
-		
+		<!-- Cainic Unique Unit/Building -->
+		<Row Tag="TXT_KEY_UNIT_CAINIC_ALL_SEEING_EYE">
+			<Text>All-Seeing Eye</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CAINIC_ALL_SEEING_EYE">
+			<Text>Unparalleled in the art of reconnaissance, the All-Seeing Eye posesses a promotion that provides it +1 Sight. However, the unit is weaker and heals slower than the Scout, which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CAINIC_ALL_SEEING_EYE_TEXT">
+			<Text>Placeholder (Civlopedia)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CAINIC_ALL_SEEING_EYE_STRATEGY">
+			<Text>The All-Seeing Eye is the Cainic unique unit, replacing the Scout. It provides +1 Sight, but it is slightly weaker and healing is halved.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TADC_CIRCUS">
 			<Text>Digital Circus</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TADC_CIRCUS_STRATEGY">
-			<Text>
-				Spawns an 'NPC' - Provides a random unit from the current Era (from Tech you have researched, limited to Medieval Era).
-				Does not require a [ICON_RES_HORSE] Horse or [ICON_RES_IVORY] Elephant to construct.
-				Grants +1 [ICON_HAPPINESS_1] Happiness upon discovering Electricity.
-			</Text>
+			<Text>Spawns a random unit which you have researched from the current Era (only until Medieval Era). Does not require a [ICON_RES_HORSE] Horse or [ICON_RES_IVORY] Elephant to construct. Grants +3 [ICON_CULTURE] Culture upon discovering Electricity. 20% more expensive than a standard Circus.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_TADC_CIRCUS_TEXT">
 			<Text>
-				Placeholder
+				Placeholder (Civlopedia) (Mention the reason why we get +4 culture)
 			</Text>
+		</Row>
+		
+		
+		<!-- Cainic Unique Promotion -->
+		<Row Tag="TXT_KEY_PROMOTION_SLOWER_HEAL">
+			<Text>Heals at Half Rate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SLOWER_HEAL_HELP">
+			<Text>Reduces base healing from +10 to +5 per turn. An exclusive demotion for Cainic All-Seeing Eye.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_SLOWER_HEAL">
+			<Text>Heals at Half Rate</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
