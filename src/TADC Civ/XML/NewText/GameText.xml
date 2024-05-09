@@ -40,5 +40,15 @@
 		<Row Tag="TXT_KEY_LEADER_TADC1_CAINE">
 			<Text>Caine</Text>
 		</Row>
+
+
+
+
+		<Row Tag="TXT_KEY_UNIT_GAELIC_WARRIOR">
+			<Text>Gaelic Warrior</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_GAELIC_WARRIOR">
+			<Text>This unit's ability to ignore terrain allows it to quickly rush into enemy lands.</Text>
+		</Row>
 	</Language_en_US>
 </GameData>

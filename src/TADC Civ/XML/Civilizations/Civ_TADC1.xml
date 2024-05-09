@@ -8,14 +8,14 @@
 			<Civilopedia>TXT_KEY_CIV_TADC1_PEDIA</Civilopedia>
 			<CivilopediaTag>TXT_KEY_CIV5_TADC1</CivilopediaTag>
 			<DefaultPlayerColor>PLAYERCOLOR_WHITE</DefaultPlayerColor>
-			<ArtDefineTag>ART_DEF_CIVILIZATION_ENGLAND</ArtDefineTag> <!-- TODO Replace -->
-			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType> <!-- TODO Replace -->
-			<ArtStyleSuffix>_EURO</ArtStyleSuffix> <!-- TODO Replace -->
-			<ArtStylePrefix>EUROPEAN </ArtStylePrefix> <!-- TODO Replace -->
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ENGLAND</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>CIV_COLOR_ATLAS_TADC</IconAtlas>
 			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
-			<MapImage>MapEngland512.dds</MapImage> <!-- TODO Replace -->
+			<MapImage>MapAmerica512.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_CIV5_TADC1_TEXT_1</DawnOfManQuote>
 			<DawnOfManImage>CaineDOM.dds</DawnOfManImage>
 		</Row>
@@ -59,4 +59,21 @@
 			<RegionType>REGION_FOREST</RegionType>
 		</Row>
 	</Civilization_Start_Region_Priority>
+	
+	
+	
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<UnitType>UNIT_GAELIC_WARRIOR</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
+			<UnitType>UNIT_GAELIC_WARRIOR</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
 </GameData>

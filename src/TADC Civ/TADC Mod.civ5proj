@@ -42,6 +42,11 @@
         <Type>UpdateDatabase</Type>
         <FileName>XML/Leaders/CIV5Leader_Caine.xml</FileName>
       </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/Units/CIV5Units.xml</FileName>
+      </Action>
     </ModActions>
     <ModProperties />
   </PropertyGroup>
@@ -62,6 +67,7 @@
     <Folder Include="XML\Civilizations\" />
     <Folder Include="XML\GameInfo\" />
     <Folder Include="XML\Leaders\" />
+    <Folder Include="XML\Units" />
     <Folder Include="XML\NewText\" />
   </ItemGroup>
   <ItemGroup>
@@ -118,6 +124,10 @@
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="XML\NewText\GameText.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\Units\CIV5Units.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>

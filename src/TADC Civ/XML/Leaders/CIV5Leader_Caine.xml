@@ -6,15 +6,20 @@
 			<Description>TXT_KEY_LEADER_TADC1_CAINE</Description>
 			<Civilopedia>TXT_KEY_LEADER_TADC1_CAINE_PEDIA</Civilopedia>
 			<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_TADC1_CAINE</CivilopediaTag>
-			<ArtDefineTag>Elizabeth_Scene.xml</ArtDefineTag>
-			<VictoryCompetitiveness>8</VictoryCompetitiveness>
-			<WonderCompetitiveness>7</WonderCompetitiveness>
-			<MinorCivCompetitiveness>3</MinorCivCompetitiveness>
-			<Boldness>8</Boldness>
-			<DiploBalance>3</DiploBalance>
-			<WarmongerHate>2</WarmongerHate>
-			<WorkAgainstWillingness>7</WorkAgainstWillingness>
-			<WorkWithWillingness>4</WorkWithWillingness>
+			<ArtDefineTag>Bismark_Scene.xml</ArtDefineTag>
+			<VictoryCompetitiveness>7</VictoryCompetitiveness>
+			<WonderCompetitiveness>6</WonderCompetitiveness>
+			<MinorCivCompetitiveness>7</MinorCivCompetitiveness>
+			<Boldness>4</Boldness>
+			<DiploBalance>8</DiploBalance>
+			<WarmongerHate>6</WarmongerHate>
+			<DenounceWillingness>8</DenounceWillingness>
+			<DoFWillingness>6</DoFWillingness>
+			<Loyalty>6</Loyalty>
+			<Neediness>7</Neediness>
+			<Forgiveness>6</Forgiveness>
+			<Chattiness>5</Chattiness>
+			<Meanness>4</Meanness>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>LEADER_ATLAS_TADC</IconAtlas>
 		</Row>
@@ -220,4 +225,10 @@
 			<Flavor>7</Flavor>
 		</Row>
 	</Leader_Flavors>
+	<Leader_Traits>
+		<Row>
+			<LeaderType>LEADER_TADC1_CAINE</LeaderType>
+			<TraitType>TRAIT_IGNORE_TERRAIN_IN_FOREST</TraitType>
+		</Row>
+	</Leader_Traits>
 </GameData>
