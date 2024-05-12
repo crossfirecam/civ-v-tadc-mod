@@ -20,8 +20,8 @@
 			<Forgiveness>6</Forgiveness>
 			<Chattiness>5</Chattiness>
 			<Meanness>4</Meanness>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>LEADER_ATLAS_TADC</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
 		</Row>
 	</Leaders>
 	<Leader_MajorCivApproachBiases>

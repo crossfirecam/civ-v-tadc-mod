@@ -88,55 +88,55 @@
     <Folder Include="XML\NewText\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Art\CivSymbolsBuildingsTadc128.dds">
+    <Content Include="Art\AlphaAtlas_Tadc1_Civ_128.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\CivSymbolsBuildingsTadc256.dds">
+    <Content Include="Art\AlphaAtlas_Tadc1_Civ_24.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\CivSymbolsBuildingsTadc45.dds">
+    <Content Include="Art\AlphaAtlas_Tadc1_Civ_32.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\CivSymbolsBuildingsTadc64.dds">
+    <Content Include="Art\AlphaAtlas_Tadc1_Civ_48.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\CivSymbolsColorTadc128.dds">
+    <Content Include="Art\AlphaAtlas_Tadc1_Civ_64.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\CivSymbolsColorTadc256.dds">
+    <Content Include="Art\AlphaAtlas_Tadc1_Unit1_32.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\CivSymbolsColorTadc32.dds">
+    <Content Include="Art\AlphaAtlas_Tadc2_Unit2_32.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\CivSymbolsColorTadc45.dds">
+    <Content Include="Art\ColorAtlas_TadcMod_128.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\CivSymbolsColorTadc64.dds">
+    <Content Include="Art\ColorAtlas_TadcMod_256.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\CivSymbolsColorTadc80.dds">
+    <Content Include="Art\ColorAtlas_TadcMod_32.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\CivSymbolsLeadersTadc128.dds">
+    <Content Include="Art\ColorAtlas_TadcMod_45.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\CivSymbolsLeadersTadc256.dds">
+    <Content Include="Art\ColorAtlas_TadcMod_64.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\CivSymbolsLeadersTadc64.dds">
+    <Content Include="Art\ColorAtlas_TadcMod_80.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>

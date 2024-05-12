@@ -27,9 +27,10 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_SCOUT</UnitArtInfo> <!-- Placeholder -->
-			<UnitFlagIconOffset>5</UnitFlagIconOffset>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>	<!-- Placeholder -->
-			<PortraitIndex>5</PortraitIndex> <!-- Placeholder -->
+			<UnitFlagAtlas>TADC1_UNIT1_ALPHA_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
 		</Row>
 	</Units>
 	<Unit_FreePromotions>

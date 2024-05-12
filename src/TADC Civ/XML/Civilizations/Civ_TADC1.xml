@@ -13,8 +13,8 @@
 			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
 			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
 			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>CIV_COLOR_ATLAS_TADC</IconAtlas>
-			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
+			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
+			<AlphaIconAtlas>TADC1_CIV_ALPHA_ATLAS</AlphaIconAtlas>
 			<MapImage>MapAmerica512.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_CIV5_TADC1_TEXT_1</DawnOfManQuote>
 			<DawnOfManImage>CaineDOM.dds</DawnOfManImage>

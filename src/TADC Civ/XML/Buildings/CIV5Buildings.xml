@@ -15,8 +15,8 @@
 			<Happiness>2</Happiness>
 			<HurryCostModifier>25</HurryCostModifier>
 			<NeverCapture>true</NeverCapture>
-			<IconAtlas>BUILDING_ATLAS_TADC</IconAtlas>
-			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
 		</Row>
 	</Buildings>
 	<Building_FreeUnits>
