@@ -228,7 +228,7 @@
 	<Leader_Traits>
 		<Row>
 			<LeaderType>LEADER_TADC1_CAINE</LeaderType>
-			<TraitType>TRAIT_IGNORE_TERRAIN_IN_FOREST</TraitType>
+			<TraitType>TRAIT_VIRTUAL_FOOD</TraitType>
 		</Row>
 	</Leader_Traits>
 </GameData>

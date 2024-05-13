@@ -37,6 +37,12 @@
 		<Row Tag="TXT_KEY_LEADER_TADC1_CAINE">
 			<Text>Caine</Text>
 		</Row>
+		<Row Tag="TXT_KEY_TRAIT_VIRTUAL_FOOD">
+			<Text>Thanks to your esteemed Bubble Chef, receive +1 [ICON_FOOD] Food from Pastures and +2 [ICON_FOOD] Food from Plantations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_VIRTUAL_FOOD_SHORT">
+			<Text>Virtual Food</Text>
+		</Row>
 
 		
 		<!-- Cainic Unique Unit/Building -->

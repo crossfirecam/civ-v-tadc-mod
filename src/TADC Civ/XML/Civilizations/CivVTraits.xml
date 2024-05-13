@@ -1,0 +1,23 @@
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_VIRTUAL_FOOD</Type>
+			<Description>TXT_KEY_TRAIT_VIRTUAL_FOOD</Description>
+			<ShortDescription>TXT_KEY_TRAIT_VIRTUAL_FOOD_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+	<Trait_ImprovementYieldChanges>
+		<Row>
+			<TraitType>TRAIT_VIRTUAL_FOOD</TraitType>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_VIRTUAL_FOOD</TraitType>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Trait_ImprovementYieldChanges>
+</GameData>

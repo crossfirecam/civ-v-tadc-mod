@@ -62,6 +62,11 @@
         <Type>UpdateDatabase</Type>
         <FileName>XML/Units/CIVVUnitPromotions.xml</FileName>
       </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/Civilizations/CivVTraits.xml</FileName>
+      </Action>
     </ModActions>
     <ModProperties />
   </PropertyGroup>
@@ -157,6 +162,10 @@
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="XML\Civilizations\Civ_TADC1.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\Civilizations\CivVTraits.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
