@@ -13,7 +13,7 @@
 			<EnhancedYieldTech>TECH_AGRICULTURE</EnhancedYieldTech>
 			<MinAreaSize>-1</MinAreaSize>
 			<Happiness>2</Happiness>
-			<HurryCostModifier>25</HurryCostModifier>
+			<HurryCostModifier>100</HurryCostModifier>
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
 			<PortraitIndex>2</PortraitIndex>

@@ -62,11 +62,11 @@
 			<Text>Digital Circus</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TADC_CIRCUS_STRATEGY">
-			<Text>Summons two random units which you have researched from the current Era (this does not grant units from the Renaissance Era or later). Does not require a [ICON_RES_HORSE] Horse or [ICON_RES_IVORY] Elephant to construct. Costs 30% more than a standard Circus.</Text>
+			<Text>Summons two random land units which you have researched in this Era or the last. (From Renaissance Era onward, units granted will be from the Medieval Era). Does not require a [ICON_RES_HORSE] Horse or [ICON_RES_IVORY] Elephant to construct. Costs 30% more [ICON_PRODUCTION] Production (or 100% more [ICON_GOLD] Gold) than a standard Circus.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_TADC_CIRCUS_TEXT">
 			<Text>
-				Placeholder (Civlopedia) (Mention the reason why we get +4 culture)
+				Placeholder (Civlopedia)
 			</Text>
 		</Row>
 		

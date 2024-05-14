@@ -13,21 +13,34 @@ function Tadc1DigitalCircusRandomSpawn(iPlayer, iCity, iBuilding)
 	local pPlayer = Players[iPlayer];
 	if (iBuilding == iTadcCircus) then
 		print("A player has just built Digital Circus.");
+
 		local eligibleUnits = {}
-
-		-- Tech/Era/Unit Checks
-		table.insert(eligibleUnits, insertUnitIfResearchedAndThisEra(pPlayer, "ERA_ANCIENT", "TECH_ARCHERY", "UNIT_ARCHER"));
-		table.insert(eligibleUnits, insertUnitIfResearchedAndThisEra(pPlayer, "ERA_ANCIENT", "TECH_BRONZE_WORKING", "UNIT_SPEARMAN"));
-		table.insert(eligibleUnits, insertUnitIfResearchedAndThisEra(pPlayer, "ERA_ANCIENT", "TECH_THE_WHEEL", "UNIT_CHARIOT_ARCHER"));
-		table.insert(eligibleUnits, insertUnitIfResearchedAndThisEra(pPlayer, "ERA_CLASSICAL", "TECH_HORSEBACK_RIDING", "UNIT_HORSEMAN"));
-		table.insert(eligibleUnits, insertUnitIfResearchedAndThisEra(pPlayer, "ERA_CLASSICAL", "TECH_MATHEMATICS", "UNIT_CATAPULT"));
-		table.insert(eligibleUnits, insertUnitIfResearchedAndThisEra(pPlayer, "ERA_CLASSICAL", "TECH_CONSTRUCTION", "UNIT_COMPOSITE_BOWMAN"));
-		table.insert(eligibleUnits, insertUnitIfResearchedAndThisEra(pPlayer, "ERA_CLASSICAL", "TECH_IRON_WORKING", "UNIT_SWORDSMAN"));
-
-		if pPlayer:GetCurrentEra() == GameInfoTypes["ERA_ANCIENT"] then
-			table.insert(eligibleUnits, "UNIT_WARRIOR");
+		-- For every Era after Medieval, Medieval units are always available
+		table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_CIVIL_SERVICE", "UNIT_PIKEMAN"));
+		table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_CHIVALRY", "UNIT_KNIGHT"));
+		table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_MACHINERY", "UNIT_CROSSBOWMAN"));
+		table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_STEEL", "UNIT_LONGSWORDSMAN"));
+		-- In Renaissance, no longer offer Classical Era units
+		if pPlayer:GetCurrentEra() <= GameInfoTypes["ERA_MEDIEVAL"] then
+			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_HORSEBACK_RIDING", "UNIT_HORSEMAN"));
+			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_MATHEMATICS", "UNIT_CATAPULT"));
+			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_CONSTRUCTION", "UNIT_COMPOSITE_BOWMAN"));
+			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_IRON_WORKING", "UNIT_SWORDSMAN"));
 		end
-
+		-- In Medieval, no longer offer Ancient Era units
+		if pPlayer:GetCurrentEra() <= GameInfoTypes["ERA_CLASSICAL"] then
+			table.insert(eligibleUnits, "UNIT_WARRIOR");
+			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_ARCHERY", "UNIT_ARCHER"));
+			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_BRONZE_WORKING", "UNIT_SPEARMAN"));
+			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_THE_WHEEL", "UNIT_CHARIOT_ARCHER"));
+		end
+		if #eligibleUnits == 0 then
+			print("----- Player rushed Theology without studying ANY classical era unit techs. Resort to Classical Era picks. -----");
+			table.insert(eligibleUnits, "UNIT_WARRIOR");
+			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_ARCHERY", "UNIT_ARCHER"));
+			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_BRONZE_WORKING", "UNIT_SPEARMAN"));
+			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_THE_WHEEL", "UNIT_CHARIOT_ARCHER"));
+		end
 
 		-- Debugging
 		print("----- Digital Circus building was completed. These are the eligible units to spawn -----");
@@ -50,25 +63,17 @@ function Tadc1DigitalCircusRandomSpawn(iPlayer, iCity, iBuilding)
 	end
 end
 
-function insertUnitIfResearchedAndThisEra(pPlayer, requiredEraName, techName, unitName)
+function insertUnitIfResearched(pPlayer, requiredEraName, techName, unitName)
 	--print("----------");
 	--print(GameInfoTypes[requiredEraName]);
 	--print(GameInfoTypes[techName]);
 	--print(GameInfoTypes[unitName]);
+
 	pTeam = Teams[pPlayer:GetTeam()];
-	-- If a player has researched a certain tech, and they're within the same Era, then add it as an elibible unit for the Digital Circus ability
-	if pPlayer:GetCurrentEra() == GameInfoTypes[requiredEraName] then
-		--print("We're in the right era");
-		if pTeam:IsHasTech(GameInfoTypes[techName]) then
-			--print("We got the right tech. It's morbin time");
-			-- Disqualify units that need Iron, if we have no Iron for them
-			if unitName == "UNIT_SWORDSMAN" then
-				if pPlayer:GetNumResourceAvailable( GameInfoTypes["RESOURCE_IRON"], true ) < 1 then
-					return nil
-				end
-			end
-			return unitName
-		end
+	-- If a player has researched a certain tech, then add it as an elibible unit for the Digital Circus ability
+	if pTeam:IsHasTech(GameInfoTypes[techName]) then
+		--print("We got the right tech. It's morbin time");
+		return unitName
 	end
 	return nil
 end
