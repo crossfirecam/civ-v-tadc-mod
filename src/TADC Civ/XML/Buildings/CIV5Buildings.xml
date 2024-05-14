@@ -3,7 +3,7 @@
 		<Row>
 			<Type>BUILDING_TADC_CIRCUS</Type>
 			<BuildingClass>BUILDINGCLASS_CIRCUS</BuildingClass>
-			<Cost>90</Cost>
+			<Cost>97</Cost>
 			<PrereqTech>TECH_TRAPPING</PrereqTech>
 			<Help>TXT_KEY_BUILDING_TADC_CIRCUS_STRATEGY</Help>
 			<Description>TXT_KEY_BUILDING_TADC_CIRCUS</Description>
@@ -19,18 +19,4 @@
 			<PortraitIndex>2</PortraitIndex>
 		</Row>
 	</Buildings>
-	<Building_FreeUnits>
-		<Row>
-			<BuildingType>BUILDING_TADC_CIRCUS</BuildingType>
-			<UnitType>UNIT_ARCHER</UnitType>
-			<NumUnits>1</NumUnits> <!-- Placeholder -->
-		</Row>
-	</Building_FreeUnits>
-	<Building_TechEnhancedYieldChanges>
-		<Row>
-			<BuildingType>BUILDING_TADC_CIRCUS</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>3</Yield>
-		</Row>
-	</Building_TechEnhancedYieldChanges>
 </GameData>
