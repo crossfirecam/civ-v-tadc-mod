@@ -69,6 +69,14 @@
       </Action>
     </ModActions>
     <ModProperties />
+    <ModContent>
+      <Content>
+        <Type>InGameUIAddin</Type>
+        <Name>a</Name>
+        <Description />
+        <FileName>LUA/TadcModCustomCode.lua</FileName>
+      </Content>
+    </ModContent>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -149,7 +157,7 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="LUA\Lua Script1.lua">
+    <Content Include="LUA\TadcModCustomCode.lua">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
