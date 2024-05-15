@@ -16,7 +16,7 @@
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
 			<AlphaIconAtlas>TADC1_CIV_ALPHA_ATLAS</AlphaIconAtlas>
 			<MapImage>MapAmerica512.dds</MapImage>
-			<DawnOfManQuote>TXT_KEY_CIV5_TADC1_TEXT_1</DawnOfManQuote>
+			<DawnOfManQuote>TXT_KEY_CIV5_TADC1_DOM</DawnOfManQuote>
 			<DawnOfManImage>CaineDOM.dds</DawnOfManImage>
 		</Row>
 	</Civilizations>
@@ -61,7 +61,7 @@
 	</Civilization_Start_Region_Priority>
 	
 	
-	
+	<!-- Unique units & buildings -->
 	<Civilization_UnitClassOverrides>
 		<Row>
 			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
@@ -75,5 +75,49 @@
 			<BuildingClassType>BUILDINGCLASS_CIRCUS</BuildingClassType>
 			<BuildingType>BUILDING_TADC_CIRCUS</BuildingType>
 		</Row>
-		</Civilization_BuildingClassOverrides>
+	</Civilization_BuildingClassOverrides>
+	
+	<!-- Spy Names -->
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC1_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC1_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC1_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC1_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC1_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC1_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC1_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC1_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC1_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC1_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
 </GameData>

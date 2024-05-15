@@ -1,0 +1,139 @@
+<GameData>
+	<Language_en_US>
+		<!-- Cainic Civ -->
+		<Row Tag="TXT_KEY_CIV_TADC1_ADJECTIVE">
+			<Text>Cainic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TADC1_DESC">
+			<Text>The Cainic Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TADC1_SHORT_DESC">
+			<Text>The Circus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TADC1_DOM">
+			<Text>Greetings, all-seeing and fun-loving Caine of The Amazing Digital Circus! Long have your subjects trusted you to maintain a sense of enjoyment and adventure, great ringmaster. For many years, you have provided adventures and perils to keep the members of your digital circus from wandering into the dangerous Void. Despite your best efforts, your ungrateful subjects have escaped and found themselves in a dangerous world - a simulation of humanity's worst atrocities![NEWLINE][NEWLINE]You have yet to find your lost circus members. Although Jax &amp; Zooble may be strong-willed, Gangle &amp; Ragatha are likely to be less helpful in combat. The group simply cannot compete with the likes of trained Spearmen and Knights! Although, Kinger's ability to run and hide is unparalleled. Oh - and Pomni is probably still freaking out.[NEWLINE][NEWLINE]Oh great &amp; intelligent Caine, will you not come to the aid of your subjects? They're likely in panic, unsure what to do! Will you accept this responsibility, claim victory, and bring the gang home safe? Will you build a civilization that will stand the test of time?</Text>
+		</Row>
+		
+		
+		<!-- Cainic Civlopedia (Civ) -->
+		<Row Tag="TXT_KEY_CIV5_TADC1_HEADING_1">
+			<Text>About the Circus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TADC1_TEXT_1">
+			<Text>PLACEHOLDER --- Officially known in this world as the Cainic Empire, The Circus is the homeland to various virtual characters.</Text>
+		</Row>
+		
+		
+		<!-- Cainic Civlopedia (Leader) -->
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC1_CAINE_HEADING_1">
+			<Text>About Caine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC1_CAINE_TEXT_1"> 
+			<Text>PLACEHOLDER --- Feared by many and loved by few, Caine of the Amazing Digital Circus has entered the realm of Civilization V to seek his lost cast-members.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC1_CAINE_LIVED"> 
+			<Text>?? - ?? AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC1_CAINE_NAME">
+			<Text>Caine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC1_CAINE_SUBTITLE">
+			<Text>Ringmaster of The Amazing Digital Circus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TADC1_CAINE">
+			<Text>Caine</Text>
+		</Row>
+
+
+		<!-- Cainic Unique Trait/Unit/Building -->
+		<Row Tag="TXT_KEY_TRAIT_VIRTUAL_FOOD_SHORT">
+			<Text>Virtual Food</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_VIRTUAL_FOOD">
+			<Text>Thanks to your esteemed Bubble Chef, receive +1 [ICON_FOOD] Food from Pastures and +2 [ICON_FOOD] Food from Plantations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CAINIC_ALL_SEEING_EYE">
+			<Text>All-Seeing Eye</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CAINIC_ALL_SEEING_EYE">
+			<Text>Unparalleled in the art of reconnaissance, the All-Seeing Eye possesses a promotion that provides it +1 Sight. However, the unit is weaker and heals slower than the Scout, which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CAINIC_ALL_SEEING_EYE_TEXT">
+			<Text>
+				Placeholder (Civlopedia)
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CAINIC_ALL_SEEING_EYE_STRATEGY">
+			<Text>The All-Seeing Eye is the Cainic unique unit, replacing the Scout. It provides +1 Sight, but it is weaker and healing is halved.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TADC_CIRCUS">
+			<Text>Digital Circus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TADC_CIRCUS_STRATEGY">
+			<Text>Summons two random land units which you have researched in this Era or the last. (From Renaissance Era onward, units granted will be from the Medieval Era). Does not require a [ICON_RES_HORSE] Horse or [ICON_RES_IVORY] Elephant to construct. Costs 30% more [ICON_PRODUCTION] Production (or 100% more [ICON_GOLD] Gold) than a standard Circus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_TADC_CIRCUS_TEXT">
+			<Text>
+				Placeholder (Civlopedia)
+			</Text>
+		</Row>
+		
+		
+		<!-- Cainic Unique Promotion -->
+		<Row Tag="TXT_KEY_PROMOTION_SLOWER_HEAL">
+			<Text>Heals at Half Rate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SLOWER_HEAL_HELP">
+			<Text>Reduces base healing from +10 to +5 per turn. An exclusive demotion for Cainic All-Seeing Eye.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_SLOWER_HEAL">
+			<Text>Heals at Half Rate</Text>
+		</Row>
+
+		
+		<!-- Cainic Cities -->
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_THE_TENT">
+			<Text>The Tent</Text>
+		</Row>
+		
+		
+		<!-- Cainic Spies -->
+		<Row Tag="TXT_KEY_SPY_NAME_TADC1_0">
+			<Text>digitalcircus.exe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC1_1">
+			<Text>pomni.png</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC1_2">
+			<Text>jax.scr</Text>
+			<Gender>masculine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC1_3">
+			<Text>ragatha.avi</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC1_4">
+			<Text>gangle.txt</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC1_5">
+			<Text>zooble.mp4</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC1_6">
+			<Text>kinger.tiff</Text>
+			<Gender>masculine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC1_7">
+			<Text>kaufmo.xlsx</Text>
+			<Gender>masculine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC1_8">
+			<Text>gloink.pdf</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC1_9">
+			<Text>exit.exe</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -30,7 +30,7 @@
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/NewText/GameText.xml</FileName>
+        <FileName>XML/NewText/GameText_Tadc1.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
@@ -185,7 +185,7 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\NewText\GameText.xml">
+    <Content Include="XML\NewText\GameText_Tadc1.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
