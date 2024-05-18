@@ -46,10 +46,10 @@
 
 
 		<!-- Cainic Unique Trait/Unit/Building -->
-		<Row Tag="TXT_KEY_TRAIT_VIRTUAL_FOOD_SHORT">
-			<Text>Virtual Food</Text>
+		<Row Tag="TXT_KEY_TRAIT_DIGITAL_FEAST_SHORT">
+			<Text>Digital Feast</Text>
 		</Row>
-		<Row Tag="TXT_KEY_TRAIT_VIRTUAL_FOOD">
+		<Row Tag="TXT_KEY_TRAIT_DIGITAL_FEAST">
 			<Text>Thanks to your esteemed Bubble Chef, receive +1 [ICON_FOOD] Food from Pastures and +2 [ICON_FOOD] Food from Plantations.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CAINIC_ALL_SEEING_EYE">
