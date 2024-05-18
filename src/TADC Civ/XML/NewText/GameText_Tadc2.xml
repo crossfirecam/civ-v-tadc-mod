@@ -1,0 +1,127 @@
+<GameData>
+	<Language_en_US>
+		<!-- Cast-Allied Civ -->
+		<Row Tag="TXT_KEY_CIV_TADC2_ADJECTIVE">
+			<Text>Cast-Allied</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TADC2_DESC">
+			<Text>The Cast-Members Alliance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TADC2_SHORT_DESC">
+			<Text>The Lost Cast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TADC2_DOM">
+			<Text>Good day to you, Pomni of The Amazing Digital Circus! You have escaped from your dimension of infinite imprisonment but have leapt from the frying pan into the fire. You find yourself in a different digital realm - created to simulate the ebb and flow of culture, technology, and war in humanity's past. You should not count on your opponents being peaceful, Pomni. Inexperienced leaders like you make for easy pickings.[NEWLINE][NEWLINE]Your friends from the Circus voted that you would act as leader, except for Jax. Following this vote, Jax decided it would be best to go off on his own. The remaining members have offered help in the ways they know how. Ragatha is working on an escape strategy, Gangle provides culture to your people, while Kinger &amp; Zooble help with training Acrobats to assist your military.[NEWLINE][NEWLINE]Try not to panic. Scared and unproven you may be, Pomni, but your fate is not sealed. You have friends, and as a team you all have promise. Are you up to the task of securing victory, and passing from this realm into the next? Will you build a civilization that stands the test of time?</Text>
+		</Row>
+
+
+		<!-- Cast-Allied Civlopedia (Civ) -->
+		<Row Tag="TXT_KEY_CIV5_TADC2_HEADING_1">
+			<Text>About The Cast-Members Alliance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TADC2_TEXT_1">
+			<Text>The Cast-Members Alliance is a group of 5 humans, all of them stuck in a virtual realm called The Amazing Digital Circus - a purgatory from which they cannot seem to escape. A few days prior to now, Gangle had discovered a strange computer terminal and alerted the others. Zooble dismissed it as another one of Caine's summoned-in props. Gangle stood before it and was about to press a key right before Jax cracked his knuckles and bumping Gangle aside with his hips, sending her tumbling to the ground. "Hey Gangle, mom said it was MY turn on the Xbox. Let's check this thing out..."[NEWLINE][NEWLINE]Double-clicking on the first icon he saw, the terminal froze and an error appeared on-screen. Jax reared back his hand and punched the monitor screen, shattering the thing to pieces and summoning a bright light. The group was teleported out into The Void, the dangerous and infinite expanse surrounding their digital prison. All around them were icons from that terminal's desktop screen. Caine would be here any moment to save them - but Pomni was determined to find out if she could do anything out in this Void to help their situation. "If there's any chance of getting out of here, I'm taking it! I'm already starting to go crazy back there..." she protests, reaching out to touch the closest icon. Pomni blinks out of existence, and the rest follow suit.[NEWLINE][NEWLINE]They awaken in a green field, surrounded by dense fog on all sides. A chime rings out and a set of tutorial-like instructions appear before them. It takes the group some time to read these instructions, and the majority decide to elect Pomni as the leader of their 'Civilization'. Jax decides at this point to leave, believing he'd be better off alone.</Text>
+		</Row>
+
+
+		<!-- Cast-Allied Civlopedia (Leader) -->
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC2_POMNI_HEADING_1">
+			<Text>About Pomni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC2_POMNI_TEXT_1">
+			<Text>An anxious and uncertain young woman, Pomni of the Amazing Digital Circus has accidentally arrived in the world of Civilization V while trying to escape from her afforementioned digital prison. With the intimidation skills of a puppy, Pomni is not a great fit among this world of well-seasoned, sometimes brutal leaders. Despite this her friends Ragatha, Zooble, Gangle and Kinger are prepared to back her up. After all, they have very little options if they want to make it out of this mess alive...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC2_POMNI_LIVED">
+			<Text>?? - ?? AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC2_POMNI_NAME">
+			<Text>Pomni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC2_POMNI_SUBTITLE">
+			<Text>Jester of The Amazing Digital Circus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI">
+			<Text>Pomni</Text>
+		</Row>
+
+
+		<!-- Cast-Allied Unique Trait/Unit/Building -->
+		<Row Tag="TXT_KEY_TRAIT_RAGATHAS_PLAN_SHORT">
+			<Text>Ragatha's Plan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_RAGATHAS_PLAN">
+			<Text>Cities (except the [ICON_CAPITAL] Capital) grant +1 [ICON_RESEARCH] Science and +1 [ICON_CULTURE] Culture. This bonus triples once a city passes 5 [ICON_CITIZEN] Population. Receive a free Great Scientist upon completing your first social tree.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CASTALLIED_ACROBAT">
+			<Text>Acrobat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CASTALLIED_ACROBAT">
+			<Text>The Acrobat excels in agility, taking less damage from ranged sources and ignoring terrain cost. This unit is still as strong as the Spearman, which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CASTALLIED_ACROBAT_TEXT">
+			<Text>
+				Placeholder (Civlopedia)
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CASTALLIED_ACROBAT_STRATEGY">
+			<Text>The Acrobat is the Cast-Allied unique unit, replacing the Spearman. It provides 25% extra defence from ranged sources, and ignores terrain cost.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TADC2_GANGLES_THEATER">
+			<Text>Gangle's Drama Theater</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_STRATEGY">
+			<Text>Placeholder (Strategy)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_TADC2_GANGLES_THEATER_TEXT">
+			<Text>
+				Placeholder (Civlopedia)
+			</Text>
+		</Row>
+
+
+		<!-- Cast-Allied Cities -->
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_THE_TENT">
+			<Text>The Tent</Text>
+		</Row>
+
+
+		<!-- Cast-Allied Spies -->
+		<Row Tag="TXT_KEY_SPY_NAME_TADC2_0">
+			<Text>digitalcircus.exe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC2_1">
+			<Text>pomni.png</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC2_2">
+			<Text>jax.scr</Text>
+			<Gender>masculine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC2_3">
+			<Text>ragatha.avi</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC2_4">
+			<Text>gangle.txt</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC2_5">
+			<Text>zooble.mp4</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC2_6">
+			<Text>kinger.tiff</Text>
+			<Gender>masculine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC2_7">
+			<Text>kaufmo.xlsx</Text>
+			<Gender>masculine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC2_8">
+			<Text>gloink.pdf</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC2_9">
+			<Text>exit.exe</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

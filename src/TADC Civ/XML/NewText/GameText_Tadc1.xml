@@ -11,16 +11,16 @@
 			<Text>The Circus</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TADC1_DOM">
-			<Text>Greetings, all-seeing and fun-loving Caine of The Amazing Digital Circus! Long have your subjects trusted you to maintain a sense of enjoyment and adventure, great ringmaster. For many years, you have provided adventures and perils to keep the members of your digital circus from wandering into the dangerous Void. Despite your best efforts, your ungrateful subjects have escaped and found themselves in a dangerous world - a simulation of humanity's worst atrocities![NEWLINE][NEWLINE]You have yet to find your lost circus members. Although Jax &amp; Zooble may be strong-willed, Gangle &amp; Ragatha are likely to be less helpful in combat. The group simply cannot compete with the likes of trained Spearmen and Knights! Although, Kinger's ability to run and hide is unparalleled. Oh - and Pomni is probably still freaking out.[NEWLINE][NEWLINE]Oh great &amp; intelligent Caine, will you not come to the aid of your subjects? They're likely in panic, unsure what to do! Will you accept this responsibility, claim victory, and bring the gang home safe? Will you build a civilization that will stand the test of time?</Text>
+			<Text>Greetings, all-seeing and fun-loving Caine of The Amazing Digital Circus! Long have your subjects trusted you to maintain their world of amusement and joy, great ringmaster. For many years, you have provided adventures and perils to keep the members of your digital circus from wandering into the dangerous Void. Despite your best efforts, your ungrateful subjects have escaped and found themselves in a dangerous world - a simulation of humanity's worst atrocities![NEWLINE][NEWLINE]You have yet to find your lost circus members. Although Jax &amp; Zooble may be strong-willed, Gangle &amp; Ragatha are likely to be less helpful in combat. The group simply cannot compete with the likes of trained Spearmen and Knights! Although Kinger's ability to run and hide is unparalleled, and Pomni is probably handling this as well as you would expect.[NEWLINE][NEWLINE]Oh great &amp; intelligent Caine, will you not come to the aid of your subjects? They're likely in panic, unsure what to do! Will you accept this responsibility, claim victory, and bring the gang home safe? Will you build a civilization that will stand the test of time?</Text>
 		</Row>
 		
 		
 		<!-- Cainic Civlopedia (Civ) -->
 		<Row Tag="TXT_KEY_CIV5_TADC1_HEADING_1">
-			<Text>About the Circus</Text>
+			<Text>About The Circus</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TADC1_TEXT_1">
-			<Text>PLACEHOLDER --- Officially known in this world as the Cainic Empire, The Circus is the homeland to various virtual characters.</Text>
+			<Text>Officially known in this world as the Cainic Empire, The Circus is short-hand for The Amazing Digital Circus. This computerised world is the homeland to various virtual characters.</Text>
 		</Row>
 		
 		
@@ -29,7 +29,7 @@
 			<Text>About Caine</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC1_CAINE_TEXT_1"> 
-			<Text>PLACEHOLDER --- Feared by many and loved by few, Caine of the Amazing Digital Circus has entered the realm of Civilization V to seek his lost cast-members.</Text>
+			<Text>Feared by many and loved by few, Caine of the Amazing Digital Circus has entered the realm of Civilization V to seek his lost cast-members. Not many of Caine's powers from The Circus extend to this world. However, he was able to bring along his trusty companion Bubble, his many All-Seeing Eyes, and has the blueprint to The Tent memorised. Through rebuilding these miniature Digital Circuses he can harness his ability to summon NPCs, at least in a limited fashion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC1_CAINE_LIVED"> 
 			<Text>?? - ?? AD</Text>
