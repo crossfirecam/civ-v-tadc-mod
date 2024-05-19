@@ -1,5 +1,5 @@
 <GameData>
-	<!-- Caine is based on Bismark from base game -->
+	<!-- Caine AI is based on Bismark from BNW -->
 	<Leaders>
 		<Row>
 			<Type>LEADER_TADC1_CAINE</Type>

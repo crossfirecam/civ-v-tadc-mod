@@ -50,7 +50,7 @@
 			<Text>Digital Feast</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_DIGITAL_FEAST">
-			<Text>Thanks to your esteemed Bubble Chef, receive +1 [ICON_FOOD] Food from Pastures and +2 [ICON_FOOD] Food from Plantations.</Text>
+			<Text>Thanks to your esteemed Bubble Chef, receive +1 [ICON_FOOD] Food from Pastures, Plantations and Camps.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CAINIC_ALL_SEEING_EYE">
 			<Text>All-Seeing Eye</Text>
@@ -59,9 +59,7 @@
 			<Text>Unparalleled in the art of reconnaissance, the All-Seeing Eye possesses a promotion that provides it +1 Sight. However, the unit is weaker and heals slower than the Scout, which it replaces.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_CAINIC_ALL_SEEING_EYE_TEXT">
-			<Text>
-				Placeholder (Civlopedia)
-			</Text>
+			<Text>Summoned by Caine to conduct surveillance on the humans who enter The Amazing Digital Circus. In this world, they offer superb vision of the surrounding landscape, but with no armor or surival capability to speak of.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CAINIC_ALL_SEEING_EYE_STRATEGY">
 			<Text>The All-Seeing Eye is the Cainic unique unit, replacing the Scout. It provides +1 Sight, but it is weaker and healing is halved.</Text>
@@ -73,9 +71,7 @@
 			<Text>Summons two random land units which you have researched in this Era or the last. (From Renaissance Era onward, units granted will be from the Medieval Era). Does not require a [ICON_RES_HORSE] Horse or [ICON_RES_IVORY] Elephant to construct. Costs 30% more [ICON_PRODUCTION] Production (or 100% more [ICON_GOLD] Gold) than a standard Circus.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_TADC_CIRCUS_TEXT">
-			<Text>
-				Placeholder (Civlopedia)
-			</Text>
+			<Text>Constructing this miniature Digital Circus allows Caine to temporarily harness his ability to summon NPCs. Even still, his lacking power limits this ability to Medieval Era units at most. Still, the citizens of the Caine Empire gain a lot of joy from the unique, age-appropriate entertainment available at this venue.</Text>
 		</Row>
 		
 		
@@ -236,7 +232,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC1_5">
 			<Text>zooble.mp4</Text>
-			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC1_6">
 			<Text>kinger.tiff</Text>
