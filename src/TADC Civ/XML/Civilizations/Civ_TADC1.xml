@@ -20,13 +20,6 @@
 			<DawnOfManImage>CaineDOM.dds</DawnOfManImage>
 		</Row>
 	</Civilizations>
-	<Civilization_CityNames>
-		<!-- Placeholder, after the capital will use Huns namesteal mechanic -->
-		<Row>
-			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
-			<CityName>TXT_KEY_CITY_NAME_TADC_THE_TENT</CityName>
-		</Row>
-	</Civilization_CityNames>
 	<Civilization_FreeBuildingClasses>
 		<Row>
 			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
@@ -77,7 +70,171 @@
 		</Row>
 	</Civilization_BuildingClassOverrides>
 	
-	<!-- Spy Names -->
+	
+	<!-- City & Spy Names -->
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_THE_TENT</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_GUTON</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_ENRIA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_AEBSA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_OBYAH</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_VAOMK</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_AQIJM</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_PLRUX</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_GINAL</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_UTJOF</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_ILVPA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_ENSUY</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_SROTQ</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_ZOWBR</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_LUYSM</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_UWAOK</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_PYGWI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_RAVDN</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_PZGOH</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_YEUCB</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_OYVLN</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_CSAGY</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_MESDH</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_ETRIU</CityName>
+			<Text>Etriu</Text>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_DAHEF</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_AHNOK</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_IMOBZ</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_OKHGR</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_IHBEX</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_NZVIT</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_LFYPA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_OBSXU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_NAPKA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_ALPUC</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_TELFX</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_DALUX</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_OBFAM</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_ENOIX</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_OYDIV</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_KHPUY</CityName>
+		</Row>
+	</Civilization_CityNames>
 	<Civilization_SpyNames>
 		<Row>
 			<CivilizationType>CIVILIZATION_TADC1</CivilizationType>

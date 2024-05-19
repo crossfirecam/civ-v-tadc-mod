@@ -20,7 +20,7 @@
 			<Text>About The Cast-Members Alliance</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TADC2_TEXT_1">
-			<Text>The Cast-Members Alliance is a group of 5 humans, all of them stuck in a virtual realm called The Amazing Digital Circus - a purgatory from which they cannot seem to escape. A few days prior to now, Gangle had discovered a strange computer terminal and alerted the others. Zooble dismissed it as another one of Caine's summoned-in props. Gangle stood before it and was about to press a key right before Jax cracked his knuckles and bumping Gangle aside with his hips, sending her tumbling to the ground. "Hey Gangle, mom said it was MY turn on the Xbox. Let's check this thing out..."[NEWLINE][NEWLINE]Double-clicking on the first icon he saw, the terminal froze and an error appeared on-screen. Jax reared back his hand and punched the monitor screen, shattering the thing to pieces and summoning a bright light. The group was teleported out into The Void, the dangerous and infinite expanse surrounding their digital prison. All around them were icons from that terminal's desktop screen. Caine would be here any moment to save them - but Pomni was determined to find out if she could do anything out in this Void to help their situation. "If there's any chance of getting out of here, I'm taking it! I'm already starting to go crazy back there..." she protests, reaching out to touch the closest icon. Pomni blinks out of existence, and the rest follow suit.[NEWLINE][NEWLINE]They awaken in a green field, surrounded by dense fog on all sides. A chime rings out and a set of tutorial-like instructions appear before them. It takes the group some time to read these instructions, and the majority decide to elect Pomni as the leader of their 'Civilization'. Jax decides at this point to leave, believing he'd be better off alone.</Text>
+			<Text>The Cast-Members Alliance is a group of 5 humans, all of them stuck in a virtual realm called The Amazing Digital Circus - a purgatory from which they cannot seem to escape. A few days prior to now, Gangle had discovered a strange computer terminal near the Digital Lake and alerted the others. Zooble dismissed it as another one of Caine's summoned-in props. Gangle stood before it and was about to press a key right before Jax cracked his knuckles and bumped Gangle aside with his hips, sending her tumbling to the ground. "Hey Gangle, mom said it was MY turn on the Xbox. Let's check this thing out..."[NEWLINE][NEWLINE]Double-clicking on the first icon he saw, the terminal froze and an error appeared on-screen. Jax reared back his hand and punched the monitor screen, shattering the thing to pieces and summoning a bright light. The group was teleported out into The Void, the dangerous and infinite expanse surrounding their digital prison. All around them were icons from that terminal's desktop screen. Caine would be here any moment to save them - but Pomni was determined to find out if she could do anything out in this Void to help their situation. "If there's any chance of getting out of here, I'm taking it! I'm already starting to go crazy back there..." she protests, reaching out to touch the closest icon. Pomni blinks out of existence, and the rest follow suit.[NEWLINE][NEWLINE]They awaken in a green field, surrounded by dense fog on all sides. A chime rings out and a set of tutorial-like instructions appear before them. It takes the group some time to read these instructions, and the majority decide to elect Pomni as the leader of their 'Civilization'. Jax decides at this point to leave, believing he'd be better off alone.</Text>
 		</Row>
 
 
@@ -81,47 +81,42 @@
 
 		<!-- Cast-Allied Cities -->
 		<Row Tag="TXT_KEY_CITY_NAME_TADC_THE_TENT">
-			<Text>The Tent</Text>
+			<Text>Placeholder</Text>
 		</Row>
 
 
 		<!-- Cast-Allied Spies -->
 		<Row Tag="TXT_KEY_SPY_NAME_TADC2_0">
-			<Text>digitalcircus.exe</Text>
+			<Text>Placeholder</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC2_1">
-			<Text>pomni.png</Text>
+			<Text>Placeholder</Text>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC2_2">
-			<Text>jax.scr</Text>
+			<Text>Placeholder</Text>
 			<Gender>masculine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC2_3">
-			<Text>ragatha.avi</Text>
-			<Gender>feminine</Gender>
+			<Text>Placeholder</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC2_4">
-			<Text>gangle.txt</Text>
-			<Gender>feminine</Gender>
+			<Text>Placeholder</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC2_5">
-			<Text>zooble.mp4</Text>
-			<Gender>feminine</Gender>
+			<Text>Placeholder</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC2_6">
-			<Text>kinger.tiff</Text>
-			<Gender>masculine</Gender>
+			<Text>Placeholder</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC2_7">
-			<Text>kaufmo.xlsx</Text>
-			<Gender>masculine</Gender>
+			<Text>Placeholder</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC2_8">
-			<Text>gloink.pdf</Text>
+			<Text>Placeholder</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC2_9">
-			<Text>exit.exe</Text>
+			<Text>Placeholder</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

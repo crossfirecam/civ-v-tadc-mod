@@ -40,7 +40,7 @@
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/Leaders/CIV5Leader_Caine.xml</FileName>
+        <FileName>XML/Leaders/CIV5Leader_Tadc1_Caine.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
@@ -177,11 +177,19 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
+    <Content Include="XML\Civilizations\Civ_TADC2.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
     <Content Include="XML\GameInfo\CIV5IconTextureAtlases.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\Leaders\CIV5Leader_Caine.xml">
+    <Content Include="XML\Leaders\CIV5Leader_Tadc1_Caine.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\NewText\GameText_Tadc2.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
