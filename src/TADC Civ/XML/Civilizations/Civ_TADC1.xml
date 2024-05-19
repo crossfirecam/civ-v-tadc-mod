@@ -15,9 +15,9 @@
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
 			<AlphaIconAtlas>TADC1_CIV_ALPHA_ATLAS</AlphaIconAtlas>
-			<MapImage>MapAmerica512.dds</MapImage>
+			<MapImage>MapAmerica512.dds</MapImage> <!-- Placeholder, replace -->
 			<DawnOfManQuote>TXT_KEY_CIV5_TADC1_DOM</DawnOfManQuote>
-			<DawnOfManImage>CaineDOM.dds</DawnOfManImage>
+			<DawnOfManImage>Tadc1_DOM.dds</DawnOfManImage>
 		</Row>
 	</Civilizations>
 	<Civilization_FreeBuildingClasses>
