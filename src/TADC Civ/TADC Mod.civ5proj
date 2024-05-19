@@ -67,6 +67,11 @@
         <Type>UpdateDatabase</Type>
         <FileName>XML/Civilizations/CivVTraits.xml</FileName>
       </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/NewText/Tadc1_Diplomacy.xml</FileName>
+      </Action>
     </ModActions>
     <ModProperties />
     <ModContent>
@@ -190,6 +195,10 @@
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="XML\Leaders\CIV5Leader_Tadc1_Caine.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\NewText\Tadc1_Diplomacy.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
