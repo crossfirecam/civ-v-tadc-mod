@@ -6,7 +6,7 @@
 			<Description>TXT_KEY_LEADER_TADC1_CAINE</Description>
 			<Civilopedia>TXT_KEY_LEADER_TADC1_CAINE_PEDIA</Civilopedia>
 			<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_TADC1_CAINE</CivilopediaTag>
-			<ArtDefineTag>Bismark_Scene.xml</ArtDefineTag>
+			<ArtDefineTag>Tadc1_LeaderScene.xml</ArtDefineTag>
 			<VictoryCompetitiveness>7</VictoryCompetitiveness>
 			<WonderCompetitiveness>6</WonderCompetitiveness>
 			<MinorCivCompetitiveness>7</MinorCivCompetitiveness>
