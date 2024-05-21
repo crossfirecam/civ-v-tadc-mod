@@ -11,7 +11,7 @@
 			<Text>The Lost Cast</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TADC2_DOM">
-			<Text>Good day to you, Pomni of The Amazing Digital Circus! You have escaped from your dimension of infinite imprisonment but have leapt from the frying pan into the fire. You find yourself in a different digital realm - created to simulate the ebb and flow of culture, technology, and war in humanity's past. You should not count on your opponents being peaceful, Pomni. Inexperienced leaders like you make for easy pickings.[NEWLINE][NEWLINE]Your friends from the Circus voted that you would act as leader, except for Jax. Following this vote, Jax decided it would be best to go off on his own. The remaining members have offered help in the ways they know how. Ragatha is working on an escape strategy, Gangle provides culture to your people, while Kinger &amp; Zooble help with training Acrobats to assist your military.[NEWLINE][NEWLINE]Try not to panic. Scared and unproven you may be, Pomni, but your fate is not sealed. You have friends, and as a team you all have promise. Are you up to the task of securing victory, and passing from this realm into the next? Will you build a civilization that stands the test of time?</Text>
+			<Text>Good day to you, Pomni of The Amazing Digital Circus! You have escaped from your dimension of infinite imprisonment but have leapt from the frying pan into the fire. You find yourself in a different digital realm - created to simulate the ebb and flow of culture, technology, and war in humanity's past. You should not count on your opponents being peaceful, Pomni. Inexperienced leaders like you make for easy pickings.[NEWLINE][NEWLINE]Your friends from the Circus voted that you would act as leader, except for Jax. Following this vote, Jax decided it would be best to go off on his own. The remaining members have offered help in the ways they know how. Ragatha is working on an escape strategy. Gangle provides culture to your people. Kinger &amp; offers to train Acrobats to assist your military. Zooble says they will gather valuable intel on the enemy forces.[NEWLINE][NEWLINE]Try not to panic. Scared and unproven you may be, Pomni, but your fate is not sealed. You have friends, and as a team you all have promise. Are you up to the task of securing victory, and passing from this realm into the next? Will you build a civilization that stands the test of time?</Text>
 		</Row>
 
 
@@ -21,6 +21,12 @@
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TADC2_TEXT_1">
 			<Text>The Cast-Members Alliance is a group of 5 humans, all of them stuck in a virtual realm called The Amazing Digital Circus - a purgatory from which they cannot seem to escape. A few days prior to now, Gangle had discovered a strange computer terminal near the Digital Lake and alerted the others. Zooble dismissed it as another one of Caine's summoned-in props. Gangle stood before it and was about to press a key right before Jax cracked his knuckles and bumped Gangle aside with his hips, sending her tumbling to the ground. "Hey Gangle, mom said it was MY turn on the Xbox. Let's check this thing out..."[NEWLINE][NEWLINE]Double-clicking on the first icon he saw, the terminal froze and an error appeared on-screen. Jax reared back his hand and punched the monitor screen, shattering the thing to pieces and summoning a bright light. The group was teleported out into The Void, the dangerous and infinite expanse surrounding their digital prison. All around them were icons from that terminal's desktop screen. Caine would be here any moment to save them - but Pomni was determined to find out if she could do anything out in this Void to help their situation. "If there's any chance of getting out of here, I'm taking it! I'm already starting to go crazy back there..." she protests, reaching out to touch the closest icon. Pomni blinks out of existence, and the rest follow suit.[NEWLINE][NEWLINE]They awaken in a green field, surrounded by dense fog on all sides. A chime rings out and a set of tutorial-like instructions appear before them. It takes the group some time to read these instructions, and the majority decide to elect Pomni as the leader of their 'Civilization'. Jax decides at this point to leave, believing he'd be better off alone.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TADC2_HEADING_2">
+			<Text>Alliance Members</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TADC2_TEXT_2">
+			<Text>Each of the Cast-Members offer a special talent to help this Civilization flourish. The five also take turns in naming newly founded cities.[NEWLINE][NEWLINE]Pomni (Leader): Responsible for everything the others don't want to do.[NEWLINE][NEWLINE]Gangle (Entertainer): Keeps the people happy the best she can.[NEWLINE][NEWLINE]Kinger (Military Commander): Trains the Acrobats by throwing bananas in front of them constantly, until they learn to adapt.[NEWLINE][NEWLINE]Ragatha (Strategist): Works consistently to encourage Science and Culture output.[NEWLINE][NEWLINE]Zooble (Secret Agent): Their detached limbs act as spies, harvesting vital intelligence from other Civilizations.</Text>
 		</Row>
 
 
@@ -79,44 +85,159 @@
 		</Row>
 
 
-		<!-- Cast-Allied Cities -->
-		<Row Tag="TXT_KEY_CITY_NAME_TADC_THE_TENT">
-			<Text>Placeholder</Text>
+		<!-- Cast-Allied Cities (Naming Scheme: Cast takes turns picking city names) -->
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_NEW_HOME"> <!-- Pomni -->
+			<Text>New Home</Text>
 		</Row>
-
-
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_VAUDEVILLE"> <!-- Gangle -->
+			<Text>Vaudeville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_INPENETRABLE_FORTRESS"> <!-- Kinger -->
+			<Text>Inpenetrable Fortress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_TAILOR_TOWN"> <!-- Ragatha -->
+			<Text>Tailor Town</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_WHATEVER"> <!-- Zooble -->
+			<Text>Whatever</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_JESTERVILLE">
+			<Text>Jesterville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_RIBBON_RIVER">
+			<Text>Ribbon River</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_ROOK_POINT">
+			<Text>Rook Point</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_STITCHERY">
+			<Text>Stitchery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_I_DO_NOT_CARE">
+			<Text>I Do Not Care</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_HARLEQUIN_HARBOR">
+			<Text>Harlequin Harbor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_CELEBRATION">
+			<Text>Celebration</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_INSECT_COLLECTION">
+			<Text>Insect Collection</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_BUTTONS_AND_THREAD">
+			<Text>Buttons And Thread</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_GO_AWAY">
+			<Text>Go Away</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_JAPE_JUNCTION">
+			<Text>Jape Junction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_MELODY">
+			<Text>Melody</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_ROYAL_COURT">
+			<Text>Royal Court</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_RAGDOLL_RANGE">
+			<Text>Ragdoll Range</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_STOP_TALKING_TO_ME">
+			<Text>Stop Talking To Me</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_SCHOOL_OF_JUGGLING">
+			<Text>School Of Juggling</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_DRAMA_DOWNTOWN">
+			<Text>Drama Downtown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_SINGER">
+			<Text>Singer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_SUNNY_DAYS_AND_RAINBOWS">
+			<Text>Sunny Days And Rainbows</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_THIS_IS_STUPID">
+			<Text>This Is Stupid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_XDDCC">
+			<Text>XDDCC</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_ACOUSTIC_ALLEY">
+			<Text>Acoustic Alley</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_BISHOPS_BLOCK">
+			<Text>Bishops Block</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_YARN_CITY">
+			<Text>Yarn City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_HELP_ME_YOU_IDIOTS">
+			<Text>Help Me You Idiots</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_BIG_TOP">
+			<Text>Big Top</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_TIE_A_BOW">
+			<Text>Tie A Bow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_KINGSTOWN">
+			<Text>Kingstown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_NOT_LICORICE">
+			<Text>Not Licorice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_UH_YEAH_NO">
+			<Text>Uh Yeah No</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_EXIT_DOOR_PLEASE"> <!-- Pomni -->
+			<Text>Exit Door Please</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_ARTS_AND_CRAFTS"> <!-- Gangle -->
+			<Text>Arts And Crafts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_QUEENS_CHATEAU"> <!-- Kinger -->
+			<Text>Queens Chateau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_FABRIC_FIELD"> <!-- Ragatha -->
+			<Text>Fabric Field</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_NO_MORE_NAMES"> <!-- Zooble -->
+			<Text>No More Names</Text>
+		</Row>
+		
+		
 		<!-- Cast-Allied Spies -->
 		<Row Tag="TXT_KEY_SPY_NAME_TADC2_0">
-			<Text>Placeholder</Text>
+			<Text>Zooble's Leg</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC2_1">
-			<Text>Placeholder</Text>
-			<Gender>feminine</Gender>
+			<Text>Zooble's Arm</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC2_2">
-			<Text>Placeholder</Text>
-			<Gender>masculine</Gender>
+			<Text>Zooble's Hand</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC2_3">
-			<Text>Placeholder</Text>
+			<Text>Zooble's Shoe</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC2_4">
-			<Text>Placeholder</Text>
+			<Text>Zooble's Wing</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC2_5">
-			<Text>Placeholder</Text>
+			<Text>Zooble's Eye</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC2_6">
-			<Text>Placeholder</Text>
+			<Text>Zooble's Antennae</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC2_7">
-			<Text>Placeholder</Text>
+			<Text>Zooble's Claw</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC2_8">
-			<Text>Placeholder</Text>
+			<Text>Zooble's Shoulder</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC2_9">
-			<Text>Placeholder</Text>
+			<Text>Zooble's Body</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

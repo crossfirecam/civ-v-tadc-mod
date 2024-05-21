@@ -87,7 +87,7 @@
 		</Row>
 
 		
-		<!-- Cainic Cities (Gimick being that Caine is using the 5-letter name randomiser from Ep 1. TODO add a notification ) -->
+		<!-- Cainic Cities (Naming Scheme: Caine using the 5-letter name randomiser from Ep 1) -->
 		<Row Tag="TXT_KEY_CITY_NAME_TADC_THE_TENT">
 			<Text>The Tent</Text>
 		</Row>

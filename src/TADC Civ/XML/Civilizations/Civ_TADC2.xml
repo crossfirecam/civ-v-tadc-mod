@@ -1,0 +1,279 @@
+<GameData>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_TADC2</Type>
+			<Description>TXT_KEY_CIV_TADC2_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_TADC2_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_TADC2_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_TADC2_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIV5_TADC2</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_WHITE</DefaultPlayerColor> <!-- Placeholder, decide later -->
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ENGLAND</ArtDefineTag> <!-- Placeholder, decide later -->
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType> <!-- Placeholder, decide later -->
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix> <!-- Placeholder, decide later -->
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix> <!-- Placeholder, decide later -->
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
+			<AlphaIconAtlas>TADC2_CIV_ALPHA_ATLAS</AlphaIconAtlas>  <!-- Not created yet -->
+			<MapImage>MapAmerica512.dds</MapImage> <!-- Placeholder, replace -->
+			<DawnOfManQuote>TXT_KEY_CIV5_TADC2_DOM</DawnOfManQuote>
+			<DawnOfManImage>Tadc2_DOM.dds</DawnOfManImage>  <!-- Not created yet -->
+		</Row>
+	</Civilizations>
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<LeaderheadType></LeaderheadType> <!-- Not created yet -->
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<RegionType>REGION_FOREST</RegionType> <!-- Placeholder, decide later -->
+		</Row>
+	</Civilization_Start_Region_Priority>
+
+
+	<!-- Unique units & buildings -->
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<UnitClassType></UnitClassType> <!-- Not created yet -->
+			<UnitType></UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<BuildingClassType></BuildingClassType> <!-- Not created yet -->
+			<BuildingType></BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	
+	<!-- City & Spy Names -->
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_NEW_HOME</CityName> <!-- Pomni -->
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_VAUDEVILLE</CityName> <!-- Gangle -->
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_INPENETRABLE_FORTRESS</CityName> <!-- Kinger -->
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_TAILOR_TOWN</CityName> <!-- Ragatha -->
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_WHATEVER</CityName> <!-- Zooble -->
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_JESTERVILLE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_RIBBON_RIVER</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_ROOK_POINT</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_STITCHERY</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_I_DO_NOT_CARE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_HARLEQUIN_HARBOR</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_CELEBRATION</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_INSECT_COLLECTION</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_BUTTONS_AND_THREAD</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_GO_AWAY</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_JAPE_JUNCTION</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_MELODY</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_ROYAL_COURT</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_RAGDOLL_RANGE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_STOP_TALKING_TO_ME</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_SCHOOL_OF_JUGGLING</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_DRAMA_DOWNTOWN</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_SINGER</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_SUNNY_DAYS_AND_RAINBOWS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_THIS_IS_STUPID</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_XDDCC</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_ACOUSTIC_ALLEY</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_BISHOPS_BLOCK</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_YARN_CITY</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_HELP_ME_YOU_IDIOTS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_BIG_TOP</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_TIE_A_BOW</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_KINGSTOWN</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_NOT_LICORICE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_UH_YEAH_NO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_EXIT_DOOR_PLEASE</CityName> <!-- Pomni -->
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_ARTS_AND_CRAFTS</CityName> <!-- Gangle -->
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_QUEENS_CHATEAU</CityName> <!-- Kinger -->
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_FABRIC_FIELD</CityName> <!-- Ragatha -->
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TADC_NO_MORE_NAMES</CityName> <!-- Zooble -->
+		</Row>
+	</Civilization_CityNames>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC2_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC2_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC2_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC2_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC2_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC2_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC2_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC2_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC2_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC2_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+</GameData>
