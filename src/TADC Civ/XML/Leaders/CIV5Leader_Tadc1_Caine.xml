@@ -1,5 +1,5 @@
 <GameData>
-	<!-- Caine AI is based on Bismark from BNW -->
+	<!-- Caine AI is based on Bismark from BNW, credit to Firaxis -->
 	<Leaders>
 		<Row>
 			<Type>LEADER_TADC1_CAINE</Type>
@@ -81,6 +81,11 @@
 			<LeaderType>LEADER_TADC1_CAINE</LeaderType>
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType>
 			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_TADC1_CAINE</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType>
+			<Bias>4</Bias>
 		</Row>
 	</Leader_MinorCivApproachBiases>
 	<Leader_Flavors>
@@ -202,7 +207,7 @@
 		<Row>
 			<LeaderType>LEADER_TADC1_CAINE</LeaderType>
 			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>5</Flavor>
+			<Flavor>3</Flavor>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_TADC1_CAINE</LeaderType>
@@ -223,6 +228,26 @@
 			<LeaderType>LEADER_TADC1_CAINE</LeaderType>
 			<FlavorType>FLAVOR_NUKE</FlavorType>
 			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_TADC1_CAINE</LeaderType>
+			<FlavorType>FLAVOR_USE_NUKE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_TADC1_CAINE</LeaderType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_TADC1_CAINE</LeaderType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_TADC1_CAINE</LeaderType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>5</Flavor>
 		</Row>
 	</Leader_Flavors>
 	<Leader_Traits>
