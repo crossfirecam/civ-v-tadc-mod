@@ -12,7 +12,7 @@
 			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType> <!-- Placeholder, decide later -->
 			<ArtStyleSuffix>_EURO</ArtStyleSuffix> <!-- Placeholder, decide later -->
 			<ArtStylePrefix>EUROPEAN </ArtStylePrefix> <!-- Placeholder, decide later -->
-			<PortraitIndex>4</PortraitIndex>
+			<PortraitIndex>8</PortraitIndex>
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
 			<AlphaIconAtlas>TADC1_CIV_ALPHA_ATLAS</AlphaIconAtlas>  <!-- Placeholder, replace -->
 			<MapImage>MapAmerica512.dds</MapImage> <!-- Placeholder, replace -->
@@ -43,7 +43,7 @@
 	<Civilization_Leaders>
 		<Row>
 			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
-			<LeaderheadType></LeaderheadType> <!-- Not created yet -->
+			<LeaderheadType>LEADER_TADC2_POMNI</LeaderheadType>
 		</Row>
 	</Civilization_Leaders>
 	<Civilization_Start_Region_Priority>

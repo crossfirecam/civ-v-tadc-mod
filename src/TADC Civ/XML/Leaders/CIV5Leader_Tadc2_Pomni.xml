@@ -20,7 +20,7 @@
 			<Forgiveness>4</Forgiveness>
 			<Chattiness>7</Chattiness>
 			<Meanness>4</Meanness>
-			<PortraitIndex>5</PortraitIndex>
+			<PortraitIndex>9</PortraitIndex>
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
 		</Row>
 	</Leaders>
@@ -250,4 +250,10 @@
 			<Flavor>5</Flavor>
 		</Row>
 	</Leader_Flavors>
+	<Leader_Traits>
+		<Row>
+			<LeaderType>LEADER_TADC2_POMNI</LeaderType>
+			<TraitType>TRAIT_DIGITAL_FEAST</TraitType>
+		</Row>
+	</Leader_Traits>
 </GameData>

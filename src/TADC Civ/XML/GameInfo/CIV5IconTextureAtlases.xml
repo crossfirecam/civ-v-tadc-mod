@@ -1,6 +1,6 @@
 <GameData>
 	<IconTextureAtlases>
-		<!-- Coloured Icons (Primary Civ, Leader, Buildings, Units) -->
+		<!-- Coloured Icons (All 4 Civs - Civ Icon, Leader, Buildings, Units) -->
 		<Row>
 			<Atlas>TADC_MOD_ATLAS</Atlas>
 			<IconSize>256</IconSize>
@@ -44,7 +44,7 @@
 			<IconsPerColumn>8</IconsPerColumn>
 		</Row>
 		
-		<!-- Transparent Icons (Non-Primary Civ) -->
+		<!-- Transparent Icons (Alternate Colours for Civs) -->
 		<Row>
 			<Atlas>TADC1_CIV_ALPHA_ATLAS</Atlas>
 			<IconSize>128</IconSize>
