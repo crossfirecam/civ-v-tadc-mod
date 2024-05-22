@@ -1,0 +1,10 @@
+<GameData>
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_TADC2</Type>
+			<PrimaryColor>COLOR_PLAYER_LIGHT_BLUE</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_RED</SecondaryColor>
+			<TextColor>COLOR_PLAYER_LIGHT_BLUE</TextColor>
+		</Row>
+	</PlayerColors>
+</GameData>

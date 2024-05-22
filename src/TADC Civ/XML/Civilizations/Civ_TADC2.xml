@@ -7,7 +7,7 @@
 			<Adjective>TXT_KEY_CIV_TADC2_ADJECTIVE</Adjective>
 			<Civilopedia>TXT_KEY_CIV_TADC2_PEDIA</Civilopedia>
 			<CivilopediaTag>TXT_KEY_CIV5_TADC2</CivilopediaTag>
-			<DefaultPlayerColor>PLAYERCOLOR_WHITE</DefaultPlayerColor> <!-- Placeholder, decide later -->
+			<DefaultPlayerColor>PLAYERCOLOR_TADC2</DefaultPlayerColor>
 			<ArtDefineTag>ART_DEF_CIVILIZATION_ENGLAND</ArtDefineTag> <!-- Placeholder, decide later -->
 			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType> <!-- Placeholder, decide later -->
 			<ArtStyleSuffix>_EURO</ArtStyleSuffix> <!-- Placeholder, decide later -->
@@ -58,8 +58,8 @@
 	<Civilization_UnitClassOverrides>
 		<Row>
 			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
-			<UnitClassType>UNITCLASS_SCOUT</UnitClassType> <!-- Placeholder, replace -->
-			<UnitType>UNIT_CAINIC_ALL_SEEING_EYE</UnitType>
+			<UnitClassType>UNITCLASS_SPEARMAN</UnitClassType>
+			<UnitType>UNIT_CASTALLIED_ACROBAT</UnitType>
 		</Row>
 	</Civilization_UnitClassOverrides>
 	<Civilization_BuildingClassOverrides>

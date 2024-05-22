@@ -3,12 +3,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
     <ProjectGuid>{820f6d0c-cd49-4bc7-b1af-620e4284133f}</ProjectGuid>
-    <Name>TADC Mod</Name>
+    <Name>TADC Civilizations</Name>
     <Guid>5c9f0364-7a1d-4d0c-95a7-33d744824bb5</Guid>
     <ModVersion>1</ModVersion>
     <Stability>Alpha</Stability>
-    <Teaser>........</Teaser>
-    <Description>....................................</Description>
+    <Teaser>[IN PROGRESS] Adds 4 civilizations based on The Amazing Digital Circus. (Requires G&amp;K and BNW)</Teaser>
+    <Description>... Placeholder ...</Description>
     <Authors>CrossfireCam</Authors>
     <SpecialThanks>
     </SpecialThanks>
@@ -22,6 +22,16 @@
     <RootNamespace>TADC Civ</RootNamespace>
     <ModReferences />
     <ModActions>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/Buildings/CIV5BuildingClasses.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/Buildings/CIV5Buildings.xml</FileName>
+      </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
@@ -40,12 +50,22 @@
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
+        <FileName>XML/GameInfo/CIV5IconTextureAtlases.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
         <FileName>XML/Leaders/CIV5Leader_Tadc1_Caine.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
         <FileName>XML/Leaders/CIV5Leader_Tadc2_Pomni.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/Interface/CIV5PlayerColors.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
@@ -70,27 +90,12 @@
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/GameInfo/CIV5IconTextureAtlases.xml</FileName>
+        <FileName>XML/Units/CIV5UnitPromotions.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
         <FileName>XML/Units/CIV5Units.xml</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>XML/Buildings/CIV5BuildingClasses.xml</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>XML/Buildings/CIV5Buildings.xml</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>XML/Units/CIVVUnitPromotions.xml</FileName>
       </Action>
     </ModActions>
     <ModProperties />
@@ -102,6 +107,7 @@
         <FileName>LUA/TadcModCustomCode.lua</FileName>
       </Content>
     </ModContent>
+    <Homepage>http://https://crossfirecam.itch.io</Homepage>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -122,6 +128,7 @@
     <Folder Include="XML\GameInfo\" />
     <Folder Include="XML\Leaders\" />
     <Folder Include="XML\Buildings" />
+    <Folder Include="XML\Interface" />
     <Folder Include="XML\Units" />
     <Folder Include="XML\NewText\" />
   </ItemGroup>
@@ -150,7 +157,7 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\AlphaAtlas_Tadc2_Unit2_32.dds">
+    <Content Include="Art\AlphaAtlas_Tadc2_Unit1_32.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
@@ -230,6 +237,10 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
+    <Content Include="XML\Interface\CIV5PlayerColors.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
     <Content Include="XML\Leaders\CIV5Leader_Tadc1_Caine.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
@@ -258,7 +269,7 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\Units\CIVVUnitPromotions.xml">
+    <Content Include="XML\Units\CIV5UnitPromotions.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
