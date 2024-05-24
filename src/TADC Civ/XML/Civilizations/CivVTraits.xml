@@ -4,7 +4,11 @@
 			<Type>TRAIT_DIGITAL_FEAST</Type>
 			<Description>TXT_KEY_TRAIT_DIGITAL_FEAST</Description>
 			<ShortDescription>TXT_KEY_TRAIT_DIGITAL_FEAST_SHORT</ShortDescription>
-			<!-- Digital Feast does not provide Food to Camps, because with Goddess of the Hunt pantheon in early game, Camps would be even more powerful... -->
+		</Row>
+		<Row>
+			<Type>TRAIT_RAGATHAS_PLAN</Type>
+			<Description>TXT_KEY_TRAIT_RAGATHAS_PLAN</Description>
+			<ShortDescription>TXT_KEY_TRAIT_RAGATHAS_PLAN_SHORT</ShortDescription>
 		</Row>
 	</Traits>
 	<Trait_ImprovementYieldChanges>
@@ -20,11 +24,5 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
-		<!--<Row>
-			<TraitType>TRAIT_DIGITAL_FEAST</TraitType>
-			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>-->
 	</Trait_ImprovementYieldChanges>
 </GameData>

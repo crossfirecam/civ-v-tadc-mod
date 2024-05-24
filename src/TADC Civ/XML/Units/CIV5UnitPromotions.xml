@@ -30,7 +30,7 @@
 		<Row>
 			<Type>PROMOTION_ACROBAT_AGILITY</Type>
 			<Description>TXT_KEY_PROMOTION_ACROBAT_AGILITY</Description>
-			<Help>TXT_KEY_PROMOTION_ACROBAT_AGILITY</Help>
+			<Help>TXT_KEY_PROMOTION_ACROBAT_AGILITY_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<CannotBeChosen>true</CannotBeChosen>
 			<LostWithUpgrade>true</LostWithUpgrade>

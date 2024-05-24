@@ -253,7 +253,7 @@
 	<Leader_Traits>
 		<Row>
 			<LeaderType>LEADER_TADC2_POMNI</LeaderType>
-			<TraitType>TRAIT_DIGITAL_FEAST</TraitType>
+			<TraitType>TRAIT_RAGATHAS_PLAN</TraitType>
 		</Row>
 	</Leader_Traits>
 </GameData>

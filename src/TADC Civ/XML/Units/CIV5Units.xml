@@ -117,6 +117,10 @@
 			<UnitType>UNIT_CASTALLIED_ACROBAT</UnitType>
 			<PromotionType>PROMOTION_ACROBAT_TRAINING</PromotionType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_CASTALLIED_ACROBAT</UnitType>
+			<PromotionType>PROMOTION_ACROBAT_AGILITY</PromotionType>
+		</Row>
 	</Unit_FreePromotions>
 	<UnitGameplay2DScripts>
 		<Row UnitType="UNIT_CASTALLIED_ACROBAT">

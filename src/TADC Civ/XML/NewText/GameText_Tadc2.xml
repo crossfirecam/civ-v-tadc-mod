@@ -83,6 +83,27 @@
 				Placeholder (Civlopedia)
 			</Text>
 		</Row>
+		
+		
+		<!-- Cast-Allied Unique Promotions -->
+		<Row Tag="TXT_KEY_PROMOTION_ACROBAT_TRAINING">
+			<Text>Acrobat Training</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ACROBAT_TRAINING_HELP">
+			<Text>Acrobats may move after attacking, and have a 16% Ranged Defence bonus (equivalent to half of Cover I). This promotion is retained through upgrades.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_ACROBAT_TRAINING">
+			<Text>Acrobat Training</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ACROBAT_AGILITY">
+			<Text>Acrobat Agility</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ACROBAT_AGILITY_HELP">
+			<Text>Acrobats ignore terrain cost while moving. This promotion is lost upon upgrading the unit to Pikeman.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_ACROBAT_AGILITY">
+			<Text>Acrobat Agility</Text>
+		</Row>
 
 
 		<!-- Cast-Allied Cities (Naming Scheme: Cast takes turns picking city names) -->
