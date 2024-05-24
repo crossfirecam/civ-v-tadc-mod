@@ -127,6 +127,7 @@ Attributions:
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Art\" />
+    <Folder Include="Art\AlphaAtlas" />
     <Folder Include="LUA" />
     <Folder Include="XML\" />
     <Folder Include="XML\Civilizations\" />
@@ -138,31 +139,51 @@ Attributions:
     <Folder Include="XML\NewText\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Art\AlphaAtlas_Tadc1_Civ_128.dds">
+    <Content Include="Art\AlphaAtlas\AlphaAtlas_Tadc1_Unit1_32.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\AlphaAtlas_Tadc1_Civ_24.dds">
+    <Content Include="Art\AlphaAtlas\AlphaAtlas_Tadc2_Unit1_32.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\AlphaAtlas_Tadc1_Civ_32.dds">
+    <Content Include="Art\AlphaAtlas\AlphaAtlas_Tadc1_Civ_128.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\AlphaAtlas_Tadc1_Civ_48.dds">
+    <Content Include="Art\AlphaAtlas\AlphaAtlas_Tadc1_Civ_24.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\AlphaAtlas_Tadc1_Civ_64.dds">
+    <Content Include="Art\AlphaAtlas\AlphaAtlas_Tadc1_Civ_32.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\AlphaAtlas_Tadc1_Unit1_32.dds">
+    <Content Include="Art\AlphaAtlas\AlphaAtlas_Tadc1_Civ_48.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\AlphaAtlas_Tadc2_Unit1_32.dds">
+    <Content Include="Art\AlphaAtlas\AlphaAtlas_Tadc1_Civ_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\AlphaAtlas\AlphaAtlas_Tadc2_Civ_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\AlphaAtlas\AlphaAtlas_Tadc2_Civ_24.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\AlphaAtlas\AlphaAtlas_Tadc2_Civ_32.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\AlphaAtlas\AlphaAtlas_Tadc2_Civ_48.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\AlphaAtlas\AlphaAtlas_Tadc2_Civ_64.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>

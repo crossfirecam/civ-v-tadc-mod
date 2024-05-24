@@ -1,6 +1,7 @@
 <GameData>
+
+	<!-- Coloured Icons (All 4 Civs - Civ Icon, Leader, Buildings, Units) -->
 	<IconTextureAtlases>
-		<!-- Coloured Icons (All 4 Civs - Civ Icon, Leader, Buildings, Units) -->
 		<Row>
 			<Atlas>TADC_MOD_ATLAS</Atlas>
 			<IconSize>256</IconSize>
@@ -43,8 +44,28 @@
 			<IconsPerRow>8</IconsPerRow>
 			<IconsPerColumn>8</IconsPerColumn>
 		</Row>
-		
-		<!-- Transparent Icons (Alternate Colours for Civs) -->
+	</IconTextureAtlases>
+
+	<!-- Transparent Icons (Unit Flags) -->
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>TADC1_UNIT1_ALPHA_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>AlphaAtlas_Tadc1_Unit1_32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>TADC2_UNIT1_ALPHA_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>AlphaAtlas_Tadc2_Unit1_32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+	<!-- Transparent Icons (Alternate Colours for Civs) -->
+	<IconTextureAtlases>
 		<Row>
 			<Atlas>TADC1_CIV_ALPHA_ATLAS</Atlas>
 			<IconSize>128</IconSize>
@@ -80,18 +101,38 @@
 			<IconsPerRow>1</IconsPerRow>
 			<IconsPerColumn>1</IconsPerColumn>
 		</Row>
-		<!-- Transparent Icons (Unit Flags) -->
 		<Row>
-			<Atlas>TADC1_UNIT1_ALPHA_ATLAS</Atlas>
-			<IconSize>32</IconSize>
-			<Filename>AlphaAtlas_Tadc1_Unit1_32.dds</Filename>
+			<Atlas>TADC2_CIV_ALPHA_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>AlphaAtlas_Tadc2_Civ_128.dds</Filename>
 			<IconsPerRow>1</IconsPerRow>
 			<IconsPerColumn>1</IconsPerColumn>
 		</Row>
 		<Row>
-			<Atlas>TADC2_UNIT1_ALPHA_ATLAS</Atlas>
+			<Atlas>TADC2_CIV_ALPHA_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>AlphaAtlas_Tadc2_Civ_64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>TADC2_CIV_ALPHA_ATLAS</Atlas>
+			<IconSize>48</IconSize>
+			<Filename>AlphaAtlas_Tadc2_Civ_48.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>TADC2_CIV_ALPHA_ATLAS</Atlas>
 			<IconSize>32</IconSize>
-			<Filename>AlphaAtlas_Tadc2_Unit1_32.dds</Filename>
+			<Filename>AlphaAtlas_Tadc2_Civ_32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>TADC2_CIV_ALPHA_ATLAS</Atlas>
+			<IconSize>24</IconSize>
+			<Filename>AlphaAtlas_Tadc2_Civ_24.dds</Filename>
 			<IconsPerRow>1</IconsPerRow>
 			<IconsPerColumn>1</IconsPerColumn>
 		</Row>
