@@ -14,5 +14,31 @@
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
 			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_SLOWER_HEAL</PediaEntry>
 		</Row>
+		<Row>
+			<Type>PROMOTION_ACROBAT_TRAINING</Type>
+			<Description>TXT_KEY_PROMOTION_ACROBAT_TRAINING</Description>
+			<Help>TXT_KEY_PROMOTION_ACROBAT_TRAINING_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<CanMoveAfterAttacking>true</CanMoveAfterAttacking>
+			<RangedDefenseMod>16</RangedDefenseMod>
+			<PortraitIndex>12</PortraitIndex>
+			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_ACROBAT_TRAINING</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_ACROBAT_AGILITY</Type>
+			<Description>TXT_KEY_PROMOTION_ACROBAT_AGILITY</Description>
+			<Help>TXT_KEY_PROMOTION_ACROBAT_AGILITY</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<IgnoreTerrainCost>true</IgnoreTerrainCost>
+			<PortraitIndex>12</PortraitIndex>
+			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_ACROBAT_AGILITY</PediaEntry>
+		</Row>
 	</UnitPromotions>
 </GameData>

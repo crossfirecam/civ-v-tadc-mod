@@ -85,8 +85,8 @@
 			<Type>UNIT_CASTALLIED_ACROBAT</Type>
 			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			<Combat>11</Combat>
-			<Cost>56</Cost>
-			<FaithCost>112</FaithCost>
+			<Cost>48</Cost>
+			<FaithCost>95</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
@@ -115,11 +115,7 @@
 	<Unit_FreePromotions>
 		<Row>
 			<UnitType>UNIT_CASTALLIED_ACROBAT</UnitType>
-			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType> <!-- CHANGE THIS, it'd be overpowered -->
-		</Row>
-		<Row>
-			<UnitType>UNIT_CASTALLIED_ACROBAT</UnitType>
-			<PromotionType>PROMOTION_COVER_1</PromotionType>
+			<PromotionType>PROMOTION_ACROBAT_TRAINING</PromotionType>
 		</Row>
 	</Unit_FreePromotions>
 	<UnitGameplay2DScripts>

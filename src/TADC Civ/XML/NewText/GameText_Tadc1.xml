@@ -80,7 +80,7 @@
 			<Text>Heals at Half Rate</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SLOWER_HEAL_HELP">
-			<Text>Reduces base healing from +10 to +5 per turn. An exclusive demotion for Cainic All-Seeing Eye.</Text>
+			<Text>Reduces base healing from +10 to +5 per turn. An exclusive demotion for Cainic All-Seeing Eye. This penalty is retained even if promoted to an Archer by Ancient Ruins.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_PROMOTION_SLOWER_HEAL">
 			<Text>Heals at Half Rate</Text>
