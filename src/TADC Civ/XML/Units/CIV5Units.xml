@@ -27,10 +27,10 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_SCOUT</UnitArtInfo> <!-- Placeholder -->
-			<UnitFlagAtlas>TADC1_UNIT1_ALPHA_ATLAS</UnitFlagAtlas>
+			<UnitFlagAtlas>ALPHA_ATLAS_TADC1_UNIT1</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
-			<PortraitIndex>3</PortraitIndex>
+			<PortraitIndex>24</PortraitIndex>
 		</Row>
 	</Units>
 	<Unit_FreePromotions>
@@ -106,10 +106,10 @@
 			<XPValueDefense>3</XPValueDefense>
 			<Conscription>2</Conscription>
 			<UnitArtInfo>ART_DEF_UNIT_SPEARMAN</UnitArtInfo>
-			<UnitFlagAtlas>TADC2_UNIT1_ALPHA_ATLAS</UnitFlagAtlas>
+			<UnitFlagAtlas>ALPHA_ATLAS_TADC2_UNIT1</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>25</PortraitIndex>
 		</Row>
 	</Units>
 	<Unit_FreePromotions>

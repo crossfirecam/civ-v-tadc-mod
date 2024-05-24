@@ -22,7 +22,7 @@
 			<CannotBeChosen>true</CannotBeChosen>
 			<CanMoveAfterAttacking>true</CanMoveAfterAttacking>
 			<RangedDefenseMod>16</RangedDefenseMod>
-			<PortraitIndex>12</PortraitIndex>
+			<PortraitIndex>4</PortraitIndex>
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
 			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_ACROBAT_TRAINING</PediaEntry>
@@ -35,7 +35,7 @@
 			<CannotBeChosen>true</CannotBeChosen>
 			<LostWithUpgrade>true</LostWithUpgrade>
 			<IgnoreTerrainCost>true</IgnoreTerrainCost>
-			<PortraitIndex>12</PortraitIndex>
+			<PortraitIndex>4</PortraitIndex>
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
 			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_ACROBAT_AGILITY</PediaEntry>

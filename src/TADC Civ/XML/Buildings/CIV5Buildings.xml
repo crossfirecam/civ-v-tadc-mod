@@ -16,7 +16,7 @@
 			<HurryCostModifier>100</HurryCostModifier>
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
-			<PortraitIndex>2</PortraitIndex>
+			<PortraitIndex>16</PortraitIndex>
 		</Row>
 	</Buildings>
 </GameData>
