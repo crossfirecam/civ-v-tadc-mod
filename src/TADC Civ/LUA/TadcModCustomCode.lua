@@ -121,6 +121,21 @@ function Tadc2GanglesTheaterAbility(iPlayer, iCity, iBuilding)
 	end
 end
 
+function Tadc2GanglesTheaterGrantFreeAtIndustrialStart(iPlayer, iCityX, iCityY)
+	-- If the game grants a building using the <FreeStartEra> attribute, then the 'CityConstructed' GameEvent is not broadcasted.
+	-- So, every time a Cast-Allied city is founded, check if they contain a Gangles Theater Placeholder.
+	local iCiv = GameInfoTypes["CIVILIZATION_TADC2"]
+	local pPlayer = Players[iPlayer];
+	if (pPlayer:GetCivilizationType() == iCiv) then
+		local pCity = Map.GetPlot(iCityX,iCityY):GetPlotCity();
+		local iCity = pCity:GetID();
+		local iTadcGangleTheater = GameInfoTypes["BUILDING_TADC_GANGLES_THEATER_PLACEHOLDER"];
+		if (pCity:GetNumBuilding(iTadcGangleTheater) > 0) then
+			print("-- New Cast-Allied city founded in Industrial Era ('" .. iCity .. "' X:" .. iCityX .. " & Y:" .. iCityY .. "). A Gangle's Theater is given for free, so force Gangle's Theater replacement.");
+			Tadc2GanglesTheaterAbility(iPlayer, iCity, iTadcGangleTheater);
+		end
+	end
+end
 
 --
 -- Generic Functions
@@ -137,3 +152,4 @@ end
 print("TADC Lua loaded successfully")
 GameEvents.CityConstructed.Add( Tadc1DigitalCircusAbility );
 GameEvents.CityConstructed.Add( Tadc2GanglesTheaterAbility );
+GameEvents.PlayerCityFounded.Add( Tadc2GanglesTheaterGrantFreeAtIndustrialStart );
