@@ -91,7 +91,11 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
-		<!-- <Row><BuildingType>BUILDING_TADC_GANGLETHEATER_COMEDY</BuildingType> </Row> -->
+		<Row>
+			<BuildingType>BUILDING_TADC_GANGLETHEATER_COMEDY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
 		<Row>
 			<BuildingType>BUILDING_TADC_GANGLETHEATER_TRAGEDY</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
