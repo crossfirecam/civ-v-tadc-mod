@@ -65,8 +65,8 @@
 	<Civilization_BuildingClassOverrides>
 		<Row>
 			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_CIRCUS</BuildingClassType> <!-- Placeholder, replace -->
-			<BuildingType>BUILDING_TADC_CIRCUS</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<BuildingType>BUILDING_TADC_GANGLES_THEATER_PLACEHOLDER</BuildingType>
 		</Row>
 	</Civilization_BuildingClassOverrides>
 

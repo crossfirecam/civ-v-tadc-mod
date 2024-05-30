@@ -13,10 +13,89 @@
 			<EnhancedYieldTech>TECH_AGRICULTURE</EnhancedYieldTech>
 			<MinAreaSize>-1</MinAreaSize>
 			<Happiness>2</Happiness>
-			<HurryCostModifier>100</HurryCostModifier>
+			<HurryCostModifier>100</HurryCostModifier> <!-- Digital Circus has a hurry penalty, because of the free units it provides. -->
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
 			<PortraitIndex>16</PortraitIndex>
 		</Row>
+		
+		<!-- Pomni Civ: Ampitheater replacement. The player builds Placeholder. When it's finished, that is demolished and replaced with a Comedy or Tragedy version.-->
+		<Row> <!-- TODO test what happens when this building is granted for free (if game is started in Industrial Era) -->
+			<Type>BUILDING_TADC_GANGLES_THEATER_PLACEHOLDER</Type>
+			<BuildingClass>BUILDINGCLASS_AMPHITHEATER</BuildingClass>
+			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+			<Cost>100</Cost>
+			<GoldMaintenance>0</GoldMaintenance>
+			<PrereqTech>TECH_DRAMA</PrereqTech>
+			<Help>TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_TADC2_GANGLES_THEATER</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_TADC2_GANGLES_THEATER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_STRATEGY</Strategy>
+			<ArtDefineTag>COLESSEUM</ArtDefineTag>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<ConquestProb>100</ConquestProb>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
+			<PortraitIndex>17</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_TADC_GANGLES_THEATER_COMEDY</Type>
+			<BuildingClass>BUILDINGCLASS_AMPHITHEATER</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<GoldMaintenance>0</GoldMaintenance>
+			<PrereqTech>NULL</PrereqTech>
+			<Description>TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_ALT1</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_TADC2_GANGLES_THEATER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_STRATEGY</Strategy>
+			<ArtDefineTag>COLESSEUM</ArtDefineTag>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<ConquestProb>100</ConquestProb>
+			<MinAreaSize>-1</MinAreaSize>
+			<Happiness>1</Happiness>
+			<HurryCostModifier>25</HurryCostModifier>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
+			<PortraitIndex>17</PortraitIndex>
+		
+	</Row>
+		<Row>
+			<Type>BUILDING_TADC_GANGLES_THEATER_TRAGEDY</Type>
+			<BuildingClass>BUILDINGCLASS_AMPHITHEATER</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<GoldMaintenance>0</GoldMaintenance>
+			<PrereqTech>NULL</PrereqTech>
+			<Description>TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_ALT2</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_TADC2_GANGLES_THEATER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_STRATEGY</Strategy>
+			<ArtDefineTag>COLESSEUM</ArtDefineTag>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<ConquestProb>100</ConquestProb>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
+			<PortraitIndex>17</PortraitIndex>
+		</Row>
 	</Buildings>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_TADC_GANGLETHEATER_PLACEHOLDER</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!-- <Row><BuildingType>BUILDING_TADC_GANGLETHEATER_COMEDY</BuildingType> </Row> -->
+		<Row>
+			<BuildingType>BUILDING_TADC_GANGLETHEATER_TRAGEDY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
 </GameData>
