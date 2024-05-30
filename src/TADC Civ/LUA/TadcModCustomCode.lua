@@ -107,11 +107,11 @@ function Tadc2GanglesTheaterAbility(iPlayer, iCity, iBuilding)
 
 		if (math.random() < 0.5) then
 			pCity:SetNumRealBuilding(iTadcGangleTheaterAlt1, 1);
-			heading = cityName .. "'s new Comedy Theater is complete!";
+			heading = "Comedy Theater is complete";
 			text = cityName .. "'s newly built Comedy Theater provides an extra +1 Happiness!";
 		else
 			pCity:SetNumRealBuilding(iTadcGangleTheaterAlt2, 1);
-			heading = cityName .. "'s new Tragedy Theater is complete!";
+			heading = "Tragedy Theater is complete";
 			text = cityName .. "'s newly built Tragedy Theater provides an extra +1 Culture!";
 		end
 

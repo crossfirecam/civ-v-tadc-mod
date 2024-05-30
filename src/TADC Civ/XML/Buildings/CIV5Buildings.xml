@@ -20,6 +20,7 @@
 		</Row>
 		
 		<!-- Pomni Civ: Ampitheater replacement. The player builds Placeholder. When it's finished, that is demolished and replaced with a Comedy or Tragedy version.-->
+		<!-- The replacement versions do not appear in Build Queue or Civlopedia -->
 		<Row> <!-- TODO test what happens when this building is granted for free (if game is started in Industrial Era) -->
 			<Type>BUILDING_TADC_GANGLES_THEATER_PLACEHOLDER</Type>
 			<BuildingClass>BUILDINGCLASS_AMPHITHEATER</BuildingClass>
@@ -31,6 +32,7 @@
 			<Description>TXT_KEY_BUILDING_TADC2_GANGLES_THEATER</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_TADC2_GANGLES_THEATER_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_STRATEGY</Strategy>
+			<MutuallyExclusiveGroup>38772</MutuallyExclusiveGroup> <!-- Prevents player from building another, once building is swapped using LUA. Set this to a random int -->
 			<ArtDefineTag>COLESSEUM</ArtDefineTag>
 			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
 			<GreatWorkCount>1</GreatWorkCount>
@@ -48,9 +50,9 @@
 			<FaithCost>-1</FaithCost>
 			<GoldMaintenance>0</GoldMaintenance>
 			<PrereqTech>NULL</PrereqTech>
+			<Help>TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_STRATEGY_ALT1</Help>
 			<Description>TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_ALT1</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_TADC2_GANGLES_THEATER_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_STRATEGY</Strategy>
+			<MutuallyExclusiveGroup>38772</MutuallyExclusiveGroup> <!-- See earlier -->
 			<ArtDefineTag>COLESSEUM</ArtDefineTag>
 			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
 			<GreatWorkCount>1</GreatWorkCount>
@@ -70,9 +72,9 @@
 			<FaithCost>-1</FaithCost>
 			<GoldMaintenance>0</GoldMaintenance>
 			<PrereqTech>NULL</PrereqTech>
+			<Help>TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_STRATEGY_ALT2</Help>
 			<Description>TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_ALT2</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_TADC2_GANGLES_THEATER_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_STRATEGY</Strategy>
+			<MutuallyExclusiveGroup>38772</MutuallyExclusiveGroup> <!-- See earlier -->
 			<ArtDefineTag>COLESSEUM</ArtDefineTag>
 			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
 			<GreatWorkCount>1</GreatWorkCount>
@@ -87,17 +89,17 @@
 
 	<Building_YieldChanges>
 		<Row>
-			<BuildingType>BUILDING_TADC_GANGLETHEATER_PLACEHOLDER</BuildingType>
+			<BuildingType>BUILDING_TADC_GANGLES_THEATER_PLACEHOLDER</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_TADC_GANGLETHEATER_COMEDY</BuildingType>
+			<BuildingType>BUILDING_TADC_GANGLES_THEATER_COMEDY</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_TADC_GANGLETHEATER_TRAGEDY</BuildingType>
+			<BuildingType>BUILDING_TADC_GANGLES_THEATER_TRAGEDY</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>2</Yield>
 		</Row>

@@ -82,6 +82,12 @@
 		<Row Tag="TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_STRATEGY">
 			<Text>Upon being built, will provide an extra yield. Which yield is chosen is a 50/50 chance.[NEWLINE][ICON_BULLET]Comedy Theater: +1 [ICON_HAPPINESS_1] Happiness[NEWLINE][ICON_BULLET]Tragedy Theater: +1 [ICON_CULTURE] Culture[NEWLINE]Requires no [ICON_GOLD] Gold maintenance.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_STRATEGY_ALT1">
+			<Text>Provides +1 [ICON_HAPPINESS_1] Happiness more than a standard Ampitheater. Requires no [ICON_GOLD] Gold maintenance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_STRATEGY_ALT2">
+			<Text>Provides +1 [ICON_CULTURE] Culture more than a standard Ampitheater. Requires no [ICON_GOLD] Gold maintenance.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_TADC2_GANGLES_THEATER_TEXT">
 			<Text>While building her theaters, Gangle considers the general vibe of the town. Some townsfolk are into her Comedy routines, while others prefer her Tragedy plays. Either way, she's excited about the opportunity to perform for so many people.</Text>
 		</Row>
