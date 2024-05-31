@@ -30,57 +30,57 @@ Attributions:
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/Buildings/CIV5BuildingClasses.xml</FileName>
+        <FileName>XML/Buildings/Tadc_BuildingClasses.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/Buildings/CIV5Buildings.xml</FileName>
+        <FileName>XML/Buildings/Tadc_Buildings.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/Civilizations/Civ_TADC1.xml</FileName>
+        <FileName>XML/Civilizations/Tadc1_Civ.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/Civilizations/Civ_TADC2.xml</FileName>
+        <FileName>XML/Civilizations/Tadc2_Civ.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/Civilizations/CivVTraits.xml</FileName>
+        <FileName>XML/Civilizations/Tadc_Traits.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/GameInfo/CIV5IconTextureAtlases.xml</FileName>
+        <FileName>XML/GameInfo/Tadc_IconTextureAtlases.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/Leaders/CIV5Leader_Tadc1_Caine.xml</FileName>
+        <FileName>XML/Leaders/Tadc1_Leader_Caine.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/Leaders/CIV5Leader_Tadc2_Pomni.xml</FileName>
+        <FileName>XML/Leaders/Tadc2_Leader _Pomni.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/Interface/CIV5PlayerColors.xml</FileName>
+        <FileName>XML/Interface/Tadc_PlayerColors.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/NewText/GameText_Tadc1.xml</FileName>
+        <FileName>XML/NewText/Tadc1_GameText.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/NewText/GameText_Tadc2.xml</FileName>
+        <FileName>XML/NewText/Tadc2_GameText.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
@@ -95,12 +95,12 @@ Attributions:
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/Units/CIV5UnitPromotions.xml</FileName>
+        <FileName>XML/Units/Tadc_UnitPromotions.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/Units/CIV5Units.xml</FileName>
+        <FileName>XML/Units/Tadc_Units.xml</FileName>
       </Action>
     </ModActions>
     <ModProperties />
@@ -109,7 +109,7 @@ Attributions:
         <Type>InGameUIAddin</Type>
         <Name>a</Name>
         <Description />
-        <FileName>LUA/TadcModCustomCode.lua</FileName>
+        <FileName>LUA/Tadc_CustomCode.lua</FileName>
       </Content>
     </ModContent>
     <Homepage>http://https://crossfirecam.itch.io</Homepage>
@@ -214,43 +214,43 @@ Attributions:
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="LUA\TadcModCustomCode.lua">
+    <Content Include="LUA\Tadc_CustomCode.lua">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\Buildings\CIV5Buildings.xml">
+    <Content Include="XML\Buildings\Tadc_Buildings.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\Buildings\CIV5BuildingClasses.xml">
+    <Content Include="XML\Buildings\Tadc_BuildingClasses.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\Civilizations\Civ_TADC1.xml">
+    <Content Include="XML\Civilizations\Tadc1_Civ.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\Civilizations\CivVTraits.xml">
+    <Content Include="XML\Civilizations\Tadc_Traits.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\Civilizations\Civ_TADC2.xml">
+    <Content Include="XML\Civilizations\Tadc2_Civ.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\GameInfo\CIV5IconTextureAtlases.xml">
+    <Content Include="XML\GameInfo\Tadc_IconTextureAtlases.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\Interface\CIV5PlayerColors.xml">
+    <Content Include="XML\Interface\Tadc_PlayerColors.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\Leaders\CIV5Leader_Tadc1_Caine.xml">
+    <Content Include="XML\Leaders\Tadc1_Leader_Caine.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\Leaders\CIV5Leader_Tadc2_Pomni.xml">
+    <Content Include="XML\Leaders\Tadc2_Leader _Pomni.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
@@ -262,19 +262,19 @@ Attributions:
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\NewText\GameText_Tadc2.xml">
+    <Content Include="XML\NewText\Tadc2_GameText.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\NewText\GameText_Tadc1.xml">
+    <Content Include="XML\NewText\Tadc1_GameText.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\Units\CIV5Units.xml">
+    <Content Include="XML\Units\Tadc_Units.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\Units\CIV5UnitPromotions.xml">
+    <Content Include="XML\Units\Tadc_UnitPromotions.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
