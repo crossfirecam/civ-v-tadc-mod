@@ -19,6 +19,7 @@ function Tadc1DigitalCircusAbility(iPlayer, iCity, iBuilding)
 
 		-- Eligible Units for the random spawn depends on current Era, maxing out at granting Medieval Era units
 		-- If no eligible Techs from this Era are found, the search continues to Techs from the previous Era
+		-- At the very least (Rushing Camping then Theology) a Warrior is valid and can be granted
 		local eligibleUnits = {}
 		if (pPlayer:GetCurrentEra() >= GameInfoTypes["ERA_MEDIEVAL"]) then
 			print("-- Tadc1DigitalCircusAbility: Medieval Era units are valid, checking techs...");
@@ -35,7 +36,7 @@ function Tadc1DigitalCircusAbility(iPlayer, iCity, iBuilding)
 			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_IRON_WORKING", "UNIT_SWORDSMAN"));
 		end
 		if (pPlayer:GetCurrentEra() == GameInfoTypes["ERA_ANCIENT"] or #eligibleUnits == 0) then
-			print("-- Tadc1DigitalCircusAbility: Classical Era units are valid, checking techs...");
+			print("-- Tadc1DigitalCircusAbility: Ancient Era units are valid, checking techs...");
 			table.insert(eligibleUnits, "UNIT_WARRIOR");
 			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_ARCHERY", "UNIT_ARCHER"));
 			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_BRONZE_WORKING", "UNIT_SPEARMAN"));
@@ -44,10 +45,20 @@ function Tadc1DigitalCircusAbility(iPlayer, iCity, iBuilding)
 		strAllEligibleUnits = table.concat(eligibleUnits, ", ");
 		print("-- Tadc1DigitalCircusAbility: Digital Circus complete. These are the eligible units to spawn: " .. strAllEligibleUnits);
 
-		-- Find city, spawn the units inside city
+		-- Find city, spawn unit inside city
 		local pCity = pPlayer:GetCityByID(iCity)
 		local chosenUnit = eligibleUnits[math.random(#eligibleUnits)];
 		local pUnit = pPlayer:InitUnit(GameInfoTypes[chosenUnit], pCity:GetX(), pCity:GetY());
+
+		-- Grant XP from Barracks etc, grant free promotions from wonders in the city.
+		-- Thanks to whoward69 & Irkalla on CivFanatics for these snippets https://forums.civfanatics.com/threads/lua-spawn-a-unit-without-addfreeunit.486267/
+		pUnit:SetExperience(pCity:GetDomainFreeExperience(pUnit:GetDomainType()))
+		for promotion in GameInfo.UnitPromotions() do
+			iPromotion = promotion.ID
+			if ( pCity:GetFreePromotionCount( iPromotion ) > 0 ) then
+				pUnit:SetHasPromotion( iPromotion, true )
+			end
+		end
 		
 		-- Show notification
 		local cityName = pCity:GetName();

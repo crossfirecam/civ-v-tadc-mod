@@ -78,15 +78,15 @@
 	
 	
 	<!-- Acrobat: Spearman Replacement for Pomni. Provides Cover I & Ignores Terrain Cost. -->
-	<!-- Values are the same as base Spearman, except images/text changed, and promotions are applied. -->
+	<!-- Values are the same as base Spearman, except some stats, images/text changed, and promotions are applied. -->
 	<Units>
 		<Row>
 			<Class>UNITCLASS_SPEARMAN</Class>
 			<Type>UNIT_CASTALLIED_ACROBAT</Type>
 			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
-			<Combat>11</Combat>
-			<Cost>48</Cost>
-			<FaithCost>95</FaithCost>
+			<Combat>10</Combat> <!-- Slightly weaker -->
+			<Cost>48</Cost> <!-- Slightly cheaper -->
+			<FaithCost>95</FaithCost> <!-- Slightly cheaper -->
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>

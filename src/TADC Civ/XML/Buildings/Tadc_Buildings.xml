@@ -1,5 +1,6 @@
 <GameData>
 	<Buildings>
+		<!-- Caine Civ: Circus replacement. -->
 		<Row>
 			<Type>BUILDING_TADC_CIRCUS</Type>
 			<BuildingClass>BUILDINGCLASS_CIRCUS</BuildingClass>
