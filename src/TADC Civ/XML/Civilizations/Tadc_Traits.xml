@@ -11,18 +11,4 @@
 			<ShortDescription>TXT_KEY_TRAIT_RAGATHAS_PLAN_SHORT</ShortDescription>
 		</Row>
 	</Traits>
-	<Trait_ImprovementYieldChanges>
-		<Row>
-			<TraitType>TRAIT_DIGITAL_FEAST</TraitType>
-			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_DIGITAL_FEAST</TraitType>
-			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-	</Trait_ImprovementYieldChanges>
 </GameData>

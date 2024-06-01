@@ -13,7 +13,7 @@
 			<EnhancedYieldTech>TECH_AGRICULTURE</EnhancedYieldTech>
 			<MinAreaSize>-1</MinAreaSize>
 			<Happiness>2</Happiness>
-			<HurryCostModifier>100</HurryCostModifier> <!-- Digital Circus has a hurry penalty, because of the free units it provides. -->
+			<HurryCostModifier>187</HurryCostModifier> <!-- Digital Circus has a 50% hurry penalty (125% * 1.5), because of the free unit it provides. -->
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
 			<PortraitIndex>16</PortraitIndex>
@@ -21,7 +21,7 @@
 		
 		<!-- Pomni Civ: Ampitheater replacement. The player builds Placeholder. When it's finished, that is demolished and replaced with a Comedy or Tragedy version.-->
 		<!-- The replacement versions do not appear in Build Queue or Civlopedia -->
-		<Row> <!-- TODO test what happens when this building is granted for free (if game is started in Industrial Era) -->
+		<Row>
 			<Type>BUILDING_TADC_GANGLES_THEATER_PLACEHOLDER</Type>
 			<BuildingClass>BUILDINGCLASS_AMPHITHEATER</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>

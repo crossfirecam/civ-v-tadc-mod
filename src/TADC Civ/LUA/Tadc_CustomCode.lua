@@ -17,39 +17,25 @@ function Tadc1DigitalCircusAbility(iPlayer, iCity, iBuilding)
 	if (iBuilding == iTadcCircus) then
 		print("-- Tadc1DigitalCircusAbility: A player has just built Digital Circus.");
 
-		-- Eligible Units for the random spawn depends on current Era.
-		-- The bonus provides units from the player's current or previous Era, maxing out at granting Medieval Era units (prevents the bonus from being bad later in the game)
+		-- Eligible Units for the random spawn depends on current Era, maxing out at granting Medieval Era units
+		-- If no eligible Techs from this Era are found, the search continues to Techs from the previous Era
 		local eligibleUnits = {}
-		local pEra = pPlayer:GetCurrentEra();
-		local ancientEraUnitsAreValid = pEra <= GameInfoTypes["ERA_CLASSICAL"];
-		local classicalEraUnitsAreValid = pEra >= GameInfoTypes["ERA_CLASSICAL"] and pEra <= GameInfoTypes["ERA_MEDIEVAL"];
-		local medievalEraUnitsAreValid = pEra >= GameInfoTypes["ERA_MEDIEVAL"];
-		print(ancientEraUnitsAreValid)
-		print(classicalEraUnitsAreValid);
-		if ancientEraUnitsAreValid then
-			print("-- Tadc1DigitalCircusAbility: Ancient Era units are valid, checking techs...");
-			table.insert(eligibleUnits, "UNIT_WARRIOR");
-			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_ARCHERY", "UNIT_ARCHER"));
-			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_BRONZE_WORKING", "UNIT_SPEARMAN"));
-			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_THE_WHEEL", "UNIT_CHARIOT_ARCHER"));
-		end
-		if classicalEraUnitsAreValid then
-			print("-- Tadc1DigitalCircusAbility: Classical Era units are valid, checking techs...");
-			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_HORSEBACK_RIDING", "UNIT_HORSEMAN"));
-			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_MATHEMATICS", "UNIT_CATAPULT"));
-			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_CONSTRUCTION", "UNIT_COMPOSITE_BOWMAN"));
-			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_IRON_WORKING", "UNIT_SWORDSMAN"));
-		end
-		if medievalEraUnitsAreValid then
+		if (pPlayer:GetCurrentEra() >= GameInfoTypes["ERA_MEDIEVAL"]) then
 			print("-- Tadc1DigitalCircusAbility: Medieval Era units are valid, checking techs...");
 			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_CIVIL_SERVICE", "UNIT_PIKEMAN"));
 			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_CHIVALRY", "UNIT_KNIGHT"));
 			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_MACHINERY", "UNIT_CROSSBOWMAN"));
 			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_STEEL", "UNIT_LONGSWORDSMAN"));
 		end
-
-		if #eligibleUnits == 0 then
-			print("-- Tadc1DigitalCircusAbility: EDGE CASE - Player rushed Theology without studying any classical era unit techs. Resort to Classical Era checks. -----");
+		if (pPlayer:GetCurrentEra() == GameInfoTypes["ERA_CLASSICAL"] or #eligibleUnits == 0) then
+			print("-- Tadc1DigitalCircusAbility: Classical Era units are valid, checking techs...");
+			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_HORSEBACK_RIDING", "UNIT_HORSEMAN"));
+			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_MATHEMATICS", "UNIT_CATAPULT"));
+			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_CONSTRUCTION", "UNIT_COMPOSITE_BOWMAN"));
+			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_IRON_WORKING", "UNIT_SWORDSMAN"));
+		end
+		if (pPlayer:GetCurrentEra() == GameInfoTypes["ERA_ANCIENT"] or #eligibleUnits == 0) then
+			print("-- Tadc1DigitalCircusAbility: Classical Era units are valid, checking techs...");
 			table.insert(eligibleUnits, "UNIT_WARRIOR");
 			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_ARCHERY", "UNIT_ARCHER"));
 			table.insert(eligibleUnits, insertUnitIfResearched(pPlayer, "TECH_BRONZE_WORKING", "UNIT_SPEARMAN"));
@@ -62,15 +48,13 @@ function Tadc1DigitalCircusAbility(iPlayer, iCity, iBuilding)
 		local pCity = pPlayer:GetCityByID(iCity)
 		local chosenUnit = eligibleUnits[math.random(#eligibleUnits)];
 		local pUnit = pPlayer:InitUnit(GameInfoTypes[chosenUnit], pCity:GetX(), pCity:GetY());
-		local chosenUnit2 = eligibleUnits[math.random(#eligibleUnits)];
-		local pUnit2 = pPlayer:InitUnit(GameInfoTypes[chosenUnit2], pCity:GetX(), pCity:GetY());
 		
 		-- Show notification
 		local cityName = pCity:GetName();
-		local heading = "Units summoned by " .. cityName .. "'s new Digital Circus";
-		local text = cityName .. "'s newly built Digital Circus has welcomed two NPCs to join the fight!";
+		local heading = "Unit summoned by " .. cityName .. "'s new Digital Circus";
+		local text = cityName .. "'s newly built Digital Circus has welcomed an NPC to join the fight!";
      	pPlayer:AddNotification(NotificationTypes.NOTIFICATION_GENERIC, text, heading);
-		print("-- Tadc1DigitalCircusAbility: Units spawned successfully");
+		print("-- Tadc1DigitalCircusAbility: Unit spawned successfully");
 	end
 end
 
