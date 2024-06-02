@@ -71,22 +71,22 @@
 			<Text>The Acrobat is the Cast-Allied unique unit, replacing the Spearman. It possesses a permanent promotion that provides 16% extra defence from ranged sources and allows the unit to move after attacking. It also possesses a temporary promotion (until upgraded to Pikemen) that allows them to ignore terrain cost.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TADC2_GANGLES_THEATER">
-			<Text>Gangle's Drama Theater</Text>
+			<Text>Gangle's Theater</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_ALT1">
-			<Text>Gangle's Comedy Theater</Text>
+			<Text>Gangle's Comedy Hall</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_ALT2">
-			<Text>Gangle's Tragedy Theater</Text>
+			<Text>Gangle's Tragedy Hall</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_STRATEGY">
-			<Text>Upon being built, will provide an extra yield. Which yield is chosen is a 50/50 chance.[NEWLINE][ICON_BULLET]Comedy Theater: +1 [ICON_HAPPINESS_1] Happiness[NEWLINE][ICON_BULLET]Tragedy Theater: +1 [ICON_CULTURE] Culture[NEWLINE]Requires no [ICON_GOLD] Gold maintenance.</Text>
+			<Text>Upon being built, will provide an extra yield. Which yield is chosen is a 50/50 chance.[NEWLINE][ICON_BULLET]Comedy Hall: +1 [ICON_HAPPINESS_1] Happiness[NEWLINE][ICON_BULLET]Tragedy Hall: +1 [ICON_CULTURE] Culture[NEWLINE]Requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE]Note: If the Theater is granted for free during a turn, a Hall will granted next turn.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_STRATEGY_ALT1">
-			<Text>Provides +1 [ICON_HAPPINESS_1] Happiness more than a standard Ampitheater. Requires no [ICON_GOLD] Gold maintenance.</Text>
+			<Text>A part of Gangle's Theater in this city. Provides +1 [ICON_HAPPINESS_1] Happiness.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_STRATEGY_ALT2">
-			<Text>Provides +1 [ICON_CULTURE] Culture more than a standard Ampitheater. Requires no [ICON_GOLD] Gold maintenance.</Text>
+			<Text>A part of Gangle's Theater in this city. Provides +1 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_TADC2_GANGLES_THEATER_TEXT">
 			<Text>While building her theaters, Gangle considers the general vibe of the town. Some townsfolk are into her Comedy routines, while others prefer her Tragedy plays. Either way, she's excited about the opportunity to perform for so many people.</Text>

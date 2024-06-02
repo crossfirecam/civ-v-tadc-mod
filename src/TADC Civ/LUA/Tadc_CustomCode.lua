@@ -86,48 +86,47 @@ end
 -- TADC2: Cast-Members Alliance
 --
 function Tadc2GanglesTheaterAbility(iPlayer, iCity, iBuilding)
-	-- Each time a construction finishes, check if it's a BUILDING_TADC_GANGLES_THEATER_PLACEHOLDER and run replacement code
-	local iTadcGangleTheater = GameInfoTypes["BUILDING_TADC_GANGLES_THEATER_PLACEHOLDER"];
+	-- Each time a construction finishes, check if it's a BUILDING_TADC_GANGLES_THEATER.
+	local iTadcGangleTheater = GameInfoTypes["BUILDING_TADC_GANGLES_THEATER"];
 	local iTadcGangleTheaterAlt1 = GameInfoTypes["BUILDING_TADC_GANGLES_THEATER_COMEDY"];
 	local iTadcGangleTheaterAlt2 = GameInfoTypes["BUILDING_TADC_GANGLES_THEATER_TRAGEDY"];
 	local pPlayer = Players[iPlayer];
 	if (iBuilding == iTadcGangleTheater) then
-		print("-- Tadc2GanglesTheaterAbility: A player has just built Gangle's Theater Placeholder.");
 		local pCity = pPlayer:GetCityByID(iCity)
-		pCity:SetNumRealBuilding(iTadcGangleTheater, 0);
-		
-		local cityName = pCity:GetName();
-		local heading;
-		local text;
+		if (pCity:GetNumBuilding(iTadcGangleTheaterAlt1) == 0 and pCity:GetNumBuilding(iTadcGangleTheaterAlt2) == 0) then
+			print("-- Tadc2GanglesTheaterAbility: A player has just built Gangle's Theater. Grant a random Hall.");
+			local cityName = pCity:GetName();
+			local heading;
+			local text;
 
-		if (math.random() < 0.5) then
-			pCity:SetNumRealBuilding(iTadcGangleTheaterAlt1, 1);
-			heading = "Comedy Theater is complete";
-			text = cityName .. "'s newly built Comedy Theater provides an extra +1 Happiness!";
-		else
-			pCity:SetNumRealBuilding(iTadcGangleTheaterAlt2, 1);
-			heading = "Tragedy Theater is complete";
-			text = cityName .. "'s newly built Tragedy Theater provides an extra +1 Culture!";
+			if (math.random() < 0.5) then
+				pCity:SetNumRealBuilding(iTadcGangleTheaterAlt1, 1);
+				heading = "Comedy Theater is complete";
+				text = "The newly built Gangle's Theater in ".. cityName .." has opened their Comedy Hall, which provides +1 Happiness!";
+			else
+				pCity:SetNumRealBuilding(iTadcGangleTheaterAlt2, 1);
+				heading = "Tragedy Theater is complete";
+				text = "The newly built Gangle's Theater in ".. cityName .." has opened their Tragedy Hall, which provides +1 Culture!";
+			end
+
+			-- Show notification
+     		pPlayer:AddNotification(NotificationTypes.NOTIFICATION_GENERIC, text, heading);
 		end
-
-		-- Show notification
-     	pPlayer:AddNotification(NotificationTypes.NOTIFICATION_GENERIC, text, heading);
-		print("-- Tadc2GanglesTheaterAbility: Building replaced successfully");
 	end
 end
 
-function Tadc2GanglesTheaterGrantFreeAtIndustrialStart(iPlayer, iCityX, iCityY)
-	-- If the game grants a building using the <FreeStartEra> attribute, then the 'CityConstructed' GameEvent is not broadcasted.
-	-- So, every time a Cast-Allied city is founded, check if they contain a Gangles Theater Placeholder.
-	local iCiv = GameInfoTypes["CIVILIZATION_TADC2"]
+function Tadc2CheckForFreeGanglesTheater(iPlayer)
+	-- The game grants a free Ampitheater in two scenarios: With an 'Industrial Era' game start, or when Legalism is adopted.
+	-- There's no GameEvent for when a free building is granted by Legalism. Therefore, we need to check every turn if this Civ has a theater in their city.
 	local pPlayer = Players[iPlayer];
-	if (pPlayer:GetCivilizationType() == iCiv) then
-		local pCity = Map.GetPlot(iCityX,iCityY):GetPlotCity();
-		local iCity = pCity:GetID();
-		local iTadcGangleTheater = GameInfoTypes["BUILDING_TADC_GANGLES_THEATER_PLACEHOLDER"];
-		if (pCity:GetNumBuilding(iTadcGangleTheater) > 0) then
-			print("-- New Cast-Allied city founded in Industrial Era ('" .. iCity .. "' X:" .. iCityX .. " & Y:" .. iCityY .. "). A Gangle's Theater is given for free, so force Gangle's Theater replacement.");
-			Tadc2GanglesTheaterAbility(iPlayer, iCity, iTadcGangleTheater);
+	if pPlayer:GetCivilizationType() == GameInfoTypes["CIVILIZATION_TADC2"] and pPlayer:IsAlive() then
+		local iTadcGangleTheater = GameInfoTypes["BUILDING_TADC_GANGLES_THEATER"];
+		for pCity in pPlayer:Cities() do
+			if (pCity:GetNumBuilding(iTadcGangleTheater) > 0) then
+				iCity = pCity:GetID();
+				print("-- Cast-Allied city found with a free Gangle's Theater (ID: " .. iCity .. "). Perform ability...");
+				Tadc2GanglesTheaterAbility(iPlayer, iCity, iTadcGangleTheater);
+			end
 		end
 	end
 end
@@ -145,6 +144,8 @@ end
 -- Start Main Code
 --
 print("TADC Lua loaded successfully")
+-- Tadc1 Events
 GameEvents.CityConstructed.Add( Tadc1DigitalCircusAbility );
+-- Tadc2 Events
 GameEvents.CityConstructed.Add( Tadc2GanglesTheaterAbility );
-GameEvents.PlayerCityFounded.Add( Tadc2GanglesTheaterGrantFreeAtIndustrialStart );
+GameEvents.PlayerDoTurn.Add( Tadc2CheckForFreeGanglesTheater );
