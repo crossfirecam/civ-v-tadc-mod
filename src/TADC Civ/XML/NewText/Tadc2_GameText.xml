@@ -82,10 +82,10 @@
 		<Row Tag="TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_STRATEGY">
 			<Text>Upon being built, will provide an extra yield. Which yield is chosen is a 50/50 chance.[NEWLINE][ICON_BULLET]Comedy Hall: +1 [ICON_HAPPINESS_1] Happiness[NEWLINE][ICON_BULLET]Tragedy Hall: +1 [ICON_CULTURE] Culture[NEWLINE]Requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE]Note: If the Theater is granted for free during a turn, a Hall will granted next turn.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_STRATEGY_ALT1">
+		<Row Tag="TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_ALT1_STRATEGY">
 			<Text>A part of Gangle's Theater in this city. Provides +1 [ICON_HAPPINESS_1] Happiness.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_STRATEGY_ALT2">
+		<Row Tag="TXT_KEY_BUILDING_TADC2_GANGLES_THEATER_ALT2_STRATEGY">
 			<Text>A part of Gangle's Theater in this city. Provides +1 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_TADC2_GANGLES_THEATER_TEXT">

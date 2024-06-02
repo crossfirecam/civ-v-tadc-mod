@@ -8,7 +8,7 @@
 
 
 --
--- TADC1: Cainic Empire
+-- TADC1: Cainic Empire: Custom Circus code
 --
 function Tadc1DigitalCircusAbility(iPlayer, iCity, iBuilding)
 	-- Each time a construction finishes, check if it's a TADC_CIRCUS and run randomspawn
@@ -80,6 +80,53 @@ function insertUnitIfResearched(pPlayer, techName, unitName)
 	return nil
 end
 
+--
+-- TADC1: Cainic Empire: Custom Golden Age code
+--
+local notifSentGoldenAge = false;
+function Tadc1GoldenAgeTrait(playerID)
+	-- If player is Caine, manage their Golden Age bonus. Thanks to DJSHenninger for this snippet (Additional Civilizations Mod)
+	local player = Players[playerID]
+	if player:GetCivilizationType() == GameInfoTypes["CIVILIZATION_TADC1"] and player:IsAlive() then
+		for city in player:Cities() do
+			if (city:GetNumBuilding(GameInfoTypes["BUILDING_TADC_CAINETRAIT"]) > 0) then
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_TADC_CAINETRAIT"], 0)
+			end
+			if player:IsGoldenAge() then
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_TADC_CAINETRAIT"], 1)
+				if (notifSentGoldenAge == false) then
+					notifSentGoldenAge = true;
+					local heading = "Digital Feast has begun!";
+					local text = "During this Golden Age, all cities enjoy a Digital Feast, providing +20% Food generation!";
+     				player:AddNotification(NotificationTypes.NOTIFICATION_GENERIC, text, heading);
+				end
+			else
+				if (notifSentGoldenAge == true) then
+					notifSentGoldenAge = false;
+				end
+			end
+		end
+	end
+end
+
+function Tadc1BonusGoldenAgeStart(iTeamID, eTech, iChange)
+	-- If a team completes Electricity tech, check every player on the map to see if they're part of this team.
+	-- If they are, and are also the Cainic Civ, they'll get a free Golden Age.
+	-- Thanks to Firaxis for this snippet (NewWorldScenario.TurnsRemaining.OnTechResearched).
+	if (GameInfoTypes["TECH_ELECTRICITY"] == eTech) then
+ 		for iLoopPlayer = 0, GameDefines.MAX_CIV_PLAYERS-1, 1 do
+		    local pLoopPlayer = Players[iLoopPlayer];
+		    if (pLoopPlayer:GetTeam() == iTeamID) then
+				if (iChange == 1) then -- The wiki says regarding what iChange means: "No idea". But it's in Firaxis' snippet, I'm keeping it here.
+					pLoopPlayer:ChangeGoldenAgeTurns(pLoopPlayer:GetGoldenAgeLength());
+				end
+		    end
+		end
+	end
+end
+
+
+
 
 
 --
@@ -146,6 +193,8 @@ end
 print("TADC Lua loaded successfully")
 -- Tadc1 Events
 GameEvents.CityConstructed.Add( Tadc1DigitalCircusAbility );
+GameEvents.PlayerDoTurn.Add( Tadc1GoldenAgeTrait );
+GameEvents.TeamTechResearched.Add( Tadc1BonusGoldenAgeStart );
 -- Tadc2 Events
 GameEvents.CityConstructed.Add( Tadc2GanglesTheaterAbility );
 GameEvents.PlayerDoTurn.Add( Tadc2CheckForFreeGanglesTheater );

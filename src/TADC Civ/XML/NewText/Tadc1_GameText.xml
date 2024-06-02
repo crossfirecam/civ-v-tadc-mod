@@ -22,6 +22,12 @@
 		<Row Tag="TXT_KEY_CIV5_TADC1_TEXT_1">
 			<Text>Officially known in this world as the Cainic Empire, The Circus is short-hand for The Amazing Digital Circus. This computerised world is the homeland to various virtual characters. City names for the empire are decided by Caine's tried-and-tested Random Name Generator.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CIV5_TADC1_HEADING_2">
+			<Text>How Did He Arrive Here?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TADC1_TEXT_2">
+			<Text>...</Text> <!-- TODO fill this Placeholder -->
+		</Row>
 		
 		
 		<!-- Cainic Civlopedia (Leader) -->
@@ -50,7 +56,13 @@
 			<Text>Digital Feast</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_DIGITAL_FEAST">
-			<Text>[ICON_GOLDEN_AGE] Golden Ages provide +10% [ICON_FOOD] Food generation in all Cities. Upon reaching Electricity, a [ICON_GOLDEN_AGE] Golden Age begins.</Text>
+			<Text>[ICON_GOLDEN_AGE] Golden Ages provide +20% [ICON_FOOD] Food generation in all Cities. Upon reaching Electricity, a [ICON_GOLDEN_AGE] Golden Age begins.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BUILDING_TADC_CAINETRAIT">
+			<Text>Bubble's Digital Feast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BUILDING_TADC_CAINETRAIT_TEXT">
+			<Text>Unique Ability of the Cainic Civilization[NEWLINE][NEWLINE][ICON_GOLDEN_AGE] Golden Ages provide +20% [ICON_FOOD] Food generation in all Cities.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CAINIC_ALL_SEEING_EYE">
 			<Text>All-Seeing Eye</Text>
@@ -73,8 +85,8 @@
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_TADC_CIRCUS_TEXT">
 			<Text>Constructing this miniature Digital Circus allows Caine to temporarily harness his ability to summon NPCs. His lacking power here limits this ability to Medieval Era units at most. Still, the citizens of the Caine Empire gain a lot of joy from the unique, age-appropriate entertainment available at this venue.</Text>
 		</Row>
-		
-		
+
+
 		<!-- Cainic Unique Promotion -->
 		<Row Tag="TXT_KEY_PROMOTION_SLOWER_HEAL">
 			<Text>Heals at Half Rate</Text>
