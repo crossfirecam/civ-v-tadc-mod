@@ -62,13 +62,13 @@
 			<Text>Acrobat</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_CASTALLIED_ACROBAT">
-			<Text>The Acrobat excels in agility, taking less ranged damage and able to move after attacking. The unit will also ignore terrain cost until upgraded into Pikemen. This unit is cheaper and as strong as the Spearman, which it replaces.</Text>
+			<Text>The Acrobat excels in agility, taking less ranged damage and able to move after attacking. This unit is cheaper and as strong as the Spearman, which it replaces.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_CASTALLIED_ACROBAT_TEXT">
-			<Text>In an effort to train their soldiers for anything, Kinger ditched the standard training regiment for a much tougher ordeal... Asking the recruits to run in a straight line while he throws a comical amount of bananas into their path. This rigorous program paid off, as the Acrobats exhibit superior movement compared to their Spearmen counterparts.[NEWLINE][NEWLINE]Unfortunately some of their Acrobat training becomes impractical once promoted to Pikemen in the Medieval Era. "Our equipment is too heavy now, they said. That's no excuse to slow down if you ask me!" Kinger complained aloud while shaking his head. "That's rich coming from the guy who can only move one square at a time" Zooble quipped in reply.</Text>
+			<Text>In an effort to train their soldiers for anything, Kinger ditched the standard training regiment for a much tougher ordeal... Asking the recruits to run in a straight line while he throws a comical amount of bananas into their path. This rigorous program paid off, as the Acrobats exhibit superior evasion tactics compared to their Spearmen counterparts.[NEWLINE][NEWLINE]Not every soldier is cut out to be an Acrobat. Kinger finds himself venting about that sometimes. "Our equipment is too heavy - we can't do it, they said. That's no excuse to slow down if you ask me!" Kinger complained aloud while shaking his head. "That's rich coming from the guy who can only move one square at a time" Zooble quipped in reply.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CASTALLIED_ACROBAT_STRATEGY">
-			<Text>The Acrobat is the Cast-Allied unique unit, replacing the Spearman. It possesses a permanent promotion that provides 16% extra defence from ranged sources and allows the unit to move after attacking. It also possesses a temporary promotion (until upgraded to Pikemen) that allows them to ignore terrain cost.</Text>
+			<Text>The Acrobat is the Cast-Allied unique unit, replacing the Spearman. It possesses a promotion that provides 16% extra defence from ranged sources and allows the unit to move after attacking.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TADC2_GANGLES_THEATER">
 			<Text>Gangle's Theater</Text>

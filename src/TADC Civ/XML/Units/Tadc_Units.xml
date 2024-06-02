@@ -84,7 +84,7 @@
 			<Class>UNITCLASS_SPEARMAN</Class>
 			<Type>UNIT_CASTALLIED_ACROBAT</Type>
 			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
-			<Combat>10</Combat> <!-- Slightly weaker -->
+			<Combat>11</Combat>
 			<Cost>48</Cost> <!-- Slightly cheaper -->
 			<FaithCost>95</FaithCost> <!-- Slightly cheaper -->
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
@@ -116,10 +116,6 @@
 		<Row>
 			<UnitType>UNIT_CASTALLIED_ACROBAT</UnitType>
 			<PromotionType>PROMOTION_ACROBAT_TRAINING</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_CASTALLIED_ACROBAT</UnitType>
-			<PromotionType>PROMOTION_ACROBAT_AGILITY</PromotionType>
 		</Row>
 	</Unit_FreePromotions>
 	<UnitGameplay2DScripts>
