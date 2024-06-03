@@ -11,7 +11,7 @@
 			<Text>The Lost Cast</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TADC2_DOM">
-			<Text>Good day to you, Pomni of The Amazing Digital Circus! You have escaped from your dimension of infinite imprisonment but have leapt from the frying pan into the fire. You find yourself in a different digital realm - created to simulate the ebb and flow of culture, technology, and war in humanity's past. You should not count on your opponents being peaceful, Pomni. Inexperienced leaders like you make for easy pickings.[NEWLINE][NEWLINE]Your friends from the Circus voted that you would act as leader, except for Jax. Following the vote, Jax decided it would be best to go off on his own. The remaining members offer help in the ways they know how. Ragatha works on an escape strategy. Gangle provides culture to your people. Kinger trains Acrobats to assist your military. And lastly, Zooble is the group's informant, gathering valuable intel.[NEWLINE][NEWLINE]As dire as your situation is, try not to panic. Scared and unproven you may be, Pomni, but your fate is not sealed. You have friends, and as a team you all have promise. Are you up to the task of securing victory, and passing from this realm into the next? Will you build a civilization that stands the test of time?</Text>
+			<Text>Good day to you, Pomni of The Amazing Digital Circus! You have escaped from your dimension of infinite imprisonment but have leapt from the frying pan into the fire. You find yourself in a different digital realm - created to simulate the ebb and flow of culture, technology, and war in humanity's past. You should not count on your opponents being peaceful, Pomni. Inexperienced leaders like you make for easy pickings.[NEWLINE][NEWLINE]Your friends from the Circus voted that you would act as leader, except for Jax. Following the vote, Jax decided it would be best to go off on his own. The remaining members offer help in the ways they know how. Ragatha is your tailor, making good use of Silk and other resources. Gangle provides entertainment to your people. Kinger trains Acrobats to assist your military. And lastly, Zooble is the group's informant, gathering valuable intel.[NEWLINE][NEWLINE]As dire as your situation is, try not to panic. Scared and unproven you may be, Pomni, but your fate is not sealed. You have friends, and as a team you all have promise. Are you up to the task of securing victory, and passing from this realm into the next? Will you build a civilization that stands the test of time?</Text>
 		</Row>
 
 
@@ -20,7 +20,7 @@
 			<Text>About The Cast-Members Alliance</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TADC2_TEXT_1">
-			<Text>The Cast-Members Alliance is a group of 5 humans, trapped in a virtual world named The Amazing Digital Circus. Each of the Cast-Members offer a special talent to help this Civilization flourish. The five also take turns in naming newly-founded cities.[NEWLINE][NEWLINE][ICON_BULLET] Pomni (Leader): Responsible for everything the others don't want to do.[NEWLINE][ICON_BULLET] Gangle (Entertainer): Keeps the people happy the best she can.[NEWLINE][ICON_BULLET] Kinger (Military Commander): Trains the Acrobats by throwing bananas in front of them constantly, until they learn to adapt.[NEWLINE][ICON_BULLET] Ragatha (Strategist): Works consistently to encourage progress.[NEWLINE][ICON_BULLET] Zooble (Secret Agent): Their detached limbs act as spies, harvesting vital intelligence from other Civilizations.</Text>
+			<Text>The Cast-Members Alliance is a group of 5 humans, trapped in a virtual world named The Amazing Digital Circus. Each of the Cast-Members offer a special talent to help this Civilization flourish. The five also take turns in naming newly-founded cities.[NEWLINE][NEWLINE][ICON_BULLET] Pomni (Leader): Responsible for everything the others don't want to do.[NEWLINE][ICON_BULLET] Gangle (Entertainer): Keeps the people happy the best she can.[NEWLINE][ICON_BULLET] Kinger (Military Commander): Trains the Acrobats by throwing bananas in front of them constantly, until they learn to adapt.[NEWLINE][ICON_BULLET] Ragatha (Tailor): Employs her talents with needlework to improve luxury yields.[NEWLINE][ICON_BULLET] Zooble (Secret Agent): Their detached limbs act as spies, harvesting vital intelligence from other Civilizations.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TADC2_HEADING_2">
 			<Text>How Did They Arrive Here?</Text>
@@ -51,13 +51,20 @@
 		</Row>
 
 
-		<!-- Cast-Allied Unique Trait/Unit/Building -->
-		<Row Tag="TXT_KEY_TRAIT_RAGATHAS_PLAN_SHORT">
-			<Text>Ragatha's Plan</Text>
+		<!-- Cast-Allied Unique Trait -->
+		<Row Tag="TXT_KEY_TRAIT_RAGATHA_NEEDLEWORK_SHORT">
+			<Text>Ragatha's Needlework</Text>
 		</Row>
-		<Row Tag="TXT_KEY_TRAIT_RAGATHAS_PLAN">
-			<Text>Cities (except the [ICON_CAPITAL] Capital) grant +1 [ICON_RESEARCH] Science and +1 [ICON_CULTURE] Culture. This bonus triples once a city passes 5 [ICON_CITIZEN] Population. Receive a free Great Scientist upon completing your first social tree.</Text>
+		<Row Tag="TXT_KEY_TRAIT_RAGATHA_NEEDLEWORK">
+			<Text>Ragatha knows how to make best use of sewing resources. [ICON_RES_COTTON] Cotton, [ICON_RES_SILK]Silk, [ICON_RES_FUR] Fur and [ICON_RES_DYE] Dyes each provide 2 tradeable copies, and also provide +2 [ICON_PRODUCTION] Production.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TADC_POMNITRAIT">
+			<Text>Rag's Needlework</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TADC_POMNITRAIT_TEXT">
+			<Text>Unique Ability of the Cast-Allied Civilization.[NEWLINE][NEWLINE]Each source of [ICON_RES_COTTON] Cotton, [ICON_RES_SILK] Silk, [ICON_RES_FUR] Fur and [ICON_RES_DYE] Dye worked by this city produce +2 Production.</Text>
+		</Row>
+		<!-- Cast-Allied Unique Unit -->
 		<Row Tag="TXT_KEY_UNIT_CASTALLIED_ACROBAT">
 			<Text>Acrobat</Text>
 		</Row>
@@ -70,6 +77,7 @@
 		<Row Tag="TXT_KEY_UNIT_CASTALLIED_ACROBAT_STRATEGY">
 			<Text>The Acrobat is the Cast-Allied unique unit, replacing the Spearman. It possesses a promotion that provides 16% extra defence from ranged sources and allows the unit to move after attacking.</Text>
 		</Row>
+		<!-- Cast-Allied Unique Buildings -->
 		<Row Tag="TXT_KEY_BUILDING_TADC2_GANGLES_THEATER">
 			<Text>Gangle's Theater</Text>
 		</Row>

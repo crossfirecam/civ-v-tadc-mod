@@ -51,19 +51,20 @@
 		</Row>
 
 
-		<!-- Cainic Unique Trait/Unit/Building -->
+		<!-- Cainic Unique Trait -->
 		<Row Tag="TXT_KEY_TRAIT_DIGITAL_FEAST_SHORT">
 			<Text>Digital Feast</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_DIGITAL_FEAST">
 			<Text>[ICON_GOLDEN_AGE] Golden Ages provide +20% [ICON_FOOD] Food generation in all Cities. Upon reaching Electricity, a [ICON_GOLDEN_AGE] Golden Age begins.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_BUILDING_TADC_CAINETRAIT">
+		<Row Tag="TXT_KEY_BUILDING_TADC_CAINETRAIT">
 			<Text>Bubble's Digital Feast</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_BUILDING_TADC_CAINETRAIT_TEXT">
+		<Row Tag="TXT_KEY_BUILDING_TADC_CAINETRAIT_TEXT">
 			<Text>Unique Ability of the Cainic Civilization[NEWLINE][NEWLINE][ICON_GOLDEN_AGE] Golden Ages provide +20% [ICON_FOOD] Food generation in all Cities.</Text>
 		</Row>
+		<!-- Cainic Unique Unit -->
 		<Row Tag="TXT_KEY_UNIT_CAINIC_ALL_SEEING_EYE">
 			<Text>All-Seeing Eye</Text>
 		</Row>
@@ -76,6 +77,7 @@
 		<Row Tag="TXT_KEY_UNIT_CAINIC_ALL_SEEING_EYE_STRATEGY">
 			<Text>The All-Seeing Eye is the Cainic unique unit, replacing the Scout. It provides +1 Visibility Range, but it is weaker and healing is halved.</Text>
 		</Row>
+		<!-- Cainic Unique Building -->
 		<Row Tag="TXT_KEY_BUILDING_TADC_CIRCUS">
 			<Text>Digital Circus</Text>
 		</Row>

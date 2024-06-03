@@ -3,7 +3,17 @@
 	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_TADC_CAINETRAIT</Type>
-			<DefaultBuilding>BUILDING_ROMANIA_TRAIT</DefaultBuilding>
+			<DefaultBuilding>BUILDING_TADC_CAINETRAIT</DefaultBuilding>
+			<MaxGlobalInstances>-1</MaxGlobalInstances>
+			<MaxTeamInstances>-1</MaxTeamInstances>
+			<MaxPlayerInstances>-1</MaxPlayerInstances>
+			<ExtraPlayerInstances>0</ExtraPlayerInstances>
+			<NoLimit>false</NoLimit>
+			<Monument>false</Monument>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TADC_POMNITRAIT</Type>
+			<DefaultBuilding>BUILDING_TADC_POMNITRAIT</DefaultBuilding>
 			<MaxGlobalInstances>-1</MaxGlobalInstances>
 			<MaxTeamInstances>-1</MaxTeamInstances>
 			<MaxPlayerInstances>-1</MaxPlayerInstances>
