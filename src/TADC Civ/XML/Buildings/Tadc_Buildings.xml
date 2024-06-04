@@ -93,24 +93,6 @@
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
 			<PortraitIndex>17</PortraitIndex>
 		</Row>
-		
-		<!-- Pomni Civ: Building to help with her Trait. -->
-		<Row>
-			<Type>BUILDING_TADC_POMNITRAIT</Type>
-			<BuildingClass>BUILDINGCLASS_TADC_POMNITRAIT</BuildingClass>
-			<Help>TXT_KEY_BUILDING_TADC_POMNITRAIT_TEXT</Help>
-			<Description>TXT_KEY_BUILDING_TADC_POMNITRAIT</Description>
-			<Cost>-1</Cost>
-			<FaithCost>-1</FaithCost>
-			<GoldMaintenance>0</GoldMaintenance>
-			<PrereqTech>NULL</PrereqTech>
-			<ArtDefineTag>COLESSEUM</ArtDefineTag>
-			<ConquestProb>100</ConquestProb>
-			<MinAreaSize>-1</MinAreaSize>
-			<NeverCapture>true</NeverCapture>
-			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
-			<PortraitIndex>9</PortraitIndex> <!-- Placeholder, replace with icon of Ragatha -->
-		</Row>
 	</Buildings>
 
 	<Building_YieldChanges>
@@ -132,30 +114,4 @@
 			<Yield>20</Yield>
 		</Row>
 	</Building_YieldModifiers>
-	<Building_ResourceYieldChanges>
-		<Row>
-			<BuildingType>BUILDING_TADC_POMNITRAIT</BuildingType>
-			<ResourceType>RESOURCE_SILK</ResourceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_TADC_POMNITRAIT</BuildingType>
-			<ResourceType>RESOURCE_COTTON</ResourceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_TADC_POMNITRAIT</BuildingType>
-			<ResourceType>RESOURCE_FUR</ResourceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_TADC_POMNITRAIT</BuildingType>
-			<ResourceType>RESOURCE_DYE</ResourceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
-		</Row>
-	</Building_ResourceYieldChanges>
 </GameData>

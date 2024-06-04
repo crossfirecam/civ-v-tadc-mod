@@ -9,8 +9,6 @@
 			<Type>TRAIT_RAGATHA_NEEDLEWORK</Type>
 			<Description>TXT_KEY_TRAIT_RAGATHA_NEEDLEWORK</Description>
 			<ShortDescription>TXT_KEY_TRAIT_RAGATHA_NEEDLEWORK_SHORT</ShortDescription>
-			<FreeBuildingOnConquest>BUILDING_TADC_POMNITRAIT</FreeBuildingOnConquest>
-			<FreeBuilding>BUILDING_TADC_POMNITRAIT</FreeBuilding>
 		</Row>
 	</Traits>
 	<Trait_ResourceQuantityModifiers>
@@ -35,4 +33,12 @@
 			<ResourceQuantityModifier>100</ResourceQuantityModifier>
 		</Row>
 	</Trait_ResourceQuantityModifiers>
+	<Trait_ImprovementYieldChanges>
+		<Row>
+			<TraitType>TRAIT_RAGATHA_NEEDLEWORK</TraitType>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Trait_ImprovementYieldChanges>
 </GameData>

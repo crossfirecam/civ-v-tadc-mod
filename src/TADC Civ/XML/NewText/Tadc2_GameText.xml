@@ -56,13 +56,7 @@
 			<Text>Ragatha's Needlework</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_RAGATHA_NEEDLEWORK">
-			<Text>Ragatha knows how to make best use of sewing resources. [ICON_RES_COTTON] Cotton, [ICON_RES_SILK]Silk, [ICON_RES_FUR] Fur and [ICON_RES_DYE] Dyes each provide 2 tradeable copies, and also provide +2 [ICON_PRODUCTION] Production.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_TADC_POMNITRAIT">
-			<Text>Rag's Needlework</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_TADC_POMNITRAIT_TEXT">
-			<Text>Unique Ability of the Cast-Allied Civilization.[NEWLINE][NEWLINE]Each source of [ICON_RES_COTTON] Cotton, [ICON_RES_SILK] Silk, [ICON_RES_FUR] Fur and [ICON_RES_DYE] Dye worked by this city produce +2 Production.</Text>
+			<Text>Ragatha offers her expertise at harvesting fabrics. Improved [ICON_RES_COTTON] Cotton, [ICON_RES_SILK] Silk, [ICON_RES_FUR] Fur and [ICON_RES_DYE] Dye each provide 2 tradeable copies. +2 [ICON_PRODUCTION] Production to Plantations.</Text>
 		</Row>
 		<!-- Cast-Allied Unique Unit -->
 		<Row Tag="TXT_KEY_UNIT_CASTALLIED_ACROBAT">
