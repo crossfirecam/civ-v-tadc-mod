@@ -55,6 +55,20 @@
 
 
 	<!-- Unique units & buildings - TODO -->
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC3</CivilizationType>
+			<UnitClassType>UNITCLASS_SPEARMAN</UnitClassType>
+			<UnitType>UNIT_CASTALLIED_ACROBAT</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC3</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<BuildingType>BUILDING_TADC_GANGLES_THEATER</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
 
 
 	<!-- City & Spy Names - TODO -->

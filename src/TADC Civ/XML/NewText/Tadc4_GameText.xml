@@ -52,10 +52,10 @@
 
 
 		<!-- Candy-Coated Unique Trait -->
-		<Row Tag="TXT_KEY_TRAIT_ASSEMBLY_LINE_SHORT">
+		<Row Tag="TXT_KEY_TRAIT_CANDY_COMMUNION_SHORT">
 			<Text>Candy Communion</Text>
 		</Row>
-		<Row Tag="TXT_KEY_TRAIT_ASSEMBLY_LINE">
+		<Row Tag="TXT_KEY_TRAIT_CANDY_COMMUNION">
 			<Text>Upon studying Calendar, gain +1 Faith from Sugar, Cocoa, Citrus, Spice and Banana tiles. Temples provide +2 [ICON_FOOD] Food.</Text>
 		</Row>
 		<!-- Candy-Coated Unique Improvement -->
