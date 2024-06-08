@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Based on template by DoktorApplejuce on CivFanatics https://forums.civfanatics.com/threads/need-help-adding-new-diplomacy-responses.548209/ -->
+<GameData>
+	<!-- TODO fill these placeholders -->
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_TADC3_JAX">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC3_JAX_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TADC3_JAX">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC3_JAX_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TADC3_JAX">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC3_JAX_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TADC3_JAX">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC3_JAX_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TADC3_JAX">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC3_JAX_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TADC3_JAX">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC3_JAX_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TADC3_JAX">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC3_JAX_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TADC3_JAX">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC3_JAX_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TADC3_JAX">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC3_JAX_RESPONSE_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TADC3_JAX">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC3_JAX_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TADC3_JAX">
+			<ResponseType>RESPONSE_ATTACKED_BETRAYED</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC3_JAX_ATTACKED_BETRAYED</Response>
+		</Row>
+		<Row LeaderType="LEADER_TADC3_JAX">
+			<ResponseType>RESPONSE_ATTACKED_EXCITED</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC3_JAX_ATTACKED_EXCITED</Response>
+		</Row>
+		<Row LeaderType="LEADER_TADC3_JAX">
+			<ResponseType>RESPONSE_ATTACKED_HOSTILE</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC3_JAX_ATTACKED_HOSTILE</Response>
+		</Row>
+		<Row LeaderType="LEADER_TADC3_JAX">
+			<ResponseType>RESPONSE_DECLAREWAR</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC3_JAX_DECLAREWAR%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TADC3_JAX">
+			<ResponseType>RESPONSE_TRADE_NEEDMORE_ANGRY</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC3_JAX_TRADE_NEEDMORE_ANGRY</Response>
+		</Row>
+		<Row LeaderType="LEADER_TADC3_JAX">
+			<ResponseType>RESPONSE_TRADE_NEEDMORE_NEUTRAL</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC3_JAX_TRADE_NEEDMORE_NEUTRAL</Response>
+		</Row>
+		<Row LeaderType="LEADER_TADC3_JAX">
+			<ResponseType>RESPONSE_TRADE_NEEDMORE_HAPPY</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC3_JAX_TRADE_NEEDMORE_HAPPY</Response>
+		</Row>
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEADER_TADC3_JAX_FIRSTGREETING_1">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TADC3_JAX_DEFEATED_1">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TADC3_JAX_GREETING_POLITE_HELLO_1">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TADC3_JAX_GREETING_NEUTRAL_HELLO_1">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TADC3_JAX_GREETING_HOSTILE_HELLO_1">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TADC3_JAX_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TADC3_JAX_EXPANSION_SERIOUS_WARNING_1">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TADC3_JAX_REQUEST">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TADC3_JAX_LUXURY_TRADE">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TADC3_JAX_ATTACKED_BETRAYED">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TADC3_JAX_ATTACKED_EXCITED">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TADC3_JAX_ATTACKED_HOSTILE">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TADC3_JAX_DECLAREWAR_1">
+			<Text>...</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

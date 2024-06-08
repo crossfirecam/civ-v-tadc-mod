@@ -1,0 +1,103 @@
+<GameData>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_TADC4</Type>
+			<Description>TXT_KEY_CIV_TADC4_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_TADC4_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_TADC4_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_TADC4_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIV5_TADC4</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_WHITE</DefaultPlayerColor> <!-- Placeholder, decide later -->
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ENGLAND</ArtDefineTag> <!-- Placeholder, decide later -->
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType> <!-- Placeholder, decide later -->
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix> <!-- Placeholder, decide later -->
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix> <!-- Placeholder, decide later -->
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
+			<AlphaIconAtlas>ALPHA_ATLAS_TADC_CIVICONS</AlphaIconAtlas>
+			<MapImage>MapAmerica512.dds</MapImage> <!-- Placeholder, replace -->
+			<DawnOfManQuote>TXT_KEY_CIV5_TADC4_DOM</DawnOfManQuote>
+			<DawnOfManImage>TADC4_DOM.dds</DawnOfManImage>
+		</Row>
+	</Civilizations>
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC4</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC4</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC4</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC4</CivilizationType>
+			<LeaderheadType>LEADER_TADC4_LOOLILALU</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC4</CivilizationType>
+			<RegionType>REGION_FOREST</RegionType> <!-- Placeholder, decide later -->
+		</Row>
+	</Civilization_Start_Region_Priority>
+
+
+	<!-- Unique units & buildings - TODO -->
+
+
+	<!-- City & Spy Names - TODO -->
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC4</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC4_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC4</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC4_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC4</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC4_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC4</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC4_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC4</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC4_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC4</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC4_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC4</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC4_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC4</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC4_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC4</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC4_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TADC4</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TADC4_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+</GameData>

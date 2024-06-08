@@ -1,0 +1,121 @@
+<GameData>
+	<Language_en_US>
+		<!-- Jaxian Civ -->
+		<Row Tag="TXT_KEY_CIV_TADC3_ADJECTIVE">
+			<Text>Jaxian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TADC3_DESC">
+			<Text>The House of Jax</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TADC3_SHORT_DESC">
+			<Text>House of Jax</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TADC3_DOM">
+			<Text>...</Text>
+		</Row>
+
+
+		<!-- Jaxian Civlopedia (Civ) -->
+		<Row Tag="TXT_KEY_CIV5_TADC3_HEADING_1">
+			<Text>About The House of Jax</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TADC3_TEXT_1">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TADC3_HEADING_2">
+			<Text>How Did He Arrive Here?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TADC3_TEXT_2">
+			<Text>...</Text>
+		</Row>
+
+
+		<!-- Jaxian Civlopedia (Leader) -->
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC3_JAX_HEADING_1">
+			<Text>About Jax</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC3_JAX_TEXT_1">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC3_JAX_LIVED">
+			<Text>?? - ?? AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC3_JAX_NAME">
+			<Text>Jax</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC3_JAX_SUBTITLE">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TADC3_JAX">
+			<Text>Jax</Text>
+		</Row>
+
+
+		<!-- Jaxian Unique Trait -->
+		<Row Tag="TXT_KEY_TRAIT_ASSEMBLY_LINE_SHORT">
+			<Text>Assembly Line</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_ASSEMBLY_LINE">
+			<Text>+1 [ICON_PRODUCTION] Production from Specialists. Workshops and Factories provide +1 [ICON_FOOD] Food.</Text>
+		</Row>
+		<!-- Jaxian Unique Unit -->
+		<Row Tag="TXT_KEY_UNIT_JAXIAN_SHOTGUNNER">
+			<Text>Shotgunner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JAXIAN_SHOTGUNNER">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JAXIAN_SHOTGUNNER_TEXT">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JAXIAN_SHOTGUNNER_STRATEGY">
+			<Text>...</Text>
+		</Row>
+		<!-- Jaxian Unique Building -->
+		<Row Tag="TXT_KEY_BUILDING_TADC3_GLADIATOR_ARENA">
+			<Text>Gangle's Theater</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TADC3_GLADIATOR_ARENA_STRATEGY">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_TADC3_GLADIATOR_ARENA_TEXT">
+			<Text>...</Text>
+		</Row>
+
+
+		<!-- Jaxian Cities (Naming Scheme: TODO) -->
+
+
+		<!-- Jaxian Spies -->
+		<Row Tag="TXT_KEY_SPY_NAME_TADC3_0">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC3_1">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC3_2">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC3_3">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC3_4">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC3_5">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC3_6">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC3_7">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC3_8">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TADC3_9">
+			<Text>...</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

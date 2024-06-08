@@ -27,19 +27,5 @@
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
 			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_ACROBAT_TRAINING</PediaEntry>
 		</Row>
-		<Row> 
-			<!-- Not used. Acrobats being given Ignore Terrain Cost, despite being removed upon upgrade, is still too powerful. Maybe grant this during a special event? -->
-			<Type>PROMOTION_ACROBAT_AGILITY</Type>
-			<Description>TXT_KEY_PROMOTION_ACROBAT_AGILITY</Description>
-			<Help>TXT_KEY_PROMOTION_ACROBAT_AGILITY_HELP</Help>
-			<Sound>AS2D_IF_LEVELUP</Sound>
-			<CannotBeChosen>true</CannotBeChosen>
-			<LostWithUpgrade>true</LostWithUpgrade>
-			<IgnoreTerrainCost>true</IgnoreTerrainCost>
-			<PortraitIndex>4</PortraitIndex>
-			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
-			<PediaType>PEDIA_ATTRIBUTES</PediaType>
-			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_ACROBAT_AGILITY</PediaEntry>
-		</Row>
 	</UnitPromotions>
 </GameData>

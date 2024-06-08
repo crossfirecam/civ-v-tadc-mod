@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Based on template by DoktorApplejuce on CivFanatics https://forums.civfanatics.com/threads/need-help-adding-new-diplomacy-responses.548209/ -->
 <GameData>
+	<!-- TODO fill these placeholders -->
 	<Diplomacy_Responses>
 		<Row LeaderType="LEADER_TADC2_POMNI">
 			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
@@ -73,43 +74,43 @@
 	</Diplomacy_Responses>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_FIRSTGREETING_1">
-			<Text>Welcome to the Amazing-! Uhh- The Amazing Cainic Empire! My name is Caine, and I'll be your ring-master!</Text>
+			<Text>...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_DEFEATED_1">
-			<Text>... Now, what the heck happened around here? Oh yeah, my doing... You've defeated me, so I guess the adventure's over!</Text>
+			<Text>...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_GREETING_POLITE_HELLO_1">
-			<Text>Welcome! Please come and partake with me in a delicious Digital Feast, cooked by our head Bubble Chef!</Text>
+			<Text>...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_GREETING_NEUTRAL_HELLO_1">
-			<Text>Ha ha ha! Oh, player, you always know how to make me say this exact sentence.</Text>
+			<Text>...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_GREETING_HOSTILE_HELLO_1">
-			<Text>Let's not waste anymore time, and let's get right into the discussion.</Text>
+			<Text>...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
-			<Text>Peace? War? It's all okay! The choice is yours, a cosmic buffet! I'm inclined to choose War, myself...</Text>
+			<Text>...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_EXPANSION_SERIOUS_WARNING_1">
-			<Text>YOU PARASITE! Why expand into my sphere of influence??</Text>
+			<Text>...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_REQUEST">
-			<Text>I'd like to ask something of you. Give your ol' pal Caine a hand, wouldn't you?</Text>
+			<Text>...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_LUXURY_TRADE">
-			<Text>My Wacky Watchet tells me that you have luxuries available for sale!</Text>
+			<Text>...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_ATTACKED_BETRAYED">
-			<Text>Gadzooks! My good friend abstracted?? Why didn't anybody tell me?</Text>
+			<Text>...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_ATTACKED_EXCITED">
-			<Text>I've been looking forward to a new adventure. Bring it on!</Text>
+			<Text>...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_ATTACKED_HOSTILE">
-			<Text>You! Do you like adventure? Danger? Horror? Pain? Suffering? Agony? Disease? Illness? Death? Angel food cake?</Text>
+			<Text>...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_DECLAREWAR_1">
-			<Text>Today's adventure is... destroy the enemy! Hahahaha, haha, haha!!</Text>
+			<Text>...</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
