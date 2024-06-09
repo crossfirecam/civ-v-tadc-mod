@@ -11,7 +11,7 @@
 			<Text>House of Jax</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TADC3_DOM">
-			<Text>...</Text>
+			<Text>Your soldiers stand at attention and salute to you King Jax, fearsome ruler of The Great House of Jax and ruthless strategist. Your people delight in the unruly chaos you bring, while your enemies cower and hide from the same chaos that stamps their ambitions into dust. Your beginnings may have been humble, but soon after arriving in this realm, the trees were cleared to make way for your plans. Industry flourished, your people were granted a lavish lifestyle, and your military only kept growing.[NEWLINE][NEWLINE]This populace has become a passionate clan, a war-hungry population with countless tools of destruction built, but with no time or place to use them. They are eager to assist you in your misdeeds. Your people work tirelessly to bring you the tools that you need to dominate the landscape, for with your triumphs they will reap rewards at a magnitude unheard of to their predecessors.[NEWLINE][NEWLINE]Remarkable King, your people hunger for glory, for war. They desire for their borders to extend past the horizon. They yearn for a brilliant commander to lead them to victory. Will you answer their call? Can you build a civilization that will stand the test of time?</Text>
 		</Row>
 
 
@@ -64,13 +64,13 @@
 			<Text>Shotgunner</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_JAXIAN_SHOTGUNNER">
-			<Text>The shotgunner excels in survivability. The unit heals 20HP after kills and suffers no penalty from pillaging, unlike the Rifleman it replaces. May only be built by the House of Jax.</Text>
+			<Text>The shotgunner excels in survivability. The unit heals 20HP after kills, unlike the Rifleman it replaces. May only be built by the House of Jax.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_UNIT_JAXIAN_SHOTGUNNER_TEXT">
 			<Text>Pilfered from the Candy Canyon Kingdom, the design of this shotgun is rudimentary but effective.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_JAXIAN_SHOTGUNNER_STRATEGY">
-			<Text>The Shotgunner is the Jaxian unique unit, replacing the Riflemen. It possesses a promotion that provides 16% extra defence from ranged sources and allows the unit to move after attacking.</Text>
+			<Text>The Shotgunner is the Jaxian unique unit, replacing the Riflemen. It possesses a promotion that provides 20HP after killing a non-barbarian enemy.</Text>
 		</Row>
 		
 		<!-- Jaxian Unique Building -->
@@ -89,7 +89,7 @@
 			<Text>Edible Ammo</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_EDIBLE_AMMO_HELP">
-			<Text>Shotgunners heal 20 Damage when it kills a non-barbarian unit. Pillaging has zero movement cost.</Text>
+			<Text>Shotgunner heals 20 Damage when it kills a non-barbarian unit. Their weapon's ammunition doubles as a sugary, refreshing snack.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_PROMOTION_EDIBLE_AMMO">
 			<Text>Edible Ammo</Text>

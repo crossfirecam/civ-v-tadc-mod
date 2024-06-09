@@ -258,6 +258,7 @@
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
 			<GoodyHutUpgradeUnitClass>UNITCLASS_WWI_TANK</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>30</AdvancedStartCost>
+			<NumExoticGoods>1</NumExoticGoods> <!-- Added exotic good -->
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_CAVALRY</UnitArtInfo>

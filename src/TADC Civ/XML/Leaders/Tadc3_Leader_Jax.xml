@@ -283,7 +283,7 @@
 	<Leader_Traits>
 		<Row>
 			<LeaderType>LEADER_TADC3_JAX</LeaderType>
-			<TraitType>TRAIT_RAGATHA_NEEDLEWORK</TraitType>
+			<TraitType>TRAIT_ASSEMBLY_LINE</TraitType>
 		</Row>
 	</Leader_Traits>
 </GameData>

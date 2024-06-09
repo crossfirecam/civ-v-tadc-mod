@@ -10,6 +10,16 @@
 			<Description>TXT_KEY_TRAIT_RAGATHA_NEEDLEWORK</Description>
 			<ShortDescription>TXT_KEY_TRAIT_RAGATHA_NEEDLEWORK_SHORT</ShortDescription>
 		</Row>
+		<Row>
+			<Type>TRAIT_ASSEMBLY_LINE</Type>
+			<Description>TXT_KEY_TRAIT_ASSEMBLY_LINE</Description>
+			<ShortDescription>TXT_KEY_TRAIT_ASSEMBLY_LINE_SHORT</ShortDescription>
+		</Row>
+		<Row>
+			<Type>TRAIT_CANDY_COMMUNION</Type>
+			<Description>TXT_KEY_TRAIT_CANDY_COMMUNION</Description>
+			<ShortDescription>TXT_KEY_TRAIT_CANDY_COMMUNION_SHORT</ShortDescription>
+		</Row>
 	</Traits>
 	<Trait_ResourceQuantityModifiers>
 		<Row>
