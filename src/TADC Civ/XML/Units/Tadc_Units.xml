@@ -189,8 +189,8 @@
 			<UnitArtInfo>ART_DEF_UNIT_RIFLEMAN</UnitArtInfo>
 			<UnitFlagAtlas>ALPHA_ATLAS_TADC2_UNIT1</UnitFlagAtlas> <!-- Placeholder -->
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
-			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
+			<PortraitIndex>26</PortraitIndex>
 		</Row>
 	</Units>
 	<Unit_ClassUpgrades>

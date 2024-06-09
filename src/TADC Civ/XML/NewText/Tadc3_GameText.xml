@@ -58,19 +58,21 @@
 		<Row Tag="TXT_KEY_TRAIT_ASSEMBLY_LINE">
 			<Text>+1 [ICON_PRODUCTION] Production from Specialists. Workshops and Factories provide +1 [ICON_FOOD] Food.</Text>
 		</Row>
+		
 		<!-- Jaxian Unique Unit -->
 		<Row Tag="TXT_KEY_UNIT_JAXIAN_SHOTGUNNER">
 			<Text>Shotgunner</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_JAXIAN_SHOTGUNNER">
-			<Text>...</Text>
+			<Text>The shotgunner excels in survivability. The unit heals 20HP after kills and suffers no penalty from pillaging, unlike the Rifleman it replaces. May only be built by the House of Jax.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIV5_JAXIAN_SHOTGUNNER_TEXT">
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNIT_JAXIAN_SHOTGUNNER_TEXT">
 			<Text>Pilfered from the Candy Canyon Kingdom, the design of this shotgun is rudimentary but effective.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_JAXIAN_SHOTGUNNER_STRATEGY">
 			<Text>The Shotgunner is the Jaxian unique unit, replacing the Riflemen. It possesses a promotion that provides 16% extra defence from ranged sources and allows the unit to move after attacking.</Text>
 		</Row>
+		
 		<!-- Jaxian Unique Building -->
 		<Row Tag="TXT_KEY_BUILDING_TADC3_GLADIATOR_ARENA">
 			<Text>Gladiator Arena</Text>
@@ -82,7 +84,7 @@
 			<Text>Upon being presented with the idea to build a Zoo in the empire by his advisors, Jax shuddered at the thought of seeing wholesome animals in his cities. During his time at the Digital Circus, Jax had made clear he believes all things cute and peaceful to be... completely boring. And so, Jax commissions a series of Gladiator Arenas across the empire to test the mettle of his military and provide entertainment at the same time.</Text>
 		</Row>
 
-		<!-- Jaxian Unique Promotions -->
+		<!-- Jaxian Unique Promotion -->
 		<Row Tag="TXT_KEY_PROMOTION_EDIBLE_AMMO">
 			<Text>Edible Ammo</Text>
 		</Row>
