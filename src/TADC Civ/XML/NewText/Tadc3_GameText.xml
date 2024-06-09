@@ -82,6 +82,16 @@
 			<Text>...</Text>
 		</Row>
 
+		<!-- Jaxian Unique Promotions -->
+		<Row Tag="TXT_KEY_PROMOTION_EDIBLE_AMMO">
+			<Text>Edible Ammo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EDIBLE_AMMO_HELP">
+			<Text>Shotgunners heal 20 Damage when it kills a non-barbarian unit. Pillaging has zero movement cost.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_EDIBLE_AMMO">
+			<Text>Edible Ammo</Text>
+		</Row>
 
 		<!-- Jaxian Cities (Naming Scheme: TODO) -->
 

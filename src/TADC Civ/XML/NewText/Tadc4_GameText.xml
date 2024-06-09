@@ -82,6 +82,17 @@
 			<Text>...</Text>
 		</Row>
 
+		<!-- Candy-Coated Unique Promotions -->
+		<Row Tag="TXT_KEY_PROMOTION_ECLAIR_DELIVERY">
+			<Text>Eclair Delivery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ECLAIR_DELIVERY_HELP">
+			<Text>The War Rig carries an Eclair as cargo. May Sell the Eclair when adjacent to a foreign tile to gain [ICON_GOLD] Gold and XP based on distance from capital, but only once.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_ECLAIR_DELIVERY">
+			<Text>Eclair Delivery</Text>
+		</Row>
+
 
 		<!-- Candy-Coated Cities (Naming Scheme: TODO) -->
 

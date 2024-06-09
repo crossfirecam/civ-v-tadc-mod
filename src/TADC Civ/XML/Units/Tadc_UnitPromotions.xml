@@ -1,5 +1,6 @@
 <GameData>
 	<UnitPromotions>
+		<!-- Caine Civ: All-Seeing-Eye has reduced healing -->
 		<Row>
 			<Type>PROMOTION_SLOWER_HEAL</Type>
 			<Description>TXT_KEY_PROMOTION_SLOWER_HEAL</Description>
@@ -14,6 +15,8 @@
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
 			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_SLOWER_HEAL</PediaEntry>
 		</Row>
+		
+		<!-- Pomni Civ: Acrobat has half-Range-I and can move after attacking. -->
 		<Row>
 			<Type>PROMOTION_ACROBAT_TRAINING</Type>
 			<Description>TXT_KEY_PROMOTION_ACROBAT_TRAINING</Description>
@@ -26,6 +29,33 @@
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
 			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_ACROBAT_TRAINING</PediaEntry>
+		</Row>
+		
+		<!-- Jax Civ: Shotgunner heals a bit of health on kill -->
+		<Row>
+			<Type>PROMOTION_EDIBLE_AMMO</Type>
+			<Description>TXT_KEY_PROMOTION_EDIBLE_AMMO</Description>
+			<Help>TXT_KEY_PROMOTION_EDIBLE_AMMO_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<HPHealedIfDestroyEnemy>20</HPHealedIfDestroyEnemy>
+			<HealIfDestroyExcludesBarbarians>true</HealIfDestroyExcludesBarbarians>
+			<PortraitIndex>12</PortraitIndex>
+			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_EDIBLE_AMMO</PediaEntry>
+		</Row>
+
+		<!-- Loolilalu Civ: War Rig can sell the eclair it is carrying -->
+		<Row>
+			<Type>PROMOTION_ECLAIR_DELIVERY</Type>
+			<Description>TXT_KEY_PROMOTION_ECLAIR_DELIVERY</Description>
+			<Help>TXT_KEY_PROMOTION_ECLAIR_DELIVERY_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>20</PortraitIndex>
+			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_ECLAIR_DELIVERY</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
 		</Row>
 	</UnitPromotions>
 </GameData>
