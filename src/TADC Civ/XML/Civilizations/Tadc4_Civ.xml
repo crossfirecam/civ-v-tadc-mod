@@ -58,8 +58,8 @@
 	<Civilization_UnitClassOverrides>
 		<Row>
 			<CivilizationType>CIVILIZATION_TADC4</CivilizationType>
-			<UnitClassType>UNITCLASS_SPEARMAN</UnitClassType>
-			<UnitType>UNIT_CASTALLIED_ACROBAT</UnitType>
+			<UnitClassType>UNITCLASS_CAVALRY</UnitClassType>
+			<UnitType>UNIT_CANDYCOATED_WAR_RIG</UnitType>
 		</Row>
 	</Civilization_UnitClassOverrides>
 	<Civilization_BuildingClassOverrides>
@@ -68,7 +68,7 @@
 			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
 			<BuildingType>BUILDING_TADC_GANGLES_THEATER</BuildingType>
 		</Row>
-	</Civilization_BuildingClassOverrides>
+	</Civilization_BuildingClassOverrides> <!-- Placeholder until Sugarbush improvement is ready -->
 
 
 	<!-- City & Spy Names - TODO -->

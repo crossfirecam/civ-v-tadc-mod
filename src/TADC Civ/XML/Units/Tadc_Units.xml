@@ -1,11 +1,11 @@
 <GameData>
-	<!-- All-Seeing Eye: Scout Replacement for Caine. Provides Scouting I & Slower Heal Promotion. -->
+	<!-- All-Seeing Eye: Scout Replacement for Caine. -->
 	<!-- Values are mostly the same as base Scout, except Combat Strength is reduced, images/text changed, and promotions are applied. -->
 	<Units>
 		<Row>
 			<Class>UNITCLASS_SCOUT</Class>
 			<Type>UNIT_CAINIC_ALL_SEEING_EYE</Type>
-			<Combat>4</Combat>
+			<Combat>4</Combat> <!-- Weaker -->
 			<Cost>25</Cost>
 			<FaithCost>50</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
@@ -14,7 +14,7 @@
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_CAINIC_ALL_SEEING_EYE</Description>
-			<Civilopedia>TXT_KEY_CIV5_CAINIC_ALL_SEEING_EYE_TEXT</Civilopedia>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_CAINIC_ALL_SEEING_EYE_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_CAINIC_ALL_SEEING_EYE_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_CAINIC_ALL_SEEING_EYE</Help>
 			<NoBadGoodies>true</NoBadGoodies>
@@ -77,7 +77,7 @@
 
 	
 	
-	<!-- Acrobat: Spearman Replacement for Pomni. Provides Cover I & Ignores Terrain Cost. -->
+	<!-- Acrobat: Spearman Replacement for Pomni. -->
 	<!-- Values are the same as base Spearman, except some stats, images/text changed, and promotions are applied. -->
 	<Units>
 		<Row>
@@ -93,7 +93,7 @@
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_CASTALLIED_ACROBAT</Description>
-			<Civilopedia>TXT_KEY_CIV5_CASTALLIED_ACROBAT_TEXT</Civilopedia>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_CASTALLIED_ACROBAT_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_CASTALLIED_ACROBAT_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_CASTALLIED_ACROBAT</Help>
 			<MilitarySupport>true</MilitarySupport>
@@ -112,16 +112,211 @@
 			<PortraitIndex>25</PortraitIndex>
 		</Row>
 	</Units>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_CASTALLIED_ACROBAT</UnitType>
+			<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
 	<Unit_FreePromotions>
 		<Row>
 			<UnitType>UNIT_CASTALLIED_ACROBAT</UnitType>
 			<PromotionType>PROMOTION_ACROBAT_TRAINING</PromotionType>
 		</Row>
 	</Unit_FreePromotions>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_CASTALLIED_ACROBAT</UnitType>
+			<UnitAIType>UNITAI_COUNTER</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CASTALLIED_ACROBAT</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CASTALLIED_ACROBAT</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_CASTALLIED_ACROBAT</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CASTALLIED_ACROBAT</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+	</Unit_Flavors>
 	<UnitGameplay2DScripts>
 		<Row UnitType="UNIT_CASTALLIED_ACROBAT">
 			<SelectionSound>AS2D_SELECT_PIKEMAN</SelectionSound>
 			<FirstSelectionSound>AS2D_BIRTH_PIKEMAN</FirstSelectionSound> <!-- Placeholder, consider custom sound -->
 		</Row>
 	</UnitGameplay2DScripts>
+	
+	<!-- Shotgunner: Riflemen Replacement for Jax. -->
+	<!-- Values are the same as base Riflemen, except some stats, images/text changed, and promotions are applied. -->
+	<Units>
+		<Row>
+			<Class>UNITCLASS_RIFLEMAN</Class>
+			<Type>UNIT_JAXIAN_SHOTGUNNER</Type>
+			<PrereqTech>TECH_RIFLING</PrereqTech>
+			<Combat>34</Combat>
+			<Cost>225</Cost>
+			<FaithCost>450</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_JAXIAN_SHOTGUNNER</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNIT_JAXIAN_SHOTGUNNER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_JAXIAN_SHOTGUNNER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_JAXIAN_SHOTGUNNER</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<ObsoleteTech>TECH_REPLACEABLE_PARTS</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_GREAT_WAR_INFANTRY</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>5</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_RIFLEMAN</UnitArtInfo>
+			<UnitFlagAtlas>ALPHA_ATLAS_TADC2_UNIT1</UnitFlagAtlas> <!-- Placeholder -->
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+		</Row>
+	</Units>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_JAXIAN_SHOTGUNNER</UnitType>
+			<UnitClassType>UNITCLASS_GREAT_WAR_INFANTRY</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_JAXIAN_SHOTGUNNER</UnitType>
+			<PromotionType>PROMOTION_EDIBLE_AMMO</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_JAXIAN_SHOTGUNNER</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAXIAN_SHOTGUNNER</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAXIAN_SHOTGUNNER</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_JAXIAN_SHOTGUNNER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAXIAN_SHOTGUNNER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Unit_Flavors>
+	
+	<!-- War Rig: Cavalry Replacement for Loolilalu. -->
+	<!-- Values are the same as base Cavalry, except some stats, images/text changed, and promotions are applied. -->
+	<Units>
+		<Row>
+			<Class>UNITCLASS_CAVALRY</Class>
+			<Type>UNIT_CANDYCOATED_WAR_RIG</Type>
+			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
+			<Combat>30</Combat> <!-- Slightly weaker -->
+			<Cost>225</Cost>
+			<FaithCost>450</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>5</Moves> <!-- Slightly more agile -->
+			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_CANDYCOATED_WAR_RIG</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNIT_CANDYCOATED_WAR_RIG_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_CANDYCOATED_WAR_RIG_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_CANDYCOATED_WAR_RIG</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_COMBUSTION</ObsoleteTech>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_WWI_TANK</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_CAVALRY</UnitArtInfo>
+			<UnitFlagAtlas>ALPHA_ATLAS_TADC2_UNIT1</UnitFlagAtlas> <!-- Placeholder -->
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
+			<PortraitIndex>27</PortraitIndex>
+			<MoveRate>QUADRUPED</MoveRate>
+		</Row>
+	</Units>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_CAVALRY</UnitType>
+			<UnitClassType>UNITCLASS_WWI_TANK</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_CAVALRY</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CAVALRY</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CAVALRY</UnitType>
+			<PromotionType>PROMOTION_CITY_PENALTY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CAVALRY</UnitType>
+			<PromotionType>PROMOTION_ECLAIR_DELIVERY</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_CAVALRY</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CAVALRY</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_CAVALRY</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CAVALRY</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CAVALRY</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+	</Unit_Flavors>
 </GameData>
