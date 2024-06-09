@@ -76,7 +76,7 @@
 			<Text>Gladiator Arena</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TADC3_GLADIATOR_ARENA_STRATEGY">
-			<Text>Provides +1 [ICON_CULTURE] Culture and grants +10 XP [ICON_CULTURE] to units created in this city. Requires no [ICON_GOLD] Gold maintenance.</Text>
+			<Text>Provides +1 [ICON_CULTURE] Culture and grants +10 XP to Land Units created in this city. Requires no [ICON_GOLD] Gold maintenance.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_TADC3_GLADIATOR_ARENA_TEXT">
 			<Text>Upon being presented with the idea to build a Zoo in the empire by his advisors, Jax shuddered at the thought of seeing wholesome animals in his cities. During his time at the Digital Circus, Jax had made clear he believes all things cute and peaceful to be... completely boring. And so, Jax commissions a series of Gladiator Arenas across the empire to test the mettle of his military and provide entertainment at the same time.</Text>
