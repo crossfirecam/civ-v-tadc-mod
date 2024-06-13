@@ -96,16 +96,16 @@
 		
 		<!-- Jax Civ: Zoo replacement. -->
 		<Row>
-			<Type>BUILDING_TADC_GLADIATOR_ARENA</Type>
+			<Type>BUILDING_TADC_BOXING_RING</Type>
 			<BuildingClass>BUILDINGCLASS_THEATRE</BuildingClass>
 			<FreeStartEra>ERA_FUTURE</FreeStartEra>
 			<Cost>200</Cost>
 			<GoldMaintenance>0</GoldMaintenance>
 			<PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
-			<Help>TXT_KEY_BUILDING_TADC3_GLADIATOR_ARENA_STRATEGY</Help>
-			<Description>TXT_KEY_BUILDING_TADC3_GLADIATOR_ARENA</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_TADC3_GLADIATOR_ARENA_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_TADC3_GLADIATOR_ARENA_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_TADC3_BOXING_RING_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_TADC3_BOXING_RING</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_TADC3_BOXING_RING_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_TADC3_BOXING_RING_STRATEGY</Strategy>
 			<ArtDefineTag>THEATRE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
@@ -129,7 +129,7 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_TADC_GLADIATOR_ARENA</BuildingType>
+			<BuildingType>BUILDING_TADC_BOXING_RING</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
@@ -143,7 +143,7 @@
 	</Building_YieldModifiers>
 	<Building_DomainFreeExperiences>
 		<Row>
-			<BuildingType>BUILDING_TADC_GLADIATOR_ARENA</BuildingType>
+			<BuildingType>BUILDING_TADC_BOXING_RING</BuildingType>
 			<DomainType>DOMAIN_LAND</DomainType>
 			<Experience>10</Experience>
 		</Row>
