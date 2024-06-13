@@ -71,7 +71,7 @@
 	<UnitGameplay2DScripts>
 		<Row UnitType="UNIT_CAINIC_ALL_SEEING_EYE">
 			<SelectionSound>AS2D_SELECT_SCOUT</SelectionSound>
-			<FirstSelectionSound>AS2D_BIRTH_SCOUT</FirstSelectionSound> <!-- Placeholder, consider custom sound -->
+			<FirstSelectionSound>AS2D_BIRTH_SCOUT</FirstSelectionSound>
 		</Row>
 	</UnitGameplay2DScripts>
 
@@ -153,7 +153,7 @@
 	<UnitGameplay2DScripts>
 		<Row UnitType="UNIT_CASTALLIED_ACROBAT">
 			<SelectionSound>AS2D_SELECT_PIKEMAN</SelectionSound>
-			<FirstSelectionSound>AS2D_BIRTH_PIKEMAN</FirstSelectionSound> <!-- Placeholder, consider custom sound -->
+			<FirstSelectionSound>AS2D_BIRTH_PIKEMAN</FirstSelectionSound>
 		</Row>
 	</UnitGameplay2DScripts>
 	
@@ -231,6 +231,12 @@
 			<Flavor>10</Flavor>
 		</Row>
 	</Unit_Flavors>
+	<UnitGameplay2DScripts>
+		<Row UnitType="UNIT_JAXIAN_SHOTGUNNER">
+			<SelectionSound>AS2D_SELECT_MUSKETMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_MUSKETMAN</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
 	
 	<!-- War Rig: Cavalry Replacement for Loolilalu. -->
 	<!-- Values are the same as base Cavalry, except some stats, images/text changed, and promotions are applied. -->
@@ -261,7 +267,7 @@
 			<NumExoticGoods>1</NumExoticGoods> <!-- Added exotic good -->
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_CAVALRY</UnitArtInfo>
+			<UnitArtInfo>ART_DEF_UNIT_TADC_WARRIG</UnitArtInfo>
 			<UnitFlagAtlas>ALPHA_ATLAS_TADC4_UNIT1</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
@@ -320,4 +326,10 @@
 			<Flavor>7</Flavor>
 		</Row>
 	</Unit_Flavors>
+	<UnitGameplay2DScripts>
+		<Row UnitType="UNIT_CANDYCOATED_WAR_RIG">
+			<SelectionSound>AS2D_SELECT_TANK</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TANK</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
 </GameData>

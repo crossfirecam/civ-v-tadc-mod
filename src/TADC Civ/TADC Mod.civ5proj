@@ -135,6 +135,11 @@ Attributions:
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
+        <FileName>XML/Units/Tadc_UnitArtInfos.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
         <FileName>XML/Units/Tadc_UnitPromotions.xml</FileName>
       </Action>
       <Action>
@@ -153,6 +158,8 @@ Attributions:
       </Content>
     </ModContent>
     <Homepage>http://https://crossfirecam.itch.io</Homepage>
+    <ReloadUnitSystem>true</ReloadUnitSystem>
+    <ReloadStrategicViewSystem>true</ReloadStrategicViewSystem>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -355,6 +362,10 @@ Attributions:
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="XML\NewText\Tadc1_GameText.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\Units\Tadc_UnitArtInfos.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
