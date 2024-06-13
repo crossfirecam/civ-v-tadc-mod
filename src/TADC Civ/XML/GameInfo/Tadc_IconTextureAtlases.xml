@@ -62,6 +62,20 @@
 			<IconsPerRow>1</IconsPerRow>
 			<IconsPerColumn>1</IconsPerColumn>
 		</Row>
+		<Row>
+			<Atlas>ALPHA_ATLAS_TADC3_UNIT1</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>AlphaAtlas_Tadc3_Unit1_32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ALPHA_ATLAS_TADC4_UNIT1</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>AlphaAtlas_Tadc4_Unit1_32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
 	</IconTextureAtlases>
 
 	<!-- Transparent Icons (Alternate Colours for Civs) -->

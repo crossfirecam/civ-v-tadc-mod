@@ -2,18 +2,17 @@
 	<UnitPromotions>
 		<!-- Caine Civ: All-Seeing-Eye has reduced healing -->
 		<Row>
-			<Type>PROMOTION_SLOWER_HEAL</Type>
-			<Description>TXT_KEY_PROMOTION_SLOWER_HEAL</Description>
-			<Help>TXT_KEY_PROMOTION_SLOWER_HEAL_HELP</Help>
+			<Type>PROMOTION_SLOW_EYE_HEALING</Type>
+			<Description>TXT_KEY_PROMOTION_SLOW_EYE_HEALING</Description>
+			<Help>TXT_KEY_PROMOTION_SLOW_EYE_HEALING_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<CannotBeChosen>true</CannotBeChosen>
 			<EnemyHealChange>-5</EnemyHealChange>
 			<NeutralHealChange>-5</NeutralHealChange>
-			<FriendlyHealChange>-10</FriendlyHealChange>
-			<PortraitIndex>57</PortraitIndex>
-			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PortraitIndex>32</PortraitIndex>
+			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
-			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_SLOWER_HEAL</PediaEntry>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_SLOW_EYE_HEALING</PediaEntry>
 		</Row>
 		
 		<!-- Pomni Civ: Acrobat has half-Range-I and can move after attacking. -->
@@ -25,7 +24,7 @@
 			<CannotBeChosen>true</CannotBeChosen>
 			<CanMoveAfterAttacking>true</CanMoveAfterAttacking>
 			<RangedDefenseMod>16</RangedDefenseMod>
-			<PortraitIndex>4</PortraitIndex>
+			<PortraitIndex>33</PortraitIndex>
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
 			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_ACROBAT_TRAINING</PediaEntry>
@@ -39,7 +38,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<HPHealedIfDestroyEnemy>20</HPHealedIfDestroyEnemy>
 			<HealIfDestroyExcludesBarbarians>true</HealIfDestroyExcludesBarbarians>
-			<PortraitIndex>12</PortraitIndex>
+			<PortraitIndex>34</PortraitIndex>
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
 			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_EDIBLE_AMMO</PediaEntry>
@@ -51,7 +50,7 @@
 			<Description>TXT_KEY_PROMOTION_ECLAIR_DELIVERY</Description>
 			<Help>TXT_KEY_PROMOTION_ECLAIR_DELIVERY_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
-			<PortraitIndex>20</PortraitIndex>
+			<PortraitIndex>35</PortraitIndex>
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
 			<PediaEntry>TXT_KEY_PROMOTION_ECLAIR_DELIVERY</PediaEntry>

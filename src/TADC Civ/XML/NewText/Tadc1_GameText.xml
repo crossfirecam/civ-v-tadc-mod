@@ -70,13 +70,13 @@
 			<Text>All-Seeing Eye</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_CAINIC_ALL_SEEING_EYE">
-			<Text>Unparalleled in the art of reconnaissance, the All-Seeing Eye possesses a promotion that provides it +1 Visibility Range. However, the unit is weaker and heals slower than the Scout, which it replaces. May only be built by the Cainic Empire.</Text>
+			<Text>Unparalleled in the art of reconnaissance, the All-Seeing Eye possesses a promotion that provides it +1 Visibility Range. However, the unit is weaker and heals slower outside of Friendly Lands than the Scout, which it replaces. May only be built by the Cainic Empire.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CAINIC_ALL_SEEING_EYE_TEXT">
 			<Text>Summoned by Caine to conduct surveillance on the humans who enter The Amazing Digital Circus. In this world, they offer superb vision of the surrounding landscape, but with little armor or surival capability to speak of.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CAINIC_ALL_SEEING_EYE_STRATEGY">
-			<Text>The All-Seeing Eye is the Cainic unique unit, replacing the Scout. It provides +1 Visibility Range, but it is weaker and healing is halved.</Text>
+			<Text>The All-Seeing Eye is the Cainic unique unit, replacing the Scout. It provides +1 Visibility Range, but it is weaker and heals slower outside of Friendly Lands.</Text>
 		</Row>
 		
 		<!-- Cainic Unique Building -->
@@ -91,14 +91,14 @@
 		</Row>
 
 		<!-- Cainic Unique Promotion -->
-		<Row Tag="TXT_KEY_PROMOTION_SLOWER_HEAL">
-			<Text>Heals at Half Rate</Text>
+		<Row Tag="TXT_KEY_PROMOTION_SLOW_EYE_HEALING">
+			<Text>Dry Eye</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_SLOWER_HEAL_HELP">
-			<Text>Reduces base healing from +10 to +5 per turn. An exclusive demotion for Cainic All-Seeing Eye. This penalty is retained even if promoted to an Archer by Ancient Ruins.</Text>
+		<Row Tag="TXT_KEY_PROMOTION_SLOW_EYE_HEALING_HELP">
+			<Text>Reduces healing (in neutral or enemy lands) from +10 to +5 per turn. Cainic All-Seeing Eyes cannot blink, and require eyedrops to heal.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PEDIA_PROMOTION_SLOWER_HEAL">
-			<Text>Heals at Half Rate</Text>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_SLOW_EYE_HEALING">
+			<Text>Dry Eye</Text>
 		</Row>
 
 		

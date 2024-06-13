@@ -44,7 +44,7 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_CAINIC_ALL_SEEING_EYE</UnitType>
-			<PromotionType>PROMOTION_SLOWER_HEAL</PromotionType>
+			<PromotionType>PROMOTION_SLOW_EYE_HEALING</PromotionType>
 		</Row>
 	</Unit_FreePromotions>
 	<Unit_AITypes>
@@ -187,7 +187,7 @@
 			<XPValueDefense>3</XPValueDefense>
 			<Conscription>5</Conscription>
 			<UnitArtInfo>ART_DEF_UNIT_RIFLEMAN</UnitArtInfo>
-			<UnitFlagAtlas>ALPHA_ATLAS_TADC2_UNIT1</UnitFlagAtlas> <!-- Placeholder -->
+			<UnitFlagAtlas>ALPHA_ATLAS_TADC3_UNIT1</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
 			<PortraitIndex>26</PortraitIndex>
@@ -262,7 +262,7 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_CAVALRY</UnitArtInfo>
-			<UnitFlagAtlas>ALPHA_ATLAS_TADC2_UNIT1</UnitFlagAtlas> <!-- Placeholder -->
+			<UnitFlagAtlas>ALPHA_ATLAS_TADC4_UNIT1</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
 			<PortraitIndex>27</PortraitIndex>
@@ -271,51 +271,51 @@
 	</Units>
 	<Unit_ClassUpgrades>
 		<Row>
-			<UnitType>UNIT_CAVALRY</UnitType>
+			<UnitType>UNIT_CANDYCOATED_WAR_RIG</UnitType>
 			<UnitClassType>UNITCLASS_WWI_TANK</UnitClassType>
 		</Row>
 	</Unit_ClassUpgrades>
 	<Unit_FreePromotions>
 		<Row>
-			<UnitType>UNIT_CAVALRY</UnitType>
+			<UnitType>UNIT_CANDYCOATED_WAR_RIG</UnitType>
 			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_CAVALRY</UnitType>
+			<UnitType>UNIT_CANDYCOATED_WAR_RIG</UnitType>
 			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_CAVALRY</UnitType>
+			<UnitType>UNIT_CANDYCOATED_WAR_RIG</UnitType>
 			<PromotionType>PROMOTION_CITY_PENALTY</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_CAVALRY</UnitType>
+			<UnitType>UNIT_CANDYCOATED_WAR_RIG</UnitType>
 			<PromotionType>PROMOTION_ECLAIR_DELIVERY</PromotionType>
 		</Row>
 	</Unit_FreePromotions>
 	<Unit_AITypes>
 		<Row>
-			<UnitType>UNIT_CAVALRY</UnitType>
+			<UnitType>UNIT_CANDYCOATED_WAR_RIG</UnitType>
 			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_CAVALRY</UnitType>
+			<UnitType>UNIT_CANDYCOATED_WAR_RIG</UnitType>
 			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
 		</Row>
 	</Unit_AITypes>
 	<Unit_Flavors>
 		<Row>
-			<UnitType>UNIT_CAVALRY</UnitType>
+			<UnitType>UNIT_CANDYCOATED_WAR_RIG</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_CAVALRY</UnitType>
+			<UnitType>UNIT_CANDYCOATED_WAR_RIG</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>6</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_CAVALRY</UnitType>
+			<UnitType>UNIT_CANDYCOATED_WAR_RIG</UnitType>
 			<FlavorType>FLAVOR_MOBILE</FlavorType>
 			<Flavor>7</Flavor>
 		</Row>
