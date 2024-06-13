@@ -75,7 +75,7 @@
 			<Text>War Rig</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_CANDYCOATED_WAR_RIG">
-			<Text>The War Rig excels in positioning, having more [ICON_MOVES] Movement than the Cavalry, which it replaces. It may also perform a one-time Eclair Delivery to earn Gold and XP. May only be built by the Candy Canyon Kingdom.</Text>
+			<Text>The War Rig excels in positioning, having more [ICON_MOVES] Movement but less Combat Strength than the Cavalry, which it replaces. It may also perform a one-time Eclair Delivery to earn Gold and XP. Does not require [ICON_RES_HORSE] Horses. May only be built by the Candy Canyon Kingdom.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_UNIT_CANDYCOATED_WAR_RIG_TEXT">
 			<Text>...</Text>
