@@ -62,13 +62,6 @@
 			<UnitType>UNIT_CANDYCOATED_WAR_RIG</UnitType>
 		</Row>
 	</Civilization_UnitClassOverrides>
-	<Civilization_BuildingClassOverrides>
-		<Row>
-			<CivilizationType>CIVILIZATION_TADC4</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
-			<BuildingType>BUILDING_TADC_GANGLES_THEATER</BuildingType>
-		</Row>
-	</Civilization_BuildingClassOverrides> <!-- Placeholder until Sugarbush improvement is ready -->
 
 
 	<!-- City & Spy Names - TODO -->

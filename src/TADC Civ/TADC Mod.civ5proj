@@ -135,6 +135,16 @@ Attributions:
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
+        <FileName>XML/Terrain/Tadc_Improvements.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/Units/Tadc_Builds.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
         <FileName>XML/Units/Tadc_UnitArtInfos.xml</FileName>
       </Action>
       <Action>
@@ -181,6 +191,7 @@ Attributions:
     <Folder Include="XML\Leaders\" />
     <Folder Include="XML\Buildings" />
     <Folder Include="XML\Interface" />
+    <Folder Include="XML\Terrain" />
     <Folder Include="XML\Units" />
     <Folder Include="XML\NewText\" />
   </ItemGroup>
@@ -362,6 +373,14 @@ Attributions:
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="XML\NewText\Tadc1_GameText.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\Terrain\Tadc_Improvements.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\Units\Tadc_Builds.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>

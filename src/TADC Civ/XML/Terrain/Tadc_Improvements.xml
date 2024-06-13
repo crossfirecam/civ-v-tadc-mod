@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/14/2024 12:59:49 AM -->
+<GameData>
+	<Improvements>
+		<Row>
+			<Type>IMPROVEMENT_MAPLE_SUGARBUSH</Type>
+			<Description>TXT_KEY_IMPROVEMENT_MAPLE_SUGARBUSH</Description>
+			<Civilopedia>TXT_KEY_CIVLOPEDIA_IMPROVEMENT_MAPLE_SUGARBUSH_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_LUMBERMILL</ArtDefineTag>
+			<SpecificCivRequired>true</SpecificCivRequired>
+			<CivilizationType>CIVILIZATION_TADC4</CivilizationType>
+			<RequiresFeature>true</RequiresFeature>
+			<PillageGold>10</PillageGold>
+			<PortraitIndex>19</PortraitIndex>
+			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
+		</Row>
+	</Improvements>
+	<Improvement_Yields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MAPLE_SUGARBUSH</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MAPLE_SUGARBUSH</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Improvement_Yields>
+	<Improvement_ValidFeatures>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MAPLE_SUGARBUSH</ImprovementType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+		</Row>
+	</Improvement_ValidFeatures>
+	<Improvement_TechYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<TechType>TECH_FERTILIZER</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_TechYieldChanges>
+</GameData>

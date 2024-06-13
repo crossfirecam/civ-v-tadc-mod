@@ -63,11 +63,17 @@
 		<Row Tag="TXT_KEY_IMPROVEMENT_MAPLE_SUGARBUSH">
 			<Text>Maple Sugarbush</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIV5_IMPROVEMENT_MAPLE_SUGARBUSH_TEXT">
+		<Row Tag="TXT_KEY_CIVLOPEDIA_IMPROVEMENT_MAPLE_SUGARBUSH_TEXT">
 			<Text>...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_MAPLE_SUGARBUSH_HELP">
-			<Text>Constructs a Maple Sugarbush, which increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold provided by this tile.</Text>
+			<Text>Constructs a Maple Sugarbush, which increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold provided by this tile, while keeping the Forest intact. Also provides extra [ICON_FOOD] Food once Fertilizer has been researched.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_MAPLE_SUGARBUSH_REC">
+			<Text>It will increase the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold provided by this tile, while keeping the Forest intact. Also provides extra [ICON_FOOD] Food once Fertilizer has been researched.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_MAPLE_SUGARBUSH">
+			<Text>Construct a [LINK=IMPROVEMENT_MAPLE_SUGARBUSH]Maple Sugarbush[\LINK]</Text>
 		</Row>
 		
 		<!-- Candy-Coated Unique Unit -->

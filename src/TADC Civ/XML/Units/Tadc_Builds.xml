@@ -1,0 +1,18 @@
+<GameData>
+	<Builds>
+		<Row>
+			<Type>BUILD_MAPLE_SUGARBUSH</Type>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
+			<Time>700</Time>
+			<ImprovementType>IMPROVEMENT_MAPLE_SUGARBUSH</ImprovementType>
+			<Description>TXT_KEY_BUILD_MAPLE_SUGARBUSH</Description>
+			<Help>TXT_KEY_BUILD_MAPLE_SUGARBUSH_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_MAPLE_SUGARBUSH_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_K</HotKey>
+			<OrderPriority>98</OrderPriority>
+			<IconIndex>19</IconIndex> <!-- Placeholder, replace with version without a background -->
+			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
+		</Row>
+	</Builds>
+</GameData>
