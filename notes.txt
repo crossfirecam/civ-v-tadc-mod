@@ -8,6 +8,6 @@ Fill placeholders for improvement stuff
 
 Implement Civ 3/4 unique ability
 
-Implement Civ 3/4 leader screen/dialogue
+Implement Civ 3/4 dialogue
 
 Consider changing the phrasing of the Edible Ammo ability

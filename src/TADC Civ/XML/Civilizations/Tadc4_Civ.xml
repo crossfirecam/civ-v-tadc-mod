@@ -17,7 +17,7 @@
 			<AlphaIconAtlas>ALPHA_ATLAS_TADC_CIVICONS</AlphaIconAtlas>
 			<MapImage>MapAmerica512.dds</MapImage> <!-- Placeholder, replace -->
 			<DawnOfManQuote>TXT_KEY_CIV5_TADC4_DOM</DawnOfManQuote>
-			<DawnOfManImage>TADC2_DOM.dds</DawnOfManImage> <!-- Placeholder, replace -->
+			<DawnOfManImage>TADC4_DOM.dds</DawnOfManImage> <!-- Placeholder, replace -->
 		</Row>
 	</Civilizations>
 	<Civilization_FreeBuildingClasses>
