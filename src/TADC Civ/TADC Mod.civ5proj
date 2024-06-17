@@ -185,6 +185,7 @@ Attributions:
   <ItemGroup>
     <Folder Include="Art\" />
     <Folder Include="Art\LeaderScenes" />
+    <Folder Include="Art\Promotions\" />
     <Folder Include="Art\UnitAtlas" />
     <Folder Include="LUA" />
     <Folder Include="XML\" />
@@ -287,6 +288,22 @@ Attributions:
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Art\LeaderScenes\Tadc4_TradeScreen.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Promotions\ColorAtlas_Tadc_Promotions_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Promotions\ColorAtlas_Tadc_Promotions_32.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Promotions\ColorAtlas_Tadc_Promotions_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Promotions\ColorAtlas_Tadc_Promotions_64.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>

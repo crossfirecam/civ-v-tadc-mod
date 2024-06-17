@@ -9,8 +9,8 @@
 			<CannotBeChosen>true</CannotBeChosen>
 			<EnemyHealChange>-5</EnemyHealChange>
 			<NeutralHealChange>-5</NeutralHealChange>
-			<PortraitIndex>32</PortraitIndex>
-			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TADC_MOD_PROMOTIONS_ATLAS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
 			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_SLOW_EYE_HEALING</PediaEntry>
 		</Row>
@@ -24,8 +24,8 @@
 			<CannotBeChosen>true</CannotBeChosen>
 			<CanMoveAfterAttacking>true</CanMoveAfterAttacking>
 			<RangedDefenseMod>16</RangedDefenseMod>
-			<PortraitIndex>33</PortraitIndex>
-			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>TADC_MOD_PROMOTIONS_ATLAS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
 			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_ACROBAT_TRAINING</PediaEntry>
 		</Row>
@@ -38,8 +38,8 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<HPHealedIfDestroyEnemy>20</HPHealedIfDestroyEnemy>
 			<HealIfDestroyExcludesBarbarians>true</HealIfDestroyExcludesBarbarians>
-			<PortraitIndex>34</PortraitIndex>
-			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>TADC_MOD_PROMOTIONS_ATLAS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
 			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_EDIBLE_AMMO</PediaEntry>
 		</Row>
@@ -50,10 +50,10 @@
 			<Description>TXT_KEY_PROMOTION_ECLAIR_DELIVERY</Description>
 			<Help>TXT_KEY_PROMOTION_ECLAIR_DELIVERY_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
-			<PortraitIndex>35</PortraitIndex>
-			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>TADC_MOD_PROMOTIONS_ATLAS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
-			<PediaEntry>TXT_KEY_PROMOTION_ECLAIR_DELIVERY</PediaEntry>
+			<PediaEntry>TADC_MOD_PROMOTIONS_ATLAS</PediaEntry>
 			<CannotBeChosen>true</CannotBeChosen>
 		</Row>
 	</UnitPromotions>

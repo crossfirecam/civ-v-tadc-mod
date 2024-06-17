@@ -44,7 +44,41 @@
 			<IconsPerColumn>8</IconsPerColumn>
 		</Row>
 	</IconTextureAtlases>
+	
+	
+	<!-- Coloured Icons (All 4 Civs - Promotions) -->
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>TADC_MOD_PROMOTIONS_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>ColorAtlas_Tadc_Promotions_256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>TADC_MOD_PROMOTIONS_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>ColorAtlas_Tadc_Promotions_64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>TADC_MOD_PROMOTIONS_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>ColorAtlas_Tadc_Promotions_45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>TADC_MOD_PROMOTIONS_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>ColorAtlas_Tadc_Promotions_32.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
 
+	
 	<!-- Transparent Icons (Unit Flags) -->
 	<IconTextureAtlases>
 		<Row>
