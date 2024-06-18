@@ -11,5 +11,15 @@
 			<NoLimit>false</NoLimit>
 			<Monument>false</Monument>
 		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TADC_LOOLILALUTRAIT</Type>
+			<DefaultBuilding>BUILDING_TADC_LOOLILALUTRAIT</DefaultBuilding>
+			<MaxGlobalInstances>-1</MaxGlobalInstances>
+			<MaxTeamInstances>-1</MaxTeamInstances>
+			<MaxPlayerInstances>-1</MaxPlayerInstances>
+			<ExtraPlayerInstances>0</ExtraPlayerInstances>
+			<NoLimit>false</NoLimit>
+			<Monument>false</Monument>
+		</Row>
 	</BuildingClasses>
 </GameData>

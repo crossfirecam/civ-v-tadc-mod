@@ -1,6 +1,6 @@
 <GameData>
+	<!-- Caine Civ: Circus replacement & Trait Building. -->
 	<Buildings>
-		<!-- Caine Civ: Circus replacement. -->
 		<Row>
 			<Type>BUILDING_TADC_CIRCUS</Type>
 			<BuildingClass>BUILDINGCLASS_CIRCUS</BuildingClass>
@@ -19,7 +19,6 @@
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
 			<PortraitIndex>16</PortraitIndex>
 		</Row>
-		<!-- Caine Civ: Building to help with his Trait. -->
 		<Row>
 			<Type>BUILDING_TADC_CAINETRAIT</Type>
 			<BuildingClass>BUILDINGCLASS_TADC_CAINETRAIT</BuildingClass>
@@ -34,11 +33,20 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
-			<PortraitIndex>8</PortraitIndex> <!-- Placeholder, replace with icon of Bubble Chef -->
+			<PortraitIndex>32</PortraitIndex>
 		</Row>
-		
-		
-		<!-- Pomni Civ: Ampitheater replacement. -->
+	</Buildings>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_TADC_CAINETRAIT</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>20</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	
+	
+	<!-- Pomni Civ: Ampitheater replacement. -->
+	<Buildings>
 		<Row>
 			<Type>BUILDING_TADC_GANGLES_THEATER</Type>
 			<BuildingClass>BUILDINGCLASS_AMPHITHEATER</BuildingClass>
@@ -93,8 +101,23 @@
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
 			<PortraitIndex>17</PortraitIndex>
 		</Row>
-		
-		<!-- Jax Civ: Zoo replacement. -->
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_TADC_GANGLES_THEATER</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TADC_GANGLES_THEATER_TRAGEDY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	
+	<!-- Jax Civ: Zoo replacement. -->
+	<Buildings>
 		<Row>
 			<Type>BUILDING_TADC_BOXING_RING</Type>
 			<BuildingClass>BUILDINGCLASS_THEATRE</BuildingClass>
@@ -116,31 +139,13 @@
 			<PortraitIndex>18</PortraitIndex>
 		</Row>
 	</Buildings>
-
 	<Building_YieldChanges>
-		<Row>
-			<BuildingType>BUILDING_TADC_GANGLES_THEATER</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_TADC_GANGLES_THEATER_TRAGEDY</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
-		</Row>
 		<Row>
 			<BuildingType>BUILDING_TADC_BOXING_RING</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
 	</Building_YieldChanges>
-	<Building_YieldModifiers>
-		<Row>
-			<BuildingType>BUILDING_TADC_CAINETRAIT</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>20</Yield>
-		</Row>
-	</Building_YieldModifiers>
 	<Building_DomainFreeExperiences>
 		<Row>
 			<BuildingType>BUILDING_TADC_BOXING_RING</BuildingType>
@@ -148,4 +153,65 @@
 			<Experience>10</Experience>
 		</Row>
 	</Building_DomainFreeExperiences>
+		
+	
+	<!-- Loolilalu Civ: Building to help with his Trait. -->
+	<Buildings>
+		<Row>
+			<Type>BUILDING_TADC_LOOLILALUTRAIT</Type>
+			<BuildingClass>BUILDINGCLASS_TADC_LOOLILALUTRAIT</BuildingClass>
+			<Help>TXT_KEY_BUILDING_TADC_LOOLILALUTRAIT_TEXT</Help>
+			<Description>TXT_KEY_BUILDING_TADC_LOOLILALUTRAIT</Description>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<GoldMaintenance>0</GoldMaintenance>
+			<PrereqTech>NULL</PrereqTech>
+			<ArtDefineTag>COLESSEUM</ArtDefineTag>
+			<ConquestProb>100</ConquestProb>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
+			<PortraitIndex>35</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_BuildingClassYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_TADC_LOOLILALUTRAIT</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_TADC_LOOLILALUTRAIT</BuildingType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TADC_LOOLILALUTRAIT</BuildingType>
+			<ResourceType>RESOURCE_COCOA</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TADC_LOOLILALUTRAIT</BuildingType>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TADC_LOOLILALUTRAIT</BuildingType>
+			<ResourceType>RESOURCE_SPICES</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TADC_LOOLILALUTRAIT</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
 </GameData>

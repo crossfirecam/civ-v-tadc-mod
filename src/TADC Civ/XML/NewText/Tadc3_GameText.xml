@@ -56,7 +56,7 @@
 			<Text>Assembly Line</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_ASSEMBLY_LINE">
-			<Text>+1 [ICON_PRODUCTION] Production from Specialists. Workshops and Factories provide +1 [ICON_FOOD] Food.</Text>
+			<Text>+2 [ICON_PRODUCTION] Production from Merchant Specialists, +1 [ICON_PRODUCTION] Production from Engineer Specialists. Manufactories provide +2 [ICON_FOOD] Food.</Text>
 		</Row>
 		
 		<!-- Jaxian Unique Unit -->

@@ -19,6 +19,7 @@
 			<Type>TRAIT_CANDY_COMMUNION</Type>
 			<Description>TXT_KEY_TRAIT_CANDY_COMMUNION</Description>
 			<ShortDescription>TXT_KEY_TRAIT_CANDY_COMMUNION_SHORT</ShortDescription>
+			<FreeBuildingOnConquest>BUILDING_TADC_LOOLILALUTRAIT</FreeBuildingOnConquest>
 		</Row>
 	</Traits>
 	<Trait_ResourceQuantityModifiers>
@@ -50,5 +51,25 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_ASSEMBLY_LINE</TraitType>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
 	</Trait_ImprovementYieldChanges>
+	<Trait_SpecialistYieldChanges>
+		<Row>
+			<TraitType>TRAIT_ASSEMBLY_LINE</TraitType>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_ASSEMBLY_LINE</TraitType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Trait_SpecialistYieldChanges>
 </GameData>

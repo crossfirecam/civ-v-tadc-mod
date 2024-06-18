@@ -53,7 +53,7 @@
 			<PortraitIndex>3</PortraitIndex>
 			<IconAtlas>TADC_MOD_PROMOTIONS_ATLAS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
-			<PediaEntry>TADC_MOD_PROMOTIONS_ATLAS</PediaEntry>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_ECLAIR_DELIVERY</PediaEntry>
 			<CannotBeChosen>true</CannotBeChosen>
 		</Row>
 	</UnitPromotions>

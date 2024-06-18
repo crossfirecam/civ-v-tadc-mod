@@ -2,12 +2,10 @@ Need to add Strategic View icons
 
 Try to get Truck animations working properly
 
-Change boxing ring icon to boxing glove from pilot episode
-
-Fill placeholders for improvement stuff
-
-Implement Civ 3/4 unique ability
+Civ 4: Fix improvement icons for UI
 
 Implement Civ 3/4 dialogue
 
 Consider changing the phrasing of the Edible Ammo ability
+
+Replace placeholder map graphics for Singleplayer select screen

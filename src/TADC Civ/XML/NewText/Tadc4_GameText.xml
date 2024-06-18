@@ -58,6 +58,12 @@
 		<Row Tag="TXT_KEY_TRAIT_CANDY_COMMUNION">
 			<Text>Upon studying Philosophy, gain +1 [ICON_PEACE] Faith from [ICON_RES_SUGAR] Sugar, [ICON_RES_COCOA] Cocoa, [ICON_RES_CITRUS] Citrus, [ICON_RES_SPICES] Spice and [ICON_RES_BANANA] Banana tiles. Temples provide +2 [ICON_FOOD] Food.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TADC_LOOLILALUTRAIT">
+			<Text>Candy Communion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TADC_LOOLILALUTRAIT_TEXT">
+			<Text>Unique Ability of the Candy Canyon Kingdom[NEWLINE][NEWLINE]+1 [ICON_PEACE] Faith from [ICON_RES_SUGAR] Sugar, [ICON_RES_COCOA] Cocoa, [ICON_RES_CITRUS] Citrus, [ICON_RES_SPICES] Spice and [ICON_RES_BANANA] Banana tiles. Temples provide +2 [ICON_FOOD] Food.</Text>
+		</Row>
 		
 		<!-- Candy-Coated Unique Improvement -->
 		<Row Tag="TXT_KEY_IMPROVEMENT_MAPLE_SUGARBUSH">
