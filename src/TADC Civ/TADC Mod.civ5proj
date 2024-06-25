@@ -7,7 +7,7 @@
     <Guid>5c9f0364-7a1d-4d0c-95a7-33d744824bb5</Guid>
     <ModVersion>1</ModVersion>
     <Stability>Alpha</Stability>
-    <Teaser>[IN PROGRESS] Adds 4 civilizations based on The Amazing Digital Circus. (Requires G&amp;K and BNW)</Teaser>
+    <Teaser>Adds 4 civilizations based on [COLOR_POSITIVE_TEXT]The Amazing Digital Circus[ENDCOLOR]. (Requires G&amp;K and BNW)</Teaser>
     <Description>... Placeholder ...
 
 Attributions:
@@ -323,37 +323,37 @@ Attributions:
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\UnitAtlas\AlphaAtlas_Tadc1_Unit1_32.dds">
+    <Content Include="Art\UnitAtlas\svFlag_Tadc1_U1.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\UnitAtlas\AlphaAtlas_Tadc2_Unit1_32.dds">
+    <Content Include="Art\UnitAtlas\svFlag_Tadc2_U1.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\UnitAtlas\AlphaAtlas_Tadc3_Unit1_32.dds">
+    <Content Include="Art\UnitAtlas\svFlag_Tadc3_U1.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\UnitAtlas\AlphaAtlas_Tadc4_Unit1_32.dds">
+    <Content Include="Art\UnitAtlas\svFlag_Tadc4_U1.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\UnitAtlas\sv_Tadc1_UnitFlag1.dds">
+    <Content Include="Art\UnitAtlas\UnitFlag_Tadc1_U1_32.dds">
       <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
+      <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\UnitAtlas\sv_Tadc2_UnitFlag1.dds">
+    <Content Include="Art\UnitAtlas\UnitFlag_Tadc2_U1_32.dds">
       <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
+      <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\UnitAtlas\sv_Tadc3_UnitFlag1.dds">
+    <Content Include="Art\UnitAtlas\UnitFlag_Tadc3_U1_32.dds">
       <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
+      <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\UnitAtlas\sv_Tadc4_UnitFlag1.dds">
+    <Content Include="Art\UnitAtlas\UnitFlag_Tadc4_U1_32.dds">
       <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
+      <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="LUA\Tadc_CustomCode.lua">
       <SubType>Lua</SubType>

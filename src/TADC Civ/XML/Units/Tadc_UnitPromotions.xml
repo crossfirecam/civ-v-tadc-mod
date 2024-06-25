@@ -32,16 +32,16 @@
 		
 		<!-- Jax Civ: Shotgunner heals a bit of health on kill -->
 		<Row>
-			<Type>PROMOTION_EDIBLE_AMMO</Type>
-			<Description>TXT_KEY_PROMOTION_EDIBLE_AMMO</Description>
-			<Help>TXT_KEY_PROMOTION_EDIBLE_AMMO_HELP</Help>
+			<Type>PROMOTION_CANDY_BULLETS</Type>
+			<Description>TXT_KEY_PROMOTION_CANDY_BULLETS</Description>
+			<Help>TXT_KEY_PROMOTION_CANDY_BULLETS_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<HPHealedIfDestroyEnemy>20</HPHealedIfDestroyEnemy>
 			<HealIfDestroyExcludesBarbarians>true</HealIfDestroyExcludesBarbarians>
 			<PortraitIndex>2</PortraitIndex>
 			<IconAtlas>TADC_MOD_PROMOTIONS_ATLAS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
-			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_EDIBLE_AMMO</PediaEntry>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_CANDY_BULLETS</PediaEntry>
 		</Row>
 
 		<!-- Loolilalu Civ: War Rig can sell the eclair it is carrying -->

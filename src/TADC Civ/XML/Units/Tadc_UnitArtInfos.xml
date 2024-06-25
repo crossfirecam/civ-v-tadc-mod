@@ -1,4 +1,69 @@
 <GameData>
+	<!-- TADC1 thru 3 - Add strategic view icons for the 3 unique units.
+	The boilerplate unitmemberinfo is copied from Firaxis' formations for Scout/Spearman/Rifleman-->
+	<ArtDefine_UnitInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_TADC_ALLSEEINGEYE</Type>
+			<Formation>Scout</Formation>
+			<DamageStates>1</DamageStates>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_TADC_ACROBAT</Type>
+			<Formation>Phalanx</Formation>
+			<DamageStates>1</DamageStates>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_TADC_SHOTGUNNER</Type>
+			<Formation>HonorableGunpowder</Formation>
+			<DamageStates>1</DamageStates>
+		</Row>
+	</ArtDefine_UnitInfos>
+	<ArtDefine_UnitInfoMemberInfos>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_TADC_ALLSEEINGEYE</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_SCOUT</UnitMemberInfoType>
+			<NumMembers>6</NumMembers>
+		</Row>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_TADC_ACROBAT</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_SPEARMAN</UnitMemberInfoType>
+			<NumMembers>5</NumMembers>
+		</Row>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_TADC_ACROBAT</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_SPEARMAN_V2</UnitMemberInfoType>
+			<NumMembers>4</NumMembers>
+		</Row>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_TADC_ACROBAT</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_SPEARMAN_V3</UnitMemberInfoType>
+			<NumMembers>3</NumMembers>
+		</Row>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_TADC_SHOTGUNNER</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_RIFLEMAN</UnitMemberInfoType>
+			<NumMembers>14</NumMembers>
+		</Row>
+	</ArtDefine_UnitInfoMemberInfos>
+	<ArtDefine_StrategicView>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_TADC_ALLSEEINGEYE</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>svFlag_Tadc1_U1.dds</Asset>
+		</Row>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_TADC_ACROBAT</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>svFlag_Tadc2_U1.dds</Asset>
+		</Row>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_TADC_SHOTGUNNER</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>svFlag_Tadc3_U1.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
+	
+	
 	<!-- TADC4 - Reskin the Cavalry Replacement as a Late-Era Caravan model, but with the animation logic of a tank. -->
 	<ArtDefine_UnitInfos>
 		<Row>
@@ -46,9 +111,9 @@
 	</ArtDefine_UnitMemberCombatWeapons>
 	<ArtDefine_StrategicView>
 		<Row>
-			<StrategicViewType>ART_DEF_UNIT_MEMBER_TADC_WARRIG</StrategicViewType>
+			<StrategicViewType>ART_DEF_UNIT_TADC_WARRIG</StrategicViewType>
 			<TileType>Unit</TileType>
-			<Asset>AlphaAtlas_Tadc4_Unit1_32.dds</Asset>
+			<Asset>svFlag_Tadc4_U1.dds</Asset>
 		</Row>
 	</ArtDefine_StrategicView>
 </GameData>

@@ -1,9 +1,5 @@
-Need to add Strategic View icons
+Try to get Truck animation working properly (when Quick Combat is disabled)
 
-Try to get Truck animations working properly
+Civ 4: Fix improvement icons for Worker UI
 
-Civ 4: Fix improvement icons for UI
-
-Implement Civ 3/4 dialogue
-
-Consider changing the phrasing of the Edible Ammo ability
+Implement Civ 3/4's diplomatic dialogue

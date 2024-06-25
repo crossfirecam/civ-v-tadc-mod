@@ -85,14 +85,14 @@
 		</Row>
 
 		<!-- Jaxian Unique Promotion -->
-		<Row Tag="TXT_KEY_PROMOTION_EDIBLE_AMMO">
-			<Text>Edible Ammo</Text>
+		<Row Tag="TXT_KEY_PROMOTION_CANDY_BULLETS">
+			<Text>Candy Bullets</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_EDIBLE_AMMO_HELP">
-			<Text>Shotgunner heals 20 Damage when it kills a non-barbarian unit. Their weapon's ammunition doubles as a sugary, refreshing snack.</Text>
+		<Row Tag="TXT_KEY_PROMOTION_CANDY_BULLETS_HELP">
+			<Text>Shotgunner heals 20 Damage when it kills a non-barbarian unit. Their weapon uses candies as ammunition, which doubles as a sugary &amp; refreshing snack.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PEDIA_PROMOTION_EDIBLE_AMMO">
-			<Text>Edible Ammo</Text>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_CANDY_BULLETS">
+			<Text>Candy Bullets</Text>
 		</Row>
 
 		<!-- Jaxian Cities (Naming Scheme: TODO) -->

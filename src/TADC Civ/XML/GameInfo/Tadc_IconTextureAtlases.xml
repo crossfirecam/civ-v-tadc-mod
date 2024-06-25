@@ -84,28 +84,28 @@
 		<Row>
 			<Atlas>ALPHA_ATLAS_TADC1_UNIT1</Atlas>
 			<IconSize>32</IconSize>
-			<Filename>AlphaAtlas_Tadc1_Unit1_32.dds</Filename>
+			<Filename>UnitFlag_Tadc1_U1_32.dds</Filename>
 			<IconsPerRow>1</IconsPerRow>
 			<IconsPerColumn>1</IconsPerColumn>
 		</Row>
 		<Row>
 			<Atlas>ALPHA_ATLAS_TADC2_UNIT1</Atlas>
 			<IconSize>32</IconSize>
-			<Filename>AlphaAtlas_Tadc2_Unit1_32.dds</Filename>
+			<Filename>UnitFlag_Tadc2_U1_32.dds</Filename>
 			<IconsPerRow>1</IconsPerRow>
 			<IconsPerColumn>1</IconsPerColumn>
 		</Row>
 		<Row>
 			<Atlas>ALPHA_ATLAS_TADC3_UNIT1</Atlas>
 			<IconSize>32</IconSize>
-			<Filename>AlphaAtlas_Tadc3_Unit1_32.dds</Filename>
+			<Filename>UnitFlag_Tadc3_U1_32.dds</Filename>
 			<IconsPerRow>1</IconsPerRow>
 			<IconsPerColumn>1</IconsPerColumn>
 		</Row>
 		<Row>
 			<Atlas>ALPHA_ATLAS_TADC4_UNIT1</Atlas>
 			<IconSize>32</IconSize>
-			<Filename>AlphaAtlas_Tadc4_Unit1_32.dds</Filename>
+			<Filename>UnitFlag_Tadc4_U1_32.dds</Filename>
 			<IconsPerRow>1</IconsPerRow>
 			<IconsPerColumn>1</IconsPerColumn>
 		</Row>

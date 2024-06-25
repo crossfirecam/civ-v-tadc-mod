@@ -26,7 +26,7 @@
 			<AdvancedStartCost>10</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_SCOUT</UnitArtInfo> <!-- Placeholder -->
+			<UnitArtInfo>ART_DEF_UNIT_TADC_ALLSEEINGEYE</UnitArtInfo> <!-- Placeholder -->
 			<UnitFlagAtlas>ALPHA_ATLAS_TADC1_UNIT1</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
@@ -105,7 +105,7 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<Conscription>2</Conscription>
-			<UnitArtInfo>ART_DEF_UNIT_SPEARMAN</UnitArtInfo>
+			<UnitArtInfo>ART_DEF_UNIT_TADC_ACROBAT</UnitArtInfo>
 			<UnitFlagAtlas>ALPHA_ATLAS_TADC2_UNIT1</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
@@ -186,7 +186,7 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<Conscription>5</Conscription>
-			<UnitArtInfo>ART_DEF_UNIT_RIFLEMAN</UnitArtInfo>
+			<UnitArtInfo>ART_DEF_UNIT_TADC_SHOTGUNNER</UnitArtInfo>
 			<UnitFlagAtlas>ALPHA_ATLAS_TADC3_UNIT1</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
@@ -202,7 +202,7 @@
 	<Unit_FreePromotions>
 		<Row>
 			<UnitType>UNIT_JAXIAN_SHOTGUNNER</UnitType>
-			<PromotionType>PROMOTION_EDIBLE_AMMO</PromotionType>
+			<PromotionType>PROMOTION_CANDY_BULLETS</PromotionType>
 		</Row>
 	</Unit_FreePromotions>
 	<Unit_AITypes>
