@@ -227,6 +227,10 @@ Attributions:
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="Art\LeaderScenes\Tadc1_SinglePlMapGraphic.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="Art\LeaderScenes\Tadc1_TradeScreen.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -239,6 +243,10 @@ Attributions:
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="Art\LeaderScenes\Tadc2_SinglePlMapGraphic.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="Art\LeaderScenes\Tadc2_TradeScreen.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -248,6 +256,10 @@ Attributions:
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Art\LeaderScenes\Tadc3_LeaderScene.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\LeaderScenes\Tadc3_SinglePlMapGraphic.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
@@ -284,6 +296,10 @@ Attributions:
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Art\ColorAtlas_TadcMod_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\LeaderScenes\Tadc4_SinglePlMapGraphic.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>

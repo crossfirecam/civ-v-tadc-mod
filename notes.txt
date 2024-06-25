@@ -7,5 +7,3 @@ Civ 4: Fix improvement icons for UI
 Implement Civ 3/4 dialogue
 
 Consider changing the phrasing of the Edible Ammo ability
-
-Replace placeholder map graphics for Singleplayer select screen
