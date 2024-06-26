@@ -56,7 +56,7 @@
 			<Text>Candy Communion</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_CANDY_COMMUNION">
-			<Text>Upon studying Philosophy, gain +1 [ICON_PEACE] Faith from [ICON_RES_SUGAR] Sugar, [ICON_RES_COCOA] Cocoa, [ICON_RES_CITRUS] Citrus, [ICON_RES_SPICES] Spice and [ICON_RES_BANANA] Banana tiles. Temples provide +2 [ICON_FOOD] Food.</Text>
+			<Text>Gain +1 [ICON_PEACE] Faith from [ICON_RES_SUGAR] Sugar, [ICON_RES_COCOA] Cocoa, [ICON_RES_CITRUS] Citrus, [ICON_RES_SPICES] Spice and [ICON_RES_BANANA] Banana tiles. Temples provide +2 [ICON_FOOD] Food.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TADC_LOOLILALUTRAIT">
 			<Text>Candy Communion</Text>
@@ -108,39 +108,158 @@
 		</Row>
 
 
-		<!-- Candy-Coated Cities (Naming Scheme: TODO) -->
+		<!-- Candy-Coated Cities (Naming Scheme: Sweet treats, source: https://edition.cnn.com/travel/article/world-50-best-desserts/index.html as of 2024-06-26) -->
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_THE_CANDY_KINGDOM">
+			<Text>Candy Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_TIRAMISU_TOWN">
+			<Text>Tiramisu Town</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_PAVLOVA_PALACE">
+			<Text>Pavlova Palace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_BROWNIE_BUREAU">
+			<Text>Brownie Bureau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_BLACK_FOREST">
+			<Text>Black Forest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_GINGERBREAD_GROUNDS">
+			<Text>Gingerbread</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_DOUGHTNUT_DISTRICT">
+			<Text>Doughnut</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_GELATO_PLACE">
+			<Text>Gelato Place</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_CREME_BRULEE_CIRCUIT">
+			<Text>Creme Brulee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_LEMONTART_LOUNGE">
+			<Text>Lemon-Tart</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_LINZER_TORTE">
+			<Text>Linzer Torte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_CHEESECAKE_CENTER">
+			<Text>Cheesecake</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_KIFLI">
+			<Text>Kifli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_MHANNCHA">
+			<Text>M'hanncha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_RIGO_JANCSI">
+			<Text>Rigo Jancsi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_CHOC_CHIP">
+			<Text>Choc-Chip</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_MAAMOUL">
+			<Text>Ma'amoul</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_FAB_FLAN">
+			<Text>Fab Flan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_SNOW_ICE">
+			<Text>Snow Ice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_BAKLAVA">
+			<Text>Baklava</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_DAN_TATS">
+			<Text>Dan Tats</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_CARDAMOM_BUNS">
+			<Text>Cardamom Buns</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_COCONUT_CAKE">
+			<Text>Coconut Cake</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_ICE_CREAM">
+			<Text>Ice Cream</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_STICKY_TOFFEE">
+			<Text>Sticky Toffee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_MANDAZI">
+			<Text>Mandazi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_QATAYEF">
+			<Text>Qatayef</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_KOUIGN_AMANN">
+			<Text>Kouign Amann</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_CANNOLI">
+			<Text>Cannoli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_OLIBOLLEN">
+			<Text>Olibollen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_KASHATA">
+			<Text>Kashata</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_POLVORONES">
+			<Text>Polvorones</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_GULAB_JAMUN">
+			<Text>Gulab Jamun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_MANGO_STICKY_RICE">
+			<Text>Mango Sticky Rice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_CHOCOLATE_MOUSSE">
+			<Text>Chocolate Mousse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_CENDOL">
+			<Text>Cendol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_SOUR_CHERRY_PIE">
+			<Text>Sour Cherry Pie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_KULFI">
+			<Text>Kulfi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_ESZTERHAZY_TORTA">
+			<Text>Eszterhazy Torta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_GATEAU_FONDANT_AU_CHOCOLAT">
+			<Text>Gateau Fondant au Chocolat</Text>
+		</Row>
 
-
-		<!-- Candy-Coated Spies -->
+		<!-- Candy-Coated Spies (Theme: Names of Chocolatiers. Credit: https://www.nationalgeographic.com/travel/article/the-10-best-chocolatiers-in-the-world as of 2024-06-26) -->
 		<Row Tag="TXT_KEY_SPY_NAME_TADC4_0">
-			<Text>...</Text>
+			<Text>Puccini</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC4_1">
-			<Text>...</Text>
+			<Text>Richart</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC4_2">
-			<Text>...</Text>
+			<Text>Richard</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC4_3">
-			<Text>...</Text>
+			<Text>Godiva</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC4_4">
-			<Text>...</Text>
+			<Text>Valrhona</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC4_5">
-			<Text>...</Text>
+			<Text>Norman</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC4_6">
-			<Text>...</Text>
+			<Text>Jacques</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC4_7">
-			<Text>...</Text>
+			<Text>Scharffen</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC4_8">
-			<Text>...</Text>
+			<Text>Vosges</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC4_9">
-			<Text>...</Text>
+			<Text>Teuscher</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

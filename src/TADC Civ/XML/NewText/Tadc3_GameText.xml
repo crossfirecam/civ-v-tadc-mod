@@ -95,39 +95,168 @@
 			<Text>Candy Bullets</Text>
 		</Row>
 
-		<!-- Jaxian Cities (Naming Scheme: TODO) -->
-
-
-		<!-- Jaxian Spies -->
+		<!-- Jaxian Cities (Naming Scheme: Names of rabbit breeds. Credit: https://en.wikipedia.org/wiki/List_of_rabbit_breeds as of 2024-06-26) -->
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_JAXS_HEADQUARTERS">
+			<Text>Jax's Stronghold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_LILAC">
+			<Text>Lilac</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_HARLEQUIN">
+			<Text>Harlequin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_SATIN">
+			<Text>Satin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_GOTLAND">
+			<Text>Gotland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_JAMORA">
+			<Text>Jamora</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_LIONHEAD">
+			<Text>Lionhead</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_MEISSNER">
+			<Text>Meissner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_LYNX">
+			<Text>Lynx</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_RHONE">
+			<Text>Rhone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_PALOMINO">
+			<Text>Palomino</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_NITRANSKY">
+			<Text>Nitransky</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_SMOKE_PEARL">
+			<Text>Smoke Pearl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_TAN">
+			<Text>Tan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_VELVETEEN">
+			<Text>Velveteen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_SILVER">
+			<Text>Silver</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_REX">
+			<Text>Rex</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_KABYLE">
+			<Text>Kabyle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_ISABELLA">
+			<Text>Isabella</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_HAVANA">
+			<Text>Havana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_GABALI">
+			<Text>Gabali</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_FLEMISH">
+			<Text>Flemish</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_DUTCH">
+			<Text>Dutch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_CRIOLLO">
+			<Text>Criollo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_ASTREX">
+			<Text>Astrex</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_CUBAN_BROWN">
+			<Text>Cuban Brown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_CONTINENTAL">
+			<Text>Continental</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_MELLERUD">
+			<Text>Mellerud</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_DALMATION">
+			<Text>Dalmation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_BLUE_OF_HAM">
+			<Text>Blue Of Ham</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_SACHSENGOLD">
+			<Text>Sachsengold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_CHINCILLA">
+			<Text>Chincilla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_ORANGE">
+			<Text>Orange</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_SWISS_FOX">
+			<Text>Swiss Fox</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_WHEATEN">
+			<Text>Wheaten</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_PANNON_WHITE">
+			<Text>Pannon White</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_SALLANDER">
+			<Text>Sallander</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_POINTED_BEVEREN">
+			<Text>Pointed Beveren</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_ALASKA">
+			<Text>Alaska</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADC_PURPLE_JACKRABBIT">
+			<Text>Purple Jackrabbit</Text>
+		</Row>
+		
+		<!-- Jaxian Spies (Theme: Names of famous cartoon rabbits) -->
 		<Row Tag="TXT_KEY_SPY_NAME_TADC3_0">
-			<Text>...</Text>
+			<Text>Roger</Text>
+			<Gender>masculine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC3_1">
-			<Text>...</Text>
+			<Text>Bugs</Text>
+			<Gender>masculine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC3_2">
-			<Text>...</Text>
+			<Text>Peter</Text>
+			<Gender>masculine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC3_3">
-			<Text>...</Text>
+			<Text>Lola</Text>
+			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC3_4">
-			<Text>...</Text>
+			<Text>Oswald</Text>
+			<Gender>masculine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC3_5">
-			<Text>...</Text>
+			<Text>Judy</Text>
+			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC3_6">
-			<Text>...</Text>
+			<Text>Anais</Text>
+			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC3_7">
-			<Text>...</Text>
+			<Text>Buster</Text>
+			<Gender>masculine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC3_8">
-			<Text>...</Text>
+			<Text>Jessica</Text>
+			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TADC3_9">
-			<Text>...</Text>
+			<Text>Vanilla</Text>
+			<Gender>feminine</Gender>
 		</Row>
 	</Language_en_US>
 </GameData>
