@@ -6,5 +6,27 @@
 			<SecondaryColor>COLOR_PLAYER_RED</SecondaryColor>
 			<TextColor>COLOR_PLAYER_LIGHT_BLUE</TextColor>
 		</Row>
+		<Row>
+			<Type>PLAYERCOLOR_TADC4</Type>
+			<PrimaryColor>COLOR_TADC_CANDYPURPLE</PrimaryColor>
+			<SecondaryColor>COLOR_TADC_CANDYLIGHTPINK</SecondaryColor>
+			<TextColor>COLOR_TADC_CANDYPURPLE</TextColor>
+		</Row>
 	</PlayerColors>
+	<Colors>
+		<Row>
+			<Type>COLOR_TADC_CANDYLIGHTPINK</Type>
+			<Red>0.97</Red>
+			<Green>0.84</Green>
+			<Blue>0.96</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_TADC_CANDYPURPLE</Type>
+			<Red>0.6</Red>
+			<Green>0.10</Green>
+			<Blue>0.57</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+	</Colors>
 </GameData>

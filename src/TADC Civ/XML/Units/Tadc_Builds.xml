@@ -11,7 +11,7 @@
 			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
 			<HotKey>KB_K</HotKey>
 			<OrderPriority>98</OrderPriority>
-			<IconIndex>19</IconIndex> <!-- Placeholder, replace with version without a background -->
+			<IconIndex>43</IconIndex>
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
 		</Row>
 	</Builds>

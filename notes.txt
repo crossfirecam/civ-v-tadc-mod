@@ -1,5 +1,1 @@
 Try to get Truck animation working properly (when Quick Combat is disabled)
-
-Civ 4: Fix improvement icons for Worker UI
-
-Civ 3/4 colours
