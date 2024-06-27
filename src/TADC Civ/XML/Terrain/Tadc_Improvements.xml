@@ -6,7 +6,7 @@
 			<Type>IMPROVEMENT_MAPLE_SUGARBUSH</Type>
 			<Description>TXT_KEY_IMPROVEMENT_MAPLE_SUGARBUSH</Description>
 			<Civilopedia>TXT_KEY_CIVLOPEDIA_IMPROVEMENT_MAPLE_SUGARBUSH_TEXT</Civilopedia>
-			<ArtDefineTag>ART_DEF_IMPROVEMENT_LUMBERMILL</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_MAPLE_SUGARBUSH</ArtDefineTag>
 			<SpecificCivRequired>true</SpecificCivRequired>
 			<CivilizationType>CIVILIZATION_TADC4</CivilizationType>
 			<RequiresFeature>true</RequiresFeature>
@@ -35,10 +35,59 @@
 	</Improvement_ValidFeatures>
 	<Improvement_TechYieldChanges>
 		<Row>
-			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<ImprovementType>IMPROVEMENT_MAPLE_SUGARBUSH</ImprovementType>
 			<TechType>TECH_FERTILIZER</TechType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 	</Improvement_TechYieldChanges>
+	
+	
+	
+	<!-- To add a strategic view icon for the Sugarbush, I need to create a new Art_Def. Credit to Firaxis for the below code, the attributes copy their Lumbermill improvement -->
+	<!-- Thanks to bouncymischa's Future Worlds mod for a template of this section for guidance, because I couldn't find out the XML tags to use -->
+	<ArtDefine_StrategicView>
+		<Row>
+			<StrategicViewType>ART_DEF_IMPROVEMENT_MAPLE_SUGARBUSH</StrategicViewType>
+			<TileType>Improvement</TileType>
+			<Asset>svFlag_Tadc4_Impr1.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
+
+	<ArtDefine_LandmarkTypes>
+		<Row>
+			<Type>ART_DEF_IMPROVEMENT_MAPLE_SUGARBUSH</Type>
+			<LandmarkType>Improvement</LandmarkType>
+			<FriendlyName>MAPLE_SUGARBUSH</FriendlyName>
+		</Row>
+	</ArtDefine_LandmarkTypes>
+	<ArtDefine_Landmarks>
+		<Row>
+			<Era>Any</Era>
+			<State>UnderConstruction</State>
+			<Scale>1.0</Scale>
+			<ImprovementType>ART_DEF_IMPROVEMENT_MAPLE_SUGARBUSH</ImprovementType>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<ResourceType>ART_DEF_RESOURCE_ALL</ResourceType>
+			<Model>Assets/Buildings/Improvements/Lumber_Mill/Medieval/HB_Lumbermill_MID.fxsxml</Model>
+		</Row>
+		<Row>
+			<Era>Any</Era>
+			<State>Constructed</State>
+			<Scale>1.0</Scale>
+			<ImprovementType>ART_DEF_IMPROVEMENT_MAPLE_SUGARBUSH</ImprovementType>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<ResourceType>ART_DEF_RESOURCE_ALL</ResourceType>
+			<Model>Assets/Buildings/Improvements/Lumber_Mill/Medieval/Lumbermill_MID.fxsxml</Model>
+		</Row>
+		<Row>
+			<Era>Any</Era>
+			<State>Pillaged</State>
+			<Scale>1.0</Scale>
+			<ImprovementType>ART_DEF_IMPROVEMENT_MAPLE_SUGARBUSH</ImprovementType>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<ResourceType>ART_DEF_RESOURCE_ALL</ResourceType>
+			<Model>Assets/Buildings/Improvements/Lumber_Mill/Medieval/PL_Lumbermill_MID.fxsxml</Model>
+		</Row>
+	</ArtDefine_Landmarks>
 </GameData>

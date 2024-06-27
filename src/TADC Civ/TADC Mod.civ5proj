@@ -170,6 +170,7 @@ Attributions:
     <Homepage>http://https://crossfirecam.itch.io</Homepage>
     <ReloadUnitSystem>true</ReloadUnitSystem>
     <ReloadStrategicViewSystem>true</ReloadStrategicViewSystem>
+    <ReloadLandmarkSystem>true</ReloadLandmarkSystem>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -332,6 +333,10 @@ Attributions:
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Art\UnitAtlas\svFlag_Tadc3_U1.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\UnitAtlas\svFlag_Tadc4_Impr1.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
