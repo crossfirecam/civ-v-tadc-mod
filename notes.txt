@@ -2,4 +2,4 @@ Try to get Truck animation working properly (when Quick Combat is disabled)
 
 Civ 4: Fix improvement icons for Worker UI
 
-Implement Civ 3/4's diplomatic dialogue
+Civ 3/4 colours

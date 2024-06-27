@@ -1,116 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Based on template by DoktorApplejuce on CivFanatics https://forums.civfanatics.com/threads/need-help-adding-new-diplomacy-responses.548209/ -->
 <GameData>
-	<!-- TODO fill these placeholders -->
 	<Diplomacy_Responses>
-		<Row LeaderType="LEADER_TADC2_POMNI">
+		<Row>
+			<LeaderType>LEADER_TADC2_POMNI</LeaderType>
 			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
 			<Response>TXT_KEY_LEADER_TADC2_POMNI_FIRSTGREETING%</Response>
+			<Bias>500</Bias>
 		</Row>
-		<Row LeaderType="LEADER_TADC2_POMNI">
+		<Row>
+			<LeaderType>LEADER_TADC2_POMNI</LeaderType>
 			<ResponseType>RESPONSE_DEFEATED</ResponseType>
 			<Response>TXT_KEY_LEADER_TADC2_POMNI_DEFEATED%</Response>
+			<Bias>500</Bias>
 		</Row>
-		<Row LeaderType="LEADER_TADC2_POMNI">
+		<Row>
+			<LeaderType>LEADER_TADC2_POMNI</LeaderType>
 			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
-			<Response>TXT_KEY_LEADER_TADC2_POMNI_POLITE_HELLO%</Response>
+			<Response>TXT_KEY_LEADER_TADC2_POMNI_GREETING_POLITE_HELLO%</Response>
+			<Bias>500</Bias>
 		</Row>
-		<Row LeaderType="LEADER_TADC2_POMNI">
+		<Row>
+			<LeaderType>LEADER_TADC2_POMNI</LeaderType>
 			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
-			<Response>TXT_KEY_LEADER_TADC2_POMNI_NEUTRAL_HELLO%</Response>
+			<Response>TXT_KEY_LEADER_TADC2_POMNI_GREETING_NEUTRAL_HELLO%</Response>
+			<Bias>500</Bias>
 		</Row>
-		<Row LeaderType="LEADER_TADC2_POMNI">
+		<Row>
+			<LeaderType>LEADER_TADC2_POMNI</LeaderType>
 			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
-			<Response>TXT_KEY_LEADER_TADC2_POMNI_HOSTILE_HELLO%</Response>
+			<Response>TXT_KEY_LEADER_TADC2_POMNI_GREETING_HOSTILE_HELLO%</Response>
+			<Bias>500</Bias>
 		</Row>
-		<Row LeaderType="LEADER_TADC2_POMNI">
+		<Row>
+			<LeaderType>LEADER_TADC2_POMNI</LeaderType>
 			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
 			<Response>TXT_KEY_LEADER_TADC2_POMNI_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+			<Bias>500</Bias>
 		</Row>
-		<Row LeaderType="LEADER_TADC2_POMNI">
+		<Row>
+			<LeaderType>LEADER_TADC2_POMNI</LeaderType>
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HUMAN_SMALL_ARMY</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC2_POMNI_HOSTILE_HUMAN_SMALL_ARMY</Response>
+			<Bias>500</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_TADC2_POMNI</LeaderType>
 			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
 			<Response>TXT_KEY_LEADER_TADC2_POMNI_EXPANSION_SERIOUS_WARNING%</Response>
+			<Bias>500</Bias>
 		</Row>
-		<Row LeaderType="LEADER_TADC2_POMNI">
+		<Row>
+			<LeaderType>LEADER_TADC2_POMNI</LeaderType>
 			<ResponseType>RESPONSE_REQUEST</ResponseType>
 			<Response>TXT_KEY_LEADER_TADC2_POMNI_RESPONSE_REQUEST%</Response>
+			<Bias>500</Bias>
 		</Row>
-		<Row LeaderType="LEADER_TADC2_POMNI">
+		<Row>
+			<LeaderType>LEADER_TADC2_POMNI</LeaderType>
 			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
 			<Response>TXT_KEY_LEADER_TADC2_POMNI_RESPONSE_LUXURY_TRADE%</Response>
+			<Bias>500</Bias>
 		</Row>
-		<Row LeaderType="LEADER_TADC2_POMNI">
-			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
-			<Response>TXT_KEY_LEADER_TADC2_POMNI_OPEN_BORDERS_EXCHANGE%</Response>
-		</Row>
-		<Row LeaderType="LEADER_TADC2_POMNI">
-			<ResponseType>RESPONSE_ATTACKED_BETRAYED</ResponseType>
-			<Response>TXT_KEY_LEADER_TADC2_POMNI_ATTACKED_BETRAYED</Response>
-		</Row>
-		<Row LeaderType="LEADER_TADC2_POMNI">
-			<ResponseType>RESPONSE_ATTACKED_EXCITED</ResponseType>
-			<Response>TXT_KEY_LEADER_TADC2_POMNI_ATTACKED_EXCITED</Response>
-		</Row>
-		<Row LeaderType="LEADER_TADC2_POMNI">
-			<ResponseType>RESPONSE_ATTACKED_HOSTILE</ResponseType>
-			<Response>TXT_KEY_LEADER_TADC2_POMNI_ATTACKED_HOSTILE</Response>
-		</Row>
-		<Row LeaderType="LEADER_TADC2_POMNI">
+		<Row>
+			<LeaderType>LEADER_TADC2_POMNI</LeaderType>
 			<ResponseType>RESPONSE_DECLAREWAR</ResponseType>
 			<Response>TXT_KEY_LEADER_TADC2_POMNI_DECLAREWAR%</Response>
+			<Bias>500</Bias>
 		</Row>
-		<Row LeaderType="LEADER_TADC2_POMNI">
-			<ResponseType>RESPONSE_TRADE_NEEDMORE_ANGRY</ResponseType>
-			<Response>TXT_KEY_LEADER_TADC2_POMNI_TRADE_NEEDMORE_ANGRY</Response>
+		<!-- War responses: Overwrite all scenarios with the same 3 replies - betrayed, excited, hostile. -->
+		<Row>
+			<LeaderType>LEADER_TADC2_POMNI</LeaderType>
+			<ResponseType>RESPONSE_ATTACKED_SAD</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC2_POMNI_ATTACKED_BETRAYED%</Response>
+			<Bias>500</Bias>
 		</Row>
-		<Row LeaderType="LEADER_TADC2_POMNI">
-			<ResponseType>RESPONSE_TRADE_NEEDMORE_NEUTRAL</ResponseType>
-			<Response>TXT_KEY_LEADER_TADC2_POMNI_TRADE_NEEDMORE_NEUTRAL</Response>
+		<Row>
+			<LeaderType>LEADER_TADC2_POMNI</LeaderType>
+			<ResponseType>RESPONSE_ATTACKED_BETRAYED</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC2_POMNI_ATTACKED_BETRAYED%</Response>
+			<Bias>500</Bias>
 		</Row>
-		<Row LeaderType="LEADER_TADC2_POMNI">
-			<ResponseType>RESPONSE_TRADE_NEEDMORE_HAPPY</ResponseType>
-			<Response>TXT_KEY_LEADER_TADC2_POMNI_TRADE_NEEDMORE_HAPPY</Response>
+		<Row>
+			<LeaderType>LEADER_TADC2_POMNI</LeaderType>
+			<ResponseType>RESPONSE_ATTACKED_EXCITED</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC2_POMNI_ATTACKED_EXCITED%</Response>
+			<Bias>500</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_TADC2_POMNI</LeaderType>
+			<ResponseType>RESPONSE_ATTACKED_WEAK_EXCITED</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC2_POMNI_ATTACKED_EXCITED%</Response>
+			<Bias>500</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_TADC2_POMNI</LeaderType>
+			<ResponseType>RESPONSE_ATTACKED_STRONG_EXCITED</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC2_POMNI_ATTACKED_EXCITED%</Response>
+			<Bias>500</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_TADC2_POMNI</LeaderType>
+			<ResponseType>RESPONSE_ATTACKED_HOSTILE</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC2_POMNI_ATTACKED_HOSTILE%</Response>
+			<Bias>500</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_TADC2_POMNI</LeaderType>
+			<ResponseType>RESPONSE_ATTACKED_WEAK_HOSTILE</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC2_POMNI_ATTACKED_HOSTILE%</Response>
+			<Bias>500</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_TADC2_POMNI</LeaderType>
+			<ResponseType>RESPONSE_ATTACKED_STRONG_HOSTILE</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC2_POMNI_ATTACKED_HOSTILE%</Response>
+			<Bias>500</Bias>
 		</Row>
 	</Diplomacy_Responses>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_FIRSTGREETING_1">
-			<Text>...</Text>
+			<Text>Hello! My name is Pomni, and I... I'm pleased to meet you, I guess? I'm completely stuck in this place, you don't know a way out, do you?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_DEFEATED_1">
-			<Text>...</Text>
+			<Text>I'm finished! How do I... take this... headset off?!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_GREETING_POLITE_HELLO_1">
-			<Text>...</Text>
+			<Text>Hi again! My friends have just finished making a cake. Would you join us?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_GREETING_NEUTRAL_HELLO_1">
-			<Text>...</Text>
+			<Text>What time period is this supposed to be again?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_GREETING_HOSTILE_HELLO_1">
-			<Text>...</Text>
+			<Text>Wait, wait. Was that an exit door I just saw? I'd take any opportunity to leave this conversation!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
-			<Text>...</Text>
+			<Text>I swear I saw a lot of units gathering outside. Please tell me you're not going to do what I think you're about to do.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_HOSTILE_HUMAN_SMALL_ARMY">
+			<Text>I may not even remember my own name, but in my opinion, you should be trying harder to remember to build up a military... Just a heads up.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_EXPANSION_SERIOUS_WARNING_1">
-			<Text>...</Text>
+			<Text>Hey, what do you think you're up to?! Stay away from us!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_REQUEST">
-			<Text>...</Text>
+			<Text>My friends and I are in some trouble. Could you lend a hand, please...?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_LUXURY_TRADE">
-			<Text>...</Text>
+			<Text>Kinger is just obsessed with those spare resources you have... Can we trade for them?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_ATTACKED_BETRAYED">
-			<Text>...</Text>
+			<Text>OH, YOU (%$!#)HOLE!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_ATTACKED_EXCITED">
-			<Text>...</Text>
+			<Text>I can't sing without a script, but I can fight without a plan! Let's do it!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_ATTACKED_HOSTILE">
-			<Text>...</Text>
+			<Text>ARE YOU GUYS TRYING TO F(%$!#)ING KILL ME?!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC2_POMNI_DECLAREWAR_1">
-			<Text>...</Text>
+			<Text>So, our entire existence here is just... LARPing? Well then, I'm gonna beat your (%$!#) with a sword before you know what hit you!</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

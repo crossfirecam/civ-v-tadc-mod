@@ -1,116 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Based on template by DoktorApplejuce on CivFanatics https://forums.civfanatics.com/threads/need-help-adding-new-diplomacy-responses.548209/ -->
 <GameData>
-	<!-- TODO fill these placeholders -->
 	<Diplomacy_Responses>
-		<Row LeaderType="LEADER_TADC4_LOOLILALU">
+		<Row>
+			<LeaderType>LEADER_TADC4_LOOLILALU</LeaderType>
 			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
 			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_FIRSTGREETING%</Response>
+			<Bias>500</Bias>
 		</Row>
-		<Row LeaderType="LEADER_TADC4_LOOLILALU">
+		<Row>
+			<LeaderType>LEADER_TADC4_LOOLILALU</LeaderType>
 			<ResponseType>RESPONSE_DEFEATED</ResponseType>
 			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_DEFEATED%</Response>
+			<Bias>500</Bias>
 		</Row>
-		<Row LeaderType="LEADER_TADC4_LOOLILALU">
+		<Row>
+			<LeaderType>LEADER_TADC4_LOOLILALU</LeaderType>
 			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
-			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_POLITE_HELLO%</Response>
+			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_GREETING_POLITE_HELLO%</Response>
+			<Bias>500</Bias>
 		</Row>
-		<Row LeaderType="LEADER_TADC4_LOOLILALU">
+		<Row>
+			<LeaderType>LEADER_TADC4_LOOLILALU</LeaderType>
 			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
-			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_NEUTRAL_HELLO%</Response>
+			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_GREETING_NEUTRAL_HELLO%</Response>
+			<Bias>500</Bias>
 		</Row>
-		<Row LeaderType="LEADER_TADC4_LOOLILALU">
+		<Row>
+			<LeaderType>LEADER_TADC4_LOOLILALU</LeaderType>
 			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
-			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_HOSTILE_HELLO%</Response>
+			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_GREETING_HOSTILE_HELLO%</Response>
+			<Bias>500</Bias>
 		</Row>
-		<Row LeaderType="LEADER_TADC4_LOOLILALU">
+		<Row>
+			<LeaderType>LEADER_TADC4_LOOLILALU</LeaderType>
 			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
 			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+			<Bias>500</Bias>
 		</Row>
-		<Row LeaderType="LEADER_TADC4_LOOLILALU">
+		<Row>
+			<LeaderType>LEADER_TADC4_LOOLILALU</LeaderType>
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HUMAN_SMALL_ARMY</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_HOSTILE_HUMAN_SMALL_ARMY</Response>
+			<Bias>500</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_TADC4_LOOLILALU</LeaderType>
 			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
 			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_EXPANSION_SERIOUS_WARNING%</Response>
+			<Bias>500</Bias>
 		</Row>
-		<Row LeaderType="LEADER_TADC4_LOOLILALU">
+		<Row>
+			<LeaderType>LEADER_TADC4_LOOLILALU</LeaderType>
 			<ResponseType>RESPONSE_REQUEST</ResponseType>
 			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_RESPONSE_REQUEST%</Response>
+			<Bias>500</Bias>
 		</Row>
-		<Row LeaderType="LEADER_TADC4_LOOLILALU">
+		<Row>
+			<LeaderType>LEADER_TADC4_LOOLILALU</LeaderType>
 			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
 			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_RESPONSE_LUXURY_TRADE%</Response>
+			<Bias>500</Bias>
 		</Row>
-		<Row LeaderType="LEADER_TADC4_LOOLILALU">
-			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
-			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_OPEN_BORDERS_EXCHANGE%</Response>
-		</Row>
-		<Row LeaderType="LEADER_TADC4_LOOLILALU">
-			<ResponseType>RESPONSE_ATTACKED_BETRAYED</ResponseType>
-			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_ATTACKED_BETRAYED</Response>
-		</Row>
-		<Row LeaderType="LEADER_TADC4_LOOLILALU">
-			<ResponseType>RESPONSE_ATTACKED_EXCITED</ResponseType>
-			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_ATTACKED_EXCITED</Response>
-		</Row>
-		<Row LeaderType="LEADER_TADC4_LOOLILALU">
-			<ResponseType>RESPONSE_ATTACKED_HOSTILE</ResponseType>
-			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_ATTACKED_HOSTILE</Response>
-		</Row>
-		<Row LeaderType="LEADER_TADC4_LOOLILALU">
+		<Row>
+			<LeaderType>LEADER_TADC4_LOOLILALU</LeaderType>
 			<ResponseType>RESPONSE_DECLAREWAR</ResponseType>
 			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_DECLAREWAR%</Response>
+			<Bias>500</Bias>
 		</Row>
-		<Row LeaderType="LEADER_TADC4_LOOLILALU">
-			<ResponseType>RESPONSE_TRADE_NEEDMORE_ANGRY</ResponseType>
-			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_TRADE_NEEDMORE_ANGRY</Response>
+		<!-- War responses: Overwrite all scenarios with the same 3 replies - betrayed, excited, hostile. -->
+		<Row>
+			<LeaderType>LEADER_TADC4_LOOLILALU</LeaderType>
+			<ResponseType>RESPONSE_ATTACKED_SAD</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_ATTACKED_BETRAYED%</Response>
+			<Bias>500</Bias>
 		</Row>
-		<Row LeaderType="LEADER_TADC4_LOOLILALU">
-			<ResponseType>RESPONSE_TRADE_NEEDMORE_NEUTRAL</ResponseType>
-			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_TRADE_NEEDMORE_NEUTRAL</Response>
+		<Row>
+			<LeaderType>LEADER_TADC4_LOOLILALU</LeaderType>
+			<ResponseType>RESPONSE_ATTACKED_BETRAYED</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_ATTACKED_BETRAYED%</Response>
+			<Bias>500</Bias>
 		</Row>
-		<Row LeaderType="LEADER_TADC4_LOOLILALU">
-			<ResponseType>RESPONSE_TRADE_NEEDMORE_HAPPY</ResponseType>
-			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_TRADE_NEEDMORE_HAPPY</Response>
+		<Row>
+			<LeaderType>LEADER_TADC4_LOOLILALU</LeaderType>
+			<ResponseType>RESPONSE_ATTACKED_EXCITED</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_ATTACKED_EXCITED%</Response>
+			<Bias>500</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_TADC4_LOOLILALU</LeaderType>
+			<ResponseType>RESPONSE_ATTACKED_WEAK_EXCITED</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_ATTACKED_EXCITED%</Response>
+			<Bias>500</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_TADC4_LOOLILALU</LeaderType>
+			<ResponseType>RESPONSE_ATTACKED_STRONG_EXCITED</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_ATTACKED_EXCITED%</Response>
+			<Bias>500</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_TADC4_LOOLILALU</LeaderType>
+			<ResponseType>RESPONSE_ATTACKED_HOSTILE</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_ATTACKED_HOSTILE%</Response>
+			<Bias>500</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_TADC4_LOOLILALU</LeaderType>
+			<ResponseType>RESPONSE_ATTACKED_WEAK_HOSTILE</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_ATTACKED_HOSTILE%</Response>
+			<Bias>500</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_TADC4_LOOLILALU</LeaderType>
+			<ResponseType>RESPONSE_ATTACKED_STRONG_HOSTILE</ResponseType>
+			<Response>TXT_KEY_LEADER_TADC4_LOOLILALU_ATTACKED_HOSTILE%</Response>
+			<Bias>500</Bias>
 		</Row>
 	</Diplomacy_Responses>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_LEADER_TADC4_LOOLILALU_FIRSTGREETING_1">
-			<Text>...</Text>
+			<Text>Hello, my name is Loolilalu. My people and I are lost in this strange place and simply wish to return home. Please show us mercy.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC4_LOOLILALU_DEFEATED_1">
-			<Text>...</Text>
+			<Text>Very well. Please, at least spare my people, I don't care what you do with me.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC4_LOOLILALU_GREETING_POLITE_HELLO_1">
-			<Text>...</Text>
+			<Text>(giggles) I like you already! Please, call me Loo.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC4_LOOLILALU_GREETING_NEUTRAL_HELLO_1">
-			<Text>...</Text>
+			<Text>Hello, good knight!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC4_LOOLILALU_GREETING_HOSTILE_HELLO_1">
-			<Text>...</Text>
+			<Text>I'm not one to talk foul of others, however I'll tell you that you're getting awfully close to being barred from entering my kingdom's walls ever again.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC4_LOOLILALU_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
-			<Text>...</Text>
+			<Text>I can see your forces outside my walls. I'm confident that we'll hold out despite your unwarranted aggression.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TADC4_LOOLILALU_HOSTILE_HUMAN_SMALL_ARMY">
+			<Text>My advisors tell me your military situation is looking a little dicey. Don't worry, I get it! We all get distracted. Let's hope the other nations here don't find out.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC4_LOOLILALU_EXPANSION_SERIOUS_WARNING_1">
-			<Text>...</Text>
+			<Text>You break my heart. Why settle so close to us? Did we do something to upset you?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC4_LOOLILALU_REQUEST">
-			<Text>...</Text>
+			<Text>Ah, you must be the kind samaritan sent to us by God... to help us with our recent catastrophe.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC4_LOOLILALU_LUXURY_TRADE">
-			<Text>...</Text>
+			<Text>Why let resources go to waste? Come, let us trade!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC4_LOOLILALU_ATTACKED_BETRAYED">
-			<Text>...</Text>
+			<Text>Okay, wait. Y-You did what now?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC4_LOOLILALU_ATTACKED_EXCITED">
-			<Text>...</Text>
+			<Text>My people are ready to fight! Don't think we'll take your aggression lying down!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC4_LOOLILALU_ATTACKED_HOSTILE">
-			<Text>...</Text>
+			<Text>You're unbelievable. Come then, let's settle this for good.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC4_LOOLILALU_DECLAREWAR_1">
-			<Text>...</Text>
+			<Text>My profuse apologies to you, I must attack now. I'm simply doing what must be done to help my people. Just keep your citizens out of the way, I don't want to harm them...</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
