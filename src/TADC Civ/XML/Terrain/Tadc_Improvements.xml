@@ -6,6 +6,7 @@
 			<Type>IMPROVEMENT_MAPLE_SUGARBUSH</Type>
 			<Description>TXT_KEY_IMPROVEMENT_MAPLE_SUGARBUSH</Description>
 			<Civilopedia>TXT_KEY_CIVLOPEDIA_IMPROVEMENT_MAPLE_SUGARBUSH_TEXT</Civilopedia>
+			<Help>TXT_KEY_CIV5_IMPROVEMENT_MAPLE_SUGARBUSH_HELP</Help>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_MAPLE_SUGARBUSH</ArtDefineTag>
 			<SpecificCivRequired>true</SpecificCivRequired>
 			<CivilizationType>CIVILIZATION_TADC4</CivilizationType>

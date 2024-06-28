@@ -1,1 +1,5 @@
-Try to get Truck animation working properly (when Quick Combat is disabled)
+Playtesting Todo
+- Ensure that weird 'settler getting all promotions' bug is not my fault, by starting 30 games with no other mods installed.
+- Ensure that all Civlopedia text is present.
+- Ensure that Civs aren't poorly balanced in actual gameplay.
+- What music plays for the 4 Civs? I can't figure out how to set this, it may be <ArtDefineTag> in <Civilizations>

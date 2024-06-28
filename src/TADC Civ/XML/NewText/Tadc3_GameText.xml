@@ -20,13 +20,13 @@
 			<Text>About The House of Jax</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TADC3_TEXT_1">
-			<Text>...</Text>
+			<Text>(Jax): I came up with this name after thinking for a while... What would be the most pompous, self-aggrandizing name for a civilization I could think of? Something that'd really piss off Ragatha? Well, here you go. Welcome to The House of Jax.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TADC3_HEADING_2">
 			<Text>How Did He Arrive Here?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TADC3_TEXT_2">
-			<Text>...</Text>
+			<Text>(Jax): Well, if you really want to know the in's and out's about how I got here, go ask someone who cares to repeat it. I'm sure Pomni's got the time to write about it in her history books, but I don't - I've got cities to crush.</Text>
 		</Row>
 
 
@@ -35,7 +35,7 @@
 			<Text>About Jax</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC3_JAX_TEXT_1">
-			<Text>...</Text>
+			<Text>(Jax): I'd describe myself as a powderkeg. Capable of remaining completely inert and stoic, despite holding onto the potential for a lot of destructive power. Going insane with chaos isn't my thing, I'm not a nutso. I am strategic with when I let my gunpowder light up in flames.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC3_JAX_LIVED">
 			<Text>?? - ?? AD</Text>
@@ -44,7 +44,7 @@
 			<Text>Jax</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC3_JAX_SUBTITLE">
-			<Text>...</Text>
+			<Text>Almighty King of The House of Jax</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC3_JAX">
 			<Text>Jax</Text>
@@ -70,7 +70,7 @@
 			<Text>Pilfered from the Candy Canyon Kingdom, the design of this shotgun is rudimentary but effective.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_JAXIAN_SHOTGUNNER_STRATEGY">
-			<Text>The Shotgunner is the Jaxian unique unit, replacing the Riflemen. It possesses a promotion that provides 20HP after killing a non-barbarian enemy.</Text>
+			<Text>The Shotgunner is the Jaxian unique unit, replacing the Riflemen. It possesses a promotion that provides +20HP after killing a non-barbarian enemy.</Text>
 		</Row>
 		
 		<!-- Jaxian Unique Building -->

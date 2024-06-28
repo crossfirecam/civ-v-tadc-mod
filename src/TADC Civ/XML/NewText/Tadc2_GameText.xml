@@ -20,7 +20,7 @@
 			<Text>About The Cast-Members Alliance</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TADC2_TEXT_1">
-			<Text>The Cast-Members Alliance is a group of 5 humans, trapped in a virtual world named The Amazing Digital Circus. Each of the Cast-Members offer a special talent to help this Civilization flourish. The five also take turns in naming newly-founded cities.[NEWLINE][NEWLINE][ICON_BULLET] Pomni (Leader): Responsible for everything the others don't want to do.[NEWLINE][ICON_BULLET] Gangle (Entertainer): Keeps the people happy the best she can.[NEWLINE][ICON_BULLET] Kinger (Military Commander): Trains the Acrobats by throwing bananas in front of them constantly, until they learn to adapt.[NEWLINE][ICON_BULLET] Ragatha (Tailor): Employs her talents with needlework to improve luxury yields.[NEWLINE][ICON_BULLET] Zooble (Secret Agent): Their detached limbs act as spies, harvesting vital intelligence from other Civilizations.</Text>
+			<Text>The Cast-Members Alliance is a group of 5 humans, trapped in a virtual world named The Amazing Digital Circus. Each of the Cast-Members offer a special talent to help this Civilization flourish. The five also take turns in naming newly-founded cities.[NEWLINE][NEWLINE][ICON_BULLET] Pomni (Leader): Responsible for everything the others don't want to do.[NEWLINE][ICON_BULLET] Gangle (Entertainer): Keeps the people happy the best she can.[NEWLINE][ICON_BULLET] Kinger (Military Commander): Trains his Acrobats by throwing bananas in front of them constantly, until they learn to adapt.[NEWLINE][ICON_BULLET] Ragatha (Tailor): Employs her talents with needlework to improve luxury yields.[NEWLINE][ICON_BULLET] Zooble (Secret Agent): Their detached limbs act as spies, harvesting vital intelligence from other Civilizations.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TADC2_HEADING_2">
 			<Text>How Did They Arrive Here?</Text>
@@ -97,7 +97,7 @@
 		</Row>
 		
 		
-		<!-- Cast-Allied Unique Promotions -->
+		<!-- Cast-Allied Unique Promotion -->
 		<Row Tag="TXT_KEY_PROMOTION_ACROBAT_TRAINING">
 			<Text>Acrobat Training</Text>
 		</Row>

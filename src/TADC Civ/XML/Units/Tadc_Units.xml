@@ -26,7 +26,7 @@
 			<AdvancedStartCost>10</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_TADC_ALLSEEINGEYE</UnitArtInfo> <!-- Placeholder -->
+			<UnitArtInfo>ART_DEF_UNIT_TADC_ALLSEEINGEYE</UnitArtInfo>
 			<UnitFlagAtlas>ALPHA_ATLAS_TADC1_UNIT1</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>

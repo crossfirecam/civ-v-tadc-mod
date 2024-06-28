@@ -8,10 +8,10 @@
 			<Civilopedia>TXT_KEY_CIV_TADC2_PEDIA</Civilopedia>
 			<CivilopediaTag>TXT_KEY_CIV5_TADC2</CivilopediaTag>
 			<DefaultPlayerColor>PLAYERCOLOR_TADC2</DefaultPlayerColor>
-			<ArtDefineTag>ART_DEF_CIVILIZATION_ENGLAND</ArtDefineTag> <!-- Placeholder, decide later -->
-			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType> <!-- Placeholder, decide later -->
-			<ArtStyleSuffix>_EURO</ArtStyleSuffix> <!-- Placeholder, decide later -->
-			<ArtStylePrefix>EUROPEAN </ArtStylePrefix> <!-- Placeholder, decide later -->
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ENGLAND</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
 			<PortraitIndex>1</PortraitIndex>
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
 			<AlphaIconAtlas>ALPHA_ATLAS_TADC_CIVICONS</AlphaIconAtlas>
@@ -49,7 +49,7 @@
 	<Civilization_Start_Region_Priority>
 		<Row>
 			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
-			<RegionType>REGION_FOREST</RegionType> <!-- Placeholder, decide later -->
+			<RegionType>REGION_FOREST</RegionType> <!-- Reason: Higher chance of finding fabric Luxury Resources -->
 		</Row>
 	</Civilization_Start_Region_Priority>
 

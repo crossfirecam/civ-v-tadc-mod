@@ -11,7 +11,7 @@
 			<Text>Candy Canyon Kingdom</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TADC4_DOM">
-			<Text>Blessings be upon you, Princess Loolilalu of the Candy Canyon Kingdom. We thank the stars above that we have you as our leader, Your Highness! Your domain stands as a beacon of light among the pastel pink plains, welcoming many visitors to partake in the peaceful environment you have fostered. With your suave diplomacy, the area has remained tranquil for as long as you can remember. Your decisions have led to the Kingdom being the local powerhouse of commerce and culture that it is today.[NEWLINE][NEWLINE]That was until one day, when you heard wails of panic erupting from the city centre. Bursting out of your study to investigate, you realise the Candy Canyon is gone. There is a lush environment now surrounding your walls. Boundless green plains, unbelievably tall plant life, the sight of ruins dotting the landscape. Your spell of gazing into the distance is cut short, as your guards alert you to unknown foes approaching from the south, wielding weaponry never before seen in your delectable, delicious homeland.[NEWLINE][NEWLINE]Noble princess, the Kingdom seeks your guidance. The wall must hold. Are you capable of repelling this unforeseen threat to your people? Can your despondent subjects count on their humble sovereign to protect them? Can you build a civilization that stands the test of time?</Text>
+			<Text>Blessings be upon you, Princess Loolilalu of the Candy Canyon Kingdom. We thank the stars above that we have you as our leader, Your Highness! Your domain stands as a beacon of light among the pastel pink plains, welcoming many visitors to partake in the peaceful environment you have fostered. With your suave diplomacy, the area has remained tranquil for as long as you can remember. Your decisions have led to the Kingdom becoming a local powerhouse of commerce and culture.[NEWLINE][NEWLINE]That was until one day, when you heard wails of panic erupting from the city centre. Bursting from your study to investigate, you realise the Candy Canyon is gone. There is a lush environment now surrounding your walls. Boundless green plains, unbelievably tall plant life, the sight of ruins dotting the landscape. Your spell of gazing into the distance is cut short, as your guards alert you to unknown foes approaching from the south, wielding weaponry never before seen in your delectable, delicious homeland.[NEWLINE][NEWLINE]Noble princess, the Kingdom seeks your guidance. The wall must hold. Are you capable of repelling this unforeseen threat to your people? Can your despondent subjects count on their humble sovereign to protect them? Can you build a civilization that stands the test of time?</Text>
 		</Row>
 
 
@@ -20,13 +20,13 @@
 			<Text>About The Candy Canyon Kingdom</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TADC4_TEXT_1">
-			<Text>...</Text>
+			<Text>Known as the Candy Kingdom for short, The Candy Canyon Kingdom is home to Princess Loolilalu and her hundreds of loyal subjects. Specialising in syrup farming, the Kingdom became renowned across the land for the sweet, full flavour of their primary export. Loolilalu and her people became prosperous, building up this once humble outpost into a well-fortified and self-sustaining kingdom.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TADC4_HEADING_2">
 			<Text>How Did They Arrive Here?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TADC4_TEXT_2">
-			<Text>...</Text>
+			<Text>While sat in her study drafting some diplomatic paperwork, the Princess felt an odd shift in her stomach and shaky vision. Reaching to a glass of water and taking a gentle sip, she didn't feel much better. A light fatigue set in, and a few minutes later she was awoken to the sounds of screaming from outside. Shaking her head and getting up from her chair, Loolilalu ran out of her study to investigate. Their kingdom was intact, but the entire surrounding environment had changed.[NEWLINE][NEWLINE]The subjects and Loolilalu herself were caught completely offguard and had no earthly idea how this had happened. In reality - or well, virtual reality - Caine and Pomni's dimension hopping out of The Amazing Digital Circus had caused unpredictable effects to the code Caine carried with him. This code included an in-progress build of a second scenario in The Candy Kingdom, so when he ventured to follow the other cast-members into this Civilization V game-world, Loolilalu and her people were brought along for the ride as well.</Text>
 		</Row>
 
 
@@ -35,7 +35,7 @@
 			<Text>About Princess Loolilalu</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC4_LOOLILALU_TEXT_1">
-			<Text>...</Text>
+			<Text>Adored by her people and respected by her contemporaries, Princess Loolilalu is the sweetly-dressed sovereign of The Candy Canyon Kingdom. She has unwillingly entered the virtual world of Civilization V along with her people. With those skilled people, the Kingdom continues to possess the capability of farming for Syrup. Her populace are very pious, and the presence of sweet luxuries only improves that dedication to their religion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC4_LOOLILALU_LIVED">
 			<Text>?? - ?? AD</Text>
@@ -44,7 +44,7 @@
 			<Text>Loolilalu</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC4_LOOLILALU_SUBTITLE">
-			<Text>...</Text>
+			<Text>Princess of The Candy Canyon Kingdom</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TADC4_LOOLILALU">
 			<Text>Loolilalu</Text>
@@ -70,7 +70,10 @@
 			<Text>Maple Sugarbush</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVLOPEDIA_IMPROVEMENT_MAPLE_SUGARBUSH_TEXT">
-			<Text>...</Text>
+			<Text>Constructed by The Candy Canyon Kingdom, the Maple Sugarbush is capable of harvesting extra food from a standard forest by tapping the trees for syrup. This syrup also sells for a decent profit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENT_MAPLE_SUGARBUSH_HELP">
+			<Text>The Maple Sugarbush can only be built on a Forest tile. It provides additional [ICON_FOOD] Food and [ICON_GOLD] Gold. After the Fertilizer technology is researched it will provide even more [ICON_FOOD] Food.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_MAPLE_SUGARBUSH_HELP">
 			<Text>Constructs a Maple Sugarbush, which increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold provided by this tile, while keeping the Forest intact. Also provides extra [ICON_FOOD] Food once Fertilizer has been researched.</Text>
@@ -90,7 +93,7 @@
 			<Text>The War Rig excels in positioning, having more [ICON_MOVES] Movement but less Combat Strength than the Cavalry, which it replaces. It may also perform a one-time Eclair Delivery to earn Gold and XP. Does not require [ICON_RES_HORSE] Horses. May only be built by the Candy Canyon Kingdom.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_UNIT_CANDYCOATED_WAR_RIG_TEXT">
-			<Text>...</Text>
+			<Text>A modified delivery vehicle with a quote "knarly pokey-thing" mounted on the front, and a "syrup-powered super turbo" equipped in the engine bay. As per the Princess' specifications![NEWLINE][NEWLINE]Each War Rig is given a load to deliver to foreign markets - a comically huge Eclair dessert. Successful delivery of this dessert gives the Kingdom money, and the driver lots of recognition.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CANDYCOATED_WAR_RIG_STRATEGY">
 			<Text>A delivery truck re-purposed for the war effort. This unit provides the Eclair Delivery promotion, has extra movement, and a lower combat strength compared to the Cavalry, which it replaces. This unit does not require Horses - instead, the War Rig is fuelled by maple syrup.</Text>
@@ -101,7 +104,7 @@
 			<Text>Eclair Delivery</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ECLAIR_DELIVERY_HELP">
-			<Text>The War Rig carries an Eclair as cargo. May Sell the Eclair when adjacent to a foreign tile to gain [ICON_GOLD] Gold and XP based on distance from capital, but only once.</Text>
+			<Text>The War Rig carries an Eclair as cargo. May sell the Eclair when adjacent to a foreign tile to gain [ICON_GOLD] Gold and XP based on distance from capital, but only once.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_PROMOTION_ECLAIR_DELIVERY">
 			<Text>Eclair Delivery</Text>
