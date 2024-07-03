@@ -95,6 +95,11 @@ Attributions:
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
+        <FileName>XML/Interface/Tadc_Sounds.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
         <FileName>XML/NewText/Tadc1_GameText.xml</FileName>
       </Action>
       <Action>
@@ -171,6 +176,7 @@ Attributions:
     <ReloadUnitSystem>true</ReloadUnitSystem>
     <ReloadStrategicViewSystem>true</ReloadStrategicViewSystem>
     <ReloadLandmarkSystem>true</ReloadLandmarkSystem>
+    <ReloadAudioSystem>true</ReloadAudioSystem>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -393,6 +399,10 @@ Attributions:
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="XML\GameInfo\Tadc_IconTextureAtlases.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\Interface\Tadc_Sounds.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>

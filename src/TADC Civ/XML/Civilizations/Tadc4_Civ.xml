@@ -18,6 +18,7 @@
 			<MapImage>Tadc4_SinglePlMapGraphic.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_CIV5_TADC4_DOM</DawnOfManQuote>
 			<DawnOfManImage>TADC4_DOM.dds</DawnOfManImage>
+			<SoundtrackTag>ENGLAND</SoundtrackTag>
 		</Row>
 	</Civilizations>
 	<Civilization_FreeBuildingClasses>

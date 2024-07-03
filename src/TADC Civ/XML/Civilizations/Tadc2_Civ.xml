@@ -18,6 +18,7 @@
 			<MapImage>Tadc2_SinglePlMapGraphic.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_CIV5_TADC2_DOM</DawnOfManQuote>
 			<DawnOfManImage>Tadc2_DOM.dds</DawnOfManImage>
+			<SoundtrackTag>PORTUGAL</SoundtrackTag>
 		</Row>
 	</Civilizations>
 	<Civilization_FreeBuildingClasses>

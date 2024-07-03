@@ -18,6 +18,7 @@
 			<MapImage>Tadc3_SinglePlMapGraphic.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_CIV5_TADC3_DOM</DawnOfManQuote>
 			<DawnOfManImage>TADC3_DOM.dds</DawnOfManImage>
+			<SoundtrackTag>ROME</SoundtrackTag>
 		</Row>
 	</Civilizations>
 	<Civilization_FreeBuildingClasses>

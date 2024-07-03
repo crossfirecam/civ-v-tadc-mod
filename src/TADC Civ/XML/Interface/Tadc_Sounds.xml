@@ -1,0 +1,72 @@
+<GameData>
+	<!-- General Civ soundtracks are kept in the <Civilization> tables -->
+	<Audio_2DSounds>
+		<Row>
+			<ScriptID>AS2D_LEADER_MUSIC_TADC1_CAINE_PEACE</ScriptID>
+			<SoundID>SND_LEADER_MUSIC_BISMARCK_PEACE</SoundID>
+			<SoundType>GAME_MUSIC</SoundType>
+			<MaxVolume>45</MaxVolume>
+			<MinVolume>45</MinVolume>
+			<IsMusic>True</IsMusic>
+		</Row>
+		<Row>
+			<ScriptID>AS2D_LEADER_MUSIC_TADC1_CAINE_WAR</ScriptID>
+			<SoundID>SND_LEADER_MUSIC_BISMARCK_WAR</SoundID>
+			<SoundType>GAME_MUSIC</SoundType>
+			<MaxVolume>45</MaxVolume>
+			<MinVolume>45</MinVolume>
+			<IsMusic>True</IsMusic>
+		</Row>
+
+		<Row>
+			<ScriptID>AS2D_LEADER_MUSIC_TADC2_POMNI_PEACE</ScriptID>
+			<SoundID>SND_LEADER_MUSIC_MARIA_PEACE</SoundID>
+			<SoundType>GAME_MUSIC</SoundType>
+			<MaxVolume>45</MaxVolume>
+			<MinVolume>45</MinVolume>
+			<IsMusic>True</IsMusic>
+		</Row>
+		<Row>
+			<ScriptID>AS2D_LEADER_MUSIC_TADC2_POMNI_WAR</ScriptID>
+			<SoundID>SND_LEADER_MUSIC_MARIA_WAR</SoundID>
+			<SoundType>GAME_MUSIC</SoundType>
+			<MaxVolume>45</MaxVolume>
+			<MinVolume>45</MinVolume>
+			<IsMusic>True</IsMusic>
+		</Row>
+
+		<Row>
+			<ScriptID>AS2D_LEADER_MUSIC_TADC3_JAX_PEACE</ScriptID>
+			<SoundID>SND_LEADER_MUSIC_CEASAR_PEACE</SoundID>
+			<SoundType>GAME_MUSIC</SoundType>
+			<MaxVolume>45</MaxVolume>
+			<MinVolume>45</MinVolume>
+			<IsMusic>True</IsMusic>
+		</Row>
+		<Row>
+			<ScriptID>AS2D_LEADER_MUSIC_TADC3_JAX_WAR</ScriptID>
+			<SoundID>SND_LEADER_MUSIC_CEASAR_WAR</SoundID>
+			<SoundType>GAME_MUSIC</SoundType>
+			<MaxVolume>45</MaxVolume>
+			<MinVolume>45</MinVolume>
+			<IsMusic>True</IsMusic>
+		</Row>
+
+		<Row>
+			<ScriptID>AS2D_LEADER_MUSIC_TADC4_LOOLILALU_PEACE</ScriptID>
+			<SoundID>SND_LEADER_MUSIC_ELIZABETH_PEACE</SoundID>
+			<SoundType>GAME_MUSIC</SoundType>
+			<MaxVolume>45</MaxVolume>
+			<MinVolume>45</MinVolume>
+			<IsMusic>True</IsMusic>
+		</Row>
+		<Row>
+			<ScriptID>AS2D_LEADER_MUSIC_TADC4_LOOLILALU_WAR</ScriptID>
+			<SoundID>SND_LEADER_MUSIC_ELIZABETH_WAR</SoundID>
+			<SoundType>GAME_MUSIC</SoundType>
+			<MaxVolume>45</MaxVolume>
+			<MinVolume>45</MinVolume>
+			<IsMusic>True</IsMusic>
+		</Row>
+	</Audio_2DSounds>
+</GameData>
