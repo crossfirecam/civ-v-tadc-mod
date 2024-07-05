@@ -93,7 +93,7 @@
 			<Text>The War Rig excels in positioning, having more [ICON_MOVES] Movement but less Combat Strength than the Cavalry, which it replaces. It may also perform a one-time Eclair Delivery to earn Gold and XP. Does not require [ICON_RES_HORSE] Horses. May only be built by the Candy Canyon Kingdom.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_UNIT_CANDYCOATED_WAR_RIG_TEXT">
-			<Text>A modified delivery vehicle with a quote "knarly pokey-thing" mounted on the front, and a "syrup-powered super turbo" equipped in the engine bay. As per the Princess' specifications![NEWLINE][NEWLINE]Each War Rig is given a load to deliver to foreign markets - a comically huge Eclair dessert. Successful delivery of this dessert gives the Kingdom money, and the driver lots of recognition.</Text>
+			<Text>A modified delivery vehicle with a quote "knarly pokey-thing" mounted on the front, and a "syrup-powered super turbo" equipped in the engine bay. As per the Princess' specifications![NEWLINE][NEWLINE]Each War Rig is given a load to deliver to foreign markets - a comically huge Eclair dessert. Successful delivery of this dessert earns the Kingdom money, and the driver lots of recognition.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CANDYCOATED_WAR_RIG_STRATEGY">
 			<Text>A delivery truck re-purposed for the war effort. This unit provides the Eclair Delivery promotion, has extra movement, and a lower combat strength compared to the Cavalry, which it replaces. This unit does not require Horses - instead, the War Rig is fuelled by maple syrup.</Text>
