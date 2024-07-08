@@ -1,7 +1,6 @@
 Playtesting Todo:
 - Ensure that weird 'settler getting all promotions' bug is not my fault, by starting 30 games with no other mods installed.
-- Ensure that Civs aren't poorly balanced in actual gameplay.
 
 Assets Todo:
-- Create icons for units/buildings
-- Edit Civ icons to have that reflect-y effect
+- Consider adding a 'building' as the background of the icon for Civ 2/3's Unique Buildings
+- Finalize Dawn Of Man script & send to voiceactor
