@@ -11,7 +11,7 @@
 			<Text>The Lost Cast</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TADC2_DOM">
-			<Text>Good day to you, Pomni of The Amazing Digital Circus! You've just escaped from your dimension of infinite imprisonment but have leapt from the frying pan into the fire. You find yourself in a different digital realm - created to simulate the ebb and flow of culture, technology, and war in humanity's past. You should not count on your opponents being peaceful, Pomni. Inexperienced leaders like you make for easy pickings.[NEWLINE][NEWLINE]Your friends from the Circus voted that you would act as leader, except for Jax. Following the vote, Jax decided to go off on his own. The remaining members offer help in the ways they know how. Ragatha is your tailor, making good use of Silk and other resources. Gangle provides entertainment to your people. Kinger trains Acrobats to assist your military. And lastly, Zooble is the group's informant, gathering valuable intel.[NEWLINE][NEWLINE]As dire as your situation is, try not to panic. Scared and unproven you may be, Pomni, but your fate is not sealed. You have friends, and as a team you all have promise. Are you up to the task of securing victory, and passing from this realm into the next? Will you build a civilization that stands the test of time?</Text>
+			<Text>PENDING FINAL CHANGES....... Good day to you, Pomni of The Amazing Digital Circus! You've just escaped from your dimension of infinite imprisonment but have leapt from the frying pan into the fire. You find yourself in a different digital realm - created to simulate the ebb and flow of culture, technology, and war in humanity's past. You should not count on your opponents being peaceful, Pomni. Inexperienced leaders like you make for easy pickings.[NEWLINE][NEWLINE]Your friends from the Circus voted that you would act as leader, except for Jax. Following the vote, Jax decided to go off on his own. The remaining members offer help in the ways they know how. Ragatha is your tailor, making good use of Silk and other resources. Gangle provides entertainment to your people. Kinger can train units to assist your military. And lastly, Zooble is the group's informant, gathering valuable intel.[NEWLINE][NEWLINE]As dire as your situation is, try not to panic. Scared and unproven you may be, Pomni, but your fate is not sealed. You have friends, and as a team you all have promise. Are you up to the task of securing victory, and passing from this realm into the next? Will you build a civilization that stands the test of time?</Text>
 		</Row>
 
 
@@ -20,7 +20,7 @@
 			<Text>About The Cast-Members Alliance</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TADC2_TEXT_1">
-			<Text>The Cast-Members Alliance is a group of 5 humans, trapped in a virtual world named The Amazing Digital Circus. Each of the Cast-Members offer a special talent to help this Civilization flourish. The five also take turns in naming newly-founded cities.[NEWLINE][NEWLINE][ICON_BULLET] Pomni (Leader): Responsible for everything the others don't want to do.[NEWLINE][ICON_BULLET] Gangle (Entertainer): Keeps the people happy the best she can.[NEWLINE][ICON_BULLET] Kinger (Military Commander): Trains his Acrobats by throwing bananas in front of them constantly, until they learn to adapt.[NEWLINE][ICON_BULLET] Ragatha (Tailor): Employs her talents with needlework to improve luxury yields.[NEWLINE][ICON_BULLET] Zooble (Secret Agent): Their detached limbs act as spies, harvesting vital intelligence from other Civilizations.</Text>
+			<Text>The Cast-Members Alliance is a group of 5 humans, trapped in a virtual world named The Amazing Digital Circus. Each of the Cast-Members offer a special talent to help this Civilization flourish. The five also take turns in naming newly-founded cities.[NEWLINE][NEWLINE][ICON_BULLET] Pomni (Leader): Responsible for everything the others don't want to do.[NEWLINE][ICON_BULLET] Gangle (Entertainer): Keeps the people happy the best she can.[NEWLINE][ICON_BULLET] Kinger (Military): Trains the soldiers with his questionable military experience.[NEWLINE][ICON_BULLET] Ragatha (Tailor): Employs her talents with needlework to improve luxury yields.[NEWLINE][ICON_BULLET] Zooble (Secret Agent): Their detached limbs act as spies, harvesting vital intelligence from other Civilizations.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TADC2_HEADING_2">
 			<Text>How Did They Arrive Here?</Text>
@@ -60,17 +60,17 @@
 		</Row>
 		
 		<!-- Cast-Allied Unique Unit -->
-		<Row Tag="TXT_KEY_UNIT_CASTALLIED_ACROBAT">
-			<Text>Acrobat</Text>
+		<Row Tag="TXT_KEY_UNIT_CASTALLIED_BARRELOFMONKEYS">
+			<Text>Barrel of Monkeys</Text>
 		</Row>
-		<Row Tag="TXT_KEY_UNIT_HELP_CASTALLIED_ACROBAT">
-			<Text>The Acrobat excels in agility, taking less ranged damage and able to move after attacking. This unit is cheaper and as strong as the Spearman, which it replaces. May only be built by the Cast-Members Alliance.</Text>
+		<Row Tag="TXT_KEY_UNIT_HELP_CASTALLIED_BARRELOFMONKEYS">
+			<Text>The Barrel of Monkeys excels in agility, taking less ranged damage and able to move after attacking. This unit is cheaper and as strong as the Spearman, which it replaces. May only be built by the Cast-Members Alliance.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIVILOPEDIA_CASTALLIED_ACROBAT_TEXT">
-			<Text>In an effort to train their soldiers for anything, Kinger ditched the standard training regiment for a much tougher ordeal... Asking the recruits to run in a straight line while he throws a comical amount of bananas into their path. This rigorous program paid off, as the Acrobats exhibit superior evasion tactics compared to their Spearmen counterparts.[NEWLINE][NEWLINE]Not every soldier is cut out to be an Acrobat. Kinger finds himself venting about that sometimes. "Our equipment is too heavy - we can't do it, they said. That's no excuse to slow down if you ask me!" Kinger complained aloud while shaking his head. "That's rich coming from the guy who can only move one square at a time" Zooble quipped in reply.</Text>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CASTALLIED_BARRELOFMONKEYS_TEXT">
+			<Text>The loyal plastic soldiers that make up a Barrel of Monkeys have proven to be invaluable assets on the battlefield. In their chaotic bouncing troops, the Monkeys are adept at dodging incoming fire, and are able to withdraw after an attack.[NEWLINE][NEWLINE]Because it is impossible to train Monkeys with words and discipline, Kinger ditched the standard training regiment for a more fitting ordeal... After placing a pile of bananas into the training arena, the Monkeys ate the bananas ravenously. As they compete amongst themselves for these delicious treats, the discarded bananas would trip over any careless member of the troop. This rigorous program paid off, as the Monkeys exhibit superior evasion tactics compared to their Spearmen counterparts.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_UNIT_CASTALLIED_ACROBAT_STRATEGY">
-			<Text>The Acrobat is the Cast-Allied unique unit, replacing the Spearman. It possesses a promotion that provides 16% extra defence from ranged sources and allows the unit to move after attacking.</Text>
+		<Row Tag="TXT_KEY_UNIT_CASTALLIED_BARRELOFMONKEYS_STRATEGY">
+			<Text>The Barrel of Monkeys is the Cast-Allied unique unit, replacing the Spearman. It possesses a promotion that provides 16% extra defence from ranged sources and allows the unit to move after attacking.</Text>
 		</Row>
 		
 		<!-- Cast-Allied Unique Buildings -->
@@ -98,14 +98,14 @@
 		
 		
 		<!-- Cast-Allied Unique Promotion -->
-		<Row Tag="TXT_KEY_PROMOTION_ACROBAT_TRAINING">
-			<Text>Acrobat Training</Text>
+		<Row Tag="TXT_KEY_PROMOTION_MONKEY_TRAINING">
+			<Text>Banana Blitz</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_ACROBAT_TRAINING_HELP">
-			<Text>Acrobats may move after attacking, and have a 16% Ranged Defence bonus (equivalent to half of Cover I). This promotion is retained through upgrades.</Text>
+		<Row Tag="TXT_KEY_PROMOTION_MONKEY_TRAINING_HELP">
+			<Text>A Barrel of Monkeys may move after attacking, and have a 16% Ranged Defence bonus (equivalent to half of Cover I). This promotion is retained through upgrades.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PEDIA_PROMOTION_ACROBAT_TRAINING">
-			<Text>Acrobat Training</Text>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_MONKEY_TRAINING">
+			<Text>Banana Blitz</Text>
 		</Row>
 
 

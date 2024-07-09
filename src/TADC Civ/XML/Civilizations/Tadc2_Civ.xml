@@ -60,7 +60,7 @@
 		<Row>
 			<CivilizationType>CIVILIZATION_TADC2</CivilizationType>
 			<UnitClassType>UNITCLASS_SPEARMAN</UnitClassType>
-			<UnitType>UNIT_CASTALLIED_ACROBAT</UnitType>
+			<UnitType>UNIT_CASTALLIED_BARRELOFMONKEYS</UnitType>
 		</Row>
 	</Civilization_UnitClassOverrides>
 	<Civilization_BuildingClassOverrides>

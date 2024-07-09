@@ -77,12 +77,12 @@
 
 	
 	
-	<!-- Acrobat: Spearman Replacement for Pomni. -->
+	<!-- Barrel of Monkeys: Spearman Replacement for Pomni. -->
 	<!-- Values are the same as base Spearman, except some stats, images/text changed, and promotions are applied. -->
 	<Units>
 		<Row>
 			<Class>UNITCLASS_SPEARMAN</Class>
-			<Type>UNIT_CASTALLIED_ACROBAT</Type>
+			<Type>UNIT_CASTALLIED_BARRELOFMONKEYS</Type>
 			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			<Combat>11</Combat>
 			<Cost>48</Cost> <!-- Slightly cheaper -->
@@ -92,10 +92,10 @@
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_CASTALLIED_ACROBAT</Description>
-			<Civilopedia>TXT_KEY_CIVILOPEDIA_CASTALLIED_ACROBAT_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_CASTALLIED_ACROBAT_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_CASTALLIED_ACROBAT</Help>
+			<Description>TXT_KEY_UNIT_CASTALLIED_BARRELOFMONKEYS</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_CASTALLIED_BARRELOFMONKEYS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_CASTALLIED_BARRELOFMONKEYS_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_CASTALLIED_BARRELOFMONKEYS</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
@@ -105,7 +105,7 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<Conscription>2</Conscription>
-			<UnitArtInfo>ART_DEF_UNIT_TADC_ACROBAT</UnitArtInfo>
+			<UnitArtInfo>ART_DEF_UNIT_TADC_BARRELOFMONKEYS</UnitArtInfo>
 			<UnitFlagAtlas>ALPHA_ATLAS_TADC2_UNIT1</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<IconAtlas>TADC_MOD_ATLAS</IconAtlas>
@@ -114,44 +114,44 @@
 	</Units>
 	<Unit_ClassUpgrades>
 		<Row>
-			<UnitType>UNIT_CASTALLIED_ACROBAT</UnitType>
+			<UnitType>UNIT_CASTALLIED_BARRELOFMONKEYS</UnitType>
 			<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
 		</Row>
 	</Unit_ClassUpgrades>
 	<Unit_FreePromotions>
 		<Row>
-			<UnitType>UNIT_CASTALLIED_ACROBAT</UnitType>
-			<PromotionType>PROMOTION_ACROBAT_TRAINING</PromotionType>
+			<UnitType>UNIT_CASTALLIED_BARRELOFMONKEYS</UnitType>
+			<PromotionType>PROMOTION_MONKEY_TRAINING</PromotionType>
 		</Row>
 	</Unit_FreePromotions>
 	<Unit_AITypes>
 		<Row>
-			<UnitType>UNIT_CASTALLIED_ACROBAT</UnitType>
+			<UnitType>UNIT_CASTALLIED_BARRELOFMONKEYS</UnitType>
 			<UnitAIType>UNITAI_COUNTER</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_CASTALLIED_ACROBAT</UnitType>
+			<UnitType>UNIT_CASTALLIED_BARRELOFMONKEYS</UnitType>
 			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_CASTALLIED_ACROBAT</UnitType>
+			<UnitType>UNIT_CASTALLIED_BARRELOFMONKEYS</UnitType>
 			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
 		</Row>
 	</Unit_AITypes>
 	<Unit_Flavors>
 		<Row>
-			<UnitType>UNIT_CASTALLIED_ACROBAT</UnitType>
+			<UnitType>UNIT_CASTALLIED_BARRELOFMONKEYS</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_CASTALLIED_ACROBAT</UnitType>
+			<UnitType>UNIT_CASTALLIED_BARRELOFMONKEYS</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>4</Flavor>
 		</Row>
 	</Unit_Flavors>
 	<UnitGameplay2DScripts>
-		<Row UnitType="UNIT_CASTALLIED_ACROBAT">
+		<Row UnitType="UNIT_CASTALLIED_BARRELOFMONKEYS">
 			<SelectionSound>AS2D_SELECT_PIKEMAN</SelectionSound>
 			<FirstSelectionSound>AS2D_BIRTH_PIKEMAN</FirstSelectionSound>
 		</Row>

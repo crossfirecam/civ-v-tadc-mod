@@ -8,7 +8,7 @@
 			<DamageStates>1</DamageStates>
 		</Row>
 		<Row>
-			<Type>ART_DEF_UNIT_TADC_ACROBAT</Type>
+			<Type>ART_DEF_UNIT_TADC_BARRELOFMONKEYS</Type>
 			<Formation>Phalanx</Formation>
 			<DamageStates>1</DamageStates>
 		</Row>
@@ -25,17 +25,17 @@
 			<NumMembers>6</NumMembers>
 		</Row>
 		<Row>
-			<UnitInfoType>ART_DEF_UNIT_TADC_ACROBAT</UnitInfoType>
+			<UnitInfoType>ART_DEF_UNIT_TADC_BARRELOFMONKEYS</UnitInfoType>
 			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_SPEARMAN</UnitMemberInfoType>
 			<NumMembers>5</NumMembers>
 		</Row>
 		<Row>
-			<UnitInfoType>ART_DEF_UNIT_TADC_ACROBAT</UnitInfoType>
+			<UnitInfoType>ART_DEF_UNIT_TADC_BARRELOFMONKEYS</UnitInfoType>
 			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_SPEARMAN_V2</UnitMemberInfoType>
 			<NumMembers>4</NumMembers>
 		</Row>
 		<Row>
-			<UnitInfoType>ART_DEF_UNIT_TADC_ACROBAT</UnitInfoType>
+			<UnitInfoType>ART_DEF_UNIT_TADC_BARRELOFMONKEYS</UnitInfoType>
 			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_SPEARMAN_V3</UnitMemberInfoType>
 			<NumMembers>3</NumMembers>
 		</Row>
@@ -52,7 +52,7 @@
 			<Asset>svFlag_Tadc1_U1.dds</Asset>
 		</Row>
 		<Row>
-			<StrategicViewType>ART_DEF_UNIT_TADC_ACROBAT</StrategicViewType>
+			<StrategicViewType>ART_DEF_UNIT_TADC_BARRELOFMONKEYS</StrategicViewType>
 			<TileType>Unit</TileType>
 			<Asset>svFlag_Tadc2_U1.dds</Asset>
 		</Row>

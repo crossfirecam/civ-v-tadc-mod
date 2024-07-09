@@ -2,5 +2,6 @@ Playtesting Todo:
 - Ensure that weird 'settler getting all promotions' bug is not my fault, by starting 30 games with no other mods installed.
 
 Assets Todo:
-- Consider adding a 'building' as the background of the icon for Civ 2/3's Unique Buildings
+- Change 'Barrel of Monkeys' unit-alpha icon
+- Smooth out the 'Barrel of Monkeys' colour-atlas icon
 - Finalize Dawn Of Man script & send to voiceactor

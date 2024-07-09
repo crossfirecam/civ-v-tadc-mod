@@ -15,11 +15,11 @@
 			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_SLOW_EYE_HEALING</PediaEntry>
 		</Row>
 		
-		<!-- Pomni Civ: Acrobat has half-Range-I and can move after attacking. -->
+		<!-- Pomni Civ: Barrel Of Monkeys has half-Range-I and can move after attacking. -->
 		<Row>
-			<Type>PROMOTION_ACROBAT_TRAINING</Type>
-			<Description>TXT_KEY_PROMOTION_ACROBAT_TRAINING</Description>
-			<Help>TXT_KEY_PROMOTION_ACROBAT_TRAINING_HELP</Help>
+			<Type>PROMOTION_MONKEY_TRAINING</Type>
+			<Description>TXT_KEY_PROMOTION_MONKEY_TRAINING</Description>
+			<Help>TXT_KEY_PROMOTION_MONKEY_TRAINING_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<CannotBeChosen>true</CannotBeChosen>
 			<CanMoveAfterAttacking>true</CanMoveAfterAttacking>
@@ -27,7 +27,7 @@
 			<PortraitIndex>1</PortraitIndex>
 			<IconAtlas>TADC_MOD_PROMOTIONS_ATLAS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
-			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_ACROBAT_TRAINING</PediaEntry>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_MONKEY_TRAINING</PediaEntry>
 		</Row>
 		
 		<!-- Jax Civ: Shotgunner heals a bit of health on kill -->
