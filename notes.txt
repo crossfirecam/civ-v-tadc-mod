@@ -2,6 +2,4 @@ Playtesting Todo:
 - Ensure that weird 'settler getting all promotions' bug is not my fault, by starting 30 games with no other mods installed.
 
 Assets Todo:
-- Change 'Barrel of Monkeys' unit-alpha icon
-- Smooth out the 'Barrel of Monkeys' colour-atlas icon
-- Finalize Dawn Of Man script & send to voiceactor
+- Await voiceactor files
