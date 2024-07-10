@@ -1,0 +1,35 @@
+Asset Attributions
+
+3D Icons:
+- All 3D images used for icons are screenshots from 'The Amazing Digital Circus'.
+- Produced by Glitch Productions and created/directed by Goosewerx.
+
+Audio:
+- Narrator voiceover performed by 'bbvoiceovers': https://www.castingcall.club/bbvoiceovers
+
+Vector Icons (flaticon.com):
+- agoehlert 'barrelofmonkeys': https://www.flaticon.com/free-icon/barrel_15383642
+- andrejs-kirma 'shotgun': https://www.flaticon.com/free-icon/shotgun_6088955
+- edt.im 'eye': https://www.flaticon.com/free-icon/eye_722358
+- freepik 'banana': https://www.flaticon.com/free-icon/banana_3806530
+- freepik 'eclair': https://www.flaticon.com/free-icon/eclair_5137792
+- freepik 'jokerhat': https://www.flaticon.com/free-icon/joker-hat_2684331
+- freepik 'frontal-truck': https://www.flaticon.com/free-icon/frontal-truck_45882
+
+Vector Icons (freepik.com):
+- rawpixel.com 'collection of autumn leaves vector': https://www.freepik.com/free-vector/collection-autumn-leaves-vector_3139413.htm
+
+Vector Edits & Other Icons:
+- All other vectors & edits to the vectors above were created by the mod's author, CrossfireCam
+
+Tools used:
+- Affinity Designer/Photo: Editing and organizing of images
+- Dragon UnPACKer 5: Extracting of helpful assets/XML files from Civ V
+- Fork: Git client for version control
+- Modbuddy for Civ V: Development of mod
+- Paint.NET: Conversion from PNG to DDS image format used by Civ V
+- Visual Studio Code: Browsing Civ V's XML files & examining the game's error logs
+
+Code attributions:
+- Thanks to civfanatics.com for a helpful forum and modding wiki.
+- Any specific code that I borrowed from other people is attributed in the XML code comments of this project.
