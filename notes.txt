@@ -2,4 +2,5 @@ Playtesting Todo:
 - Ensure that weird 'settler getting all promotions' bug is not my fault, by starting 30 games with no other mods installed.
 
 Assets Todo:
-- Await voiceactor files
+- Edit audio files
+- Fix bug: Loolilalu doesn't start with her Ability Building in new cities

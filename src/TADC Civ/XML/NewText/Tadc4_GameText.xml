@@ -70,7 +70,7 @@
 			<Text>Maple Sugarbush</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVLOPEDIA_IMPROVEMENT_MAPLE_SUGARBUSH_TEXT">
-			<Text>Constructed by The Candy Canyon Kingdom, the Maple Sugarbush is capable of harvesting extra food from a standard forest by tapping the trees for syrup. This syrup also sells for a decent profit.</Text>
+			<Text>Constructed by The Candy Canyon Kingdom, the Maple Sugarbush is capable of harvesting extra food from a standard forest by tapping the trees for syrup. This syrup also sells for a decent profit.[NEWLINE][NEWLINE]A 'sugar bush' refers to a camp set up around maple trees for the purpose of harvesting maple syrup. Loolilalu's people have mastered this technique, bolstering the Kingdom's economy and feeding their people with the same delicious crop.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_IMPROVEMENT_MAPLE_SUGARBUSH_HELP">
 			<Text>The Maple Sugarbush can only be built on a Forest tile. It provides additional [ICON_FOOD] Food and [ICON_GOLD] Gold. After the Fertilizer technology is researched it will provide even more [ICON_FOOD] Food.</Text>

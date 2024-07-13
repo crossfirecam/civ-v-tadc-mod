@@ -195,6 +195,7 @@ Attributions:
     <Folder Include="Art\Promotions\" />
     <Folder Include="Art\UnitAtlas" />
     <Folder Include="LUA" />
+    <Folder Include="Sounds\" />
     <Folder Include="XML\" />
     <Folder Include="XML\Civilizations\" />
     <Folder Include="XML\GameInfo\" />
@@ -369,6 +370,22 @@ Attributions:
     <Content Include="LUA\Tadc_CustomCode.lua">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Sounds\Tadc1DOM.mp3">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Sounds\Tadc2DOM.mp3">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Sounds\Tadc3DOM.mp3">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Sounds\Tadc4DOM.mp3">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="XML\Buildings\Tadc_Buildings.xml">
       <SubType>Lua</SubType>

@@ -18,6 +18,7 @@
 			<MapImage>Tadc1_SinglePlMapGraphic.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_CIV5_TADC1_DOM</DawnOfManQuote>
 			<DawnOfManImage>Tadc1_DOM.dds</DawnOfManImage>
+			<DawnOfManAudio>AS2D_DOM_SPEECH_TADC1_CAINE</DawnOfManAudio>
 			<SoundtrackTag>GERMANY</SoundtrackTag>
 		</Row>
 	</Civilizations>
