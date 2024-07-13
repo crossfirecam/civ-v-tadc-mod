@@ -27,10 +27,6 @@
 			<CivilizationType>CIVILIZATION_TADC4</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
 		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_TADC4</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_TADC_LOOLILALUTRAIT</BuildingClassType>
-		</Row>
 	</Civilization_FreeBuildingClasses>
 	<Civilization_FreeTechs>
 		<Row>

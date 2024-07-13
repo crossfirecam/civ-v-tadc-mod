@@ -3,4 +3,3 @@ Playtesting Todo:
 
 Assets Todo:
 - Edit audio files
-- Fix bug: Loolilalu doesn't start with her Ability Building in new cities

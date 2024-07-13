@@ -19,6 +19,7 @@
 			<Type>TRAIT_CANDY_COMMUNION</Type>
 			<Description>TXT_KEY_TRAIT_CANDY_COMMUNION</Description>
 			<ShortDescription>TXT_KEY_TRAIT_CANDY_COMMUNION_SHORT</ShortDescription>
+			<FreeBuilding>BUILDING_TADC_LOOLILALUTRAIT</FreeBuilding>
 			<FreeBuildingOnConquest>BUILDING_TADC_LOOLILALUTRAIT</FreeBuildingOnConquest>
 		</Row>
 	</Traits>
