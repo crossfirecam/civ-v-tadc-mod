@@ -171,7 +171,7 @@ function Tadc2CheckForFreeGanglesTheater(iPlayer)
 		for pCity in pPlayer:Cities() do
 			if (pCity:GetNumBuilding(iTadcGangleTheater) > 0) then
 				iCity = pCity:GetID();
-				print("-- Cast-Allied city found with a free Gangle's Theater (ID: " .. iCity .. "). Perform ability...");
+				print("-- Cast-Allied city found with a Gangle's Theater (ID: " .. iCity .. "). Check if it needs to receive a free Hall...");
 				Tadc2GanglesTheaterAbility(iPlayer, iCity, iTadcGangleTheater);
 			end
 		end
