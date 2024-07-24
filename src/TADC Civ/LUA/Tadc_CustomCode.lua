@@ -64,7 +64,9 @@ function Tadc1DigitalCircusAbility(iPlayer, iCity, iBuilding)
 		local cityName = pCity:GetName();
 		local heading = "Unit summoned by " .. cityName .. "'s new Digital Circus";
 		local text = cityName .. "'s newly built Digital Circus has welcomed an NPC to join the fight!";
-     	pPlayer:AddNotification(NotificationTypes.NOTIFICATION_GENERIC, text, heading);
+		local pCity_x = pCity:GetX();
+		local pCity_y = pCity:GetY();
+     	pPlayer:AddNotification(NotificationTypes.NOTIFICATION_GENERIC, text, heading, pCity_x, pCity_y);
 		print("-- Tadc1DigitalCircusAbility: Unit spawned successfully");
 	end
 end
@@ -145,6 +147,8 @@ function Tadc2GanglesTheaterAbility(iPlayer, iCity, iBuilding)
 			local cityName = pCity:GetName();
 			local heading;
 			local text;
+			local pCity_x = pCity:GetX();
+			local pCity_y = pCity:GetY();
 
 			if (math.random() < 0.5) then
 				pCity:SetNumRealBuilding(iTadcGangleTheaterAlt1, 1);
@@ -157,7 +161,7 @@ function Tadc2GanglesTheaterAbility(iPlayer, iCity, iBuilding)
 			end
 
 			-- Show notification
-     		pPlayer:AddNotification(NotificationTypes.NOTIFICATION_GENERIC, text, heading);
+     		pPlayer:AddNotification(NotificationTypes.NOTIFICATION_GENERIC, text, heading, pCity_x, pCity_y);
 		end
 	end
 end
