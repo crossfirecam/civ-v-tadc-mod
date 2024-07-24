@@ -122,7 +122,7 @@
 			<Type>BUILDING_TADC_BOXING_RING</Type>
 			<BuildingClass>BUILDINGCLASS_THEATRE</BuildingClass>
 			<FreeStartEra>ERA_FUTURE</FreeStartEra>
-			<Cost>200</Cost>
+			<Cost>160</Cost> <!-- 20% cheaper, orig = 200 -->
 			<GoldMaintenance>0</GoldMaintenance>
 			<PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_TADC3_BOXING_RING_STRATEGY</Help>
@@ -139,13 +139,6 @@
 			<PortraitIndex>18</PortraitIndex>
 		</Row>
 	</Buildings>
-	<Building_YieldChanges>
-		<Row>
-			<BuildingType>BUILDING_TADC_BOXING_RING</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
-		</Row>
-	</Building_YieldChanges>
 	<Building_DomainFreeExperiences>
 		<Row>
 			<BuildingType>BUILDING_TADC_BOXING_RING</BuildingType>

@@ -84,7 +84,7 @@
 			<Text>Digital Circus</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TADC_CIRCUS_STRATEGY">
-			<Text>Summons a random land unit which you have researched in this Era. Does not require a [ICON_RES_HORSE] Horse or [ICON_RES_IVORY] Elephant to construct.[NEWLINE][NEWLINE]Some notes: If this Era's units aren't studied yet, last Era's units are granted instead. From Renaissance Era onward, only Medieval Era units are granted. [ICON_GOLD] Purchase price is 50% higher than a standard Circus.</Text>
+			<Text>The Digital Circus the Cainic unique building, replacing the Circus. Summons a random land unit which you have researched in this Era. Does not require a [ICON_RES_HORSE] Horse or [ICON_RES_IVORY] Elephant to construct.[NEWLINE][NEWLINE]Some notes: If this Era's units aren't studied yet, last Era's units are granted instead. From Renaissance Era onward, only Medieval Era units are granted. [ICON_GOLD] Purchase price is 50% higher than a standard Circus.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_TADC_CIRCUS_TEXT">
 			<Text>Constructing this miniature Digital Circus allows Caine to temporarily harness his ability to summon NPCs. His lacking power here limits this ability to Medieval Era units at most. Still, the citizens of the Cainic Empire gain a lot of joy from the unique, age-appropriate entertainment available at this venue.</Text>

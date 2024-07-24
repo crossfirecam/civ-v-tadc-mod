@@ -36,11 +36,6 @@
 		</Row>
 		<Row>
 			<TraitType>TRAIT_RAGATHA_NEEDLEWORK</TraitType>
-			<ResourceType>RESOURCE_FUR</ResourceType>
-			<ResourceQuantityModifier>100</ResourceQuantityModifier>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_RAGATHA_NEEDLEWORK</TraitType>
 			<ResourceType>RESOURCE_DYE</ResourceType>
 			<ResourceQuantityModifier>100</ResourceQuantityModifier>
 		</Row>
@@ -50,16 +45,22 @@
 			<TraitType>TRAIT_RAGATHA_NEEDLEWORK</TraitType>
 			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_ASSEMBLY_LINE</TraitType>
-			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 	</Trait_ImprovementYieldChanges>
 	<Trait_SpecialistYieldChanges>
+		<Row>
+			<TraitType>TRAIT_ASSEMBLY_LINE</TraitType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_ASSEMBLY_LINE</TraitType>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
 		<Row>
 			<TraitType>TRAIT_ASSEMBLY_LINE</TraitType>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
@@ -68,9 +69,21 @@
 		</Row>
 		<Row>
 			<TraitType>TRAIT_ASSEMBLY_LINE</TraitType>
-			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_ASSEMBLY_LINE</TraitType>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_ASSEMBLY_LINE</TraitType>
+			<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
 		</Row>
 	</Trait_SpecialistYieldChanges>
 </GameData>

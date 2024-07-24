@@ -245,11 +245,11 @@
 			<Class>UNITCLASS_CAVALRY</Class>
 			<Type>UNIT_CANDYCOATED_WAR_RIG</Type>
 			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
-			<Combat>30</Combat> <!-- Slightly weaker -->
-			<Cost>225</Cost>
-			<FaithCost>450</FaithCost>
+			<Combat>30</Combat> <!-- Slightly weaker, orig = 34 -->
+			<Cost>202</Cost> <!-- 10% cheaper, orig = 225-->
+			<FaithCost>405</FaithCost> <!-- 10% cheaper, orig = 450-->
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
-			<Moves>5</Moves> <!-- Slightly more agile -->
+			<Moves>4</Moves>
 			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
@@ -264,7 +264,7 @@
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
 			<GoodyHutUpgradeUnitClass>UNITCLASS_WWI_TANK</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>30</AdvancedStartCost>
-			<NumExoticGoods>1</NumExoticGoods> <!-- Added exotic good -->
+			<NumExoticGoods>1</NumExoticGoods> <!-- Added exotic good ability -->
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_TADC_WARRIG</UnitArtInfo>

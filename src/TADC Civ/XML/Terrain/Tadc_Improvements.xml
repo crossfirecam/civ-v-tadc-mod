@@ -20,12 +20,12 @@
 		<Row>
 			<ImprovementType>IMPROVEMENT_MAPLE_SUGARBUSH</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_MAPLE_SUGARBUSH</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 	</Improvement_Yields>
 	<Improvement_ValidFeatures>
@@ -37,8 +37,14 @@
 	<Improvement_TechYieldChanges>
 		<Row>
 			<ImprovementType>IMPROVEMENT_MAPLE_SUGARBUSH</ImprovementType>
-			<TechType>TECH_FERTILIZER</TechType>
+			<TechType>TECH_CIVIL_SERVICE</TechType>
 			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MAPLE_SUGARBUSH</ImprovementType>
+			<TechType>TECH_ECONOMICS</TechType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 	</Improvement_TechYieldChanges>
