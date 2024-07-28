@@ -17,6 +17,8 @@ Notes:
 [NEWLINE]
 [ICON_BULLET] Mod is compatible with the EUI Mod, other mods are not tested for compatibility yet
 [NEWLINE]
+[ICON_BULLET] Languages supported: English. (If you'd like to offer a localisation for this mod to other languages, contact me)
+[NEWLINE]
 [NEWLINE]
 Attributions:
 [NEWLINE]
@@ -198,6 +200,22 @@ Attributions:
     <ReloadStrategicViewSystem>true</ReloadStrategicViewSystem>
     <ReloadLandmarkSystem>true</ReloadLandmarkSystem>
     <ReloadAudioSystem>true</ReloadAudioSystem>
+    <ModDependencies>
+      <Association>
+        <Type>Dlc</Type>
+        <Name>Expansion 1 - Gods and Kings</Name>
+        <Id>0E3751A1-F840-4e1b-9706-519BF484E59D</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Dlc</Type>
+        <Name>Expansion 2 - Brave New World</Name>
+        <Id>6DA07636-4123-4018-B643-6575B4EC336B</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+    </ModDependencies>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>

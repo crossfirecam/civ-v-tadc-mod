@@ -1,13 +1,23 @@
-# civ-v-tadc-mod
-A mod for Civilization V: BNW. Adds 4 Civilizations to the game based on The Amazing Digital Circus.
+# 'TADC Civ Pack' for Civilization V (Release Version 1)
+A mod for Civilization V. Adds 4 Civilizations to the game based on The Amazing Digital Circus. Requires G&K and BNW expansions.
 
-## Info about mod creation process
-- Requires the use of the Modbuddy tool
-- Each time the mod is built in Modbuddy:
-    - Ensure Civ V is open. The game needn't be opened/closed for every build
-    - Load log files under 'My Games/Sid Mier's Civilization V/logs': Database.log & xml.log
-    - In Civ V click 'Mods', 'Agree', and select our mod.
-    - In the log files, scroll to the final line. In Civ V, load our mod. Any errors (which are not Firaxis' default errors) should be noted.
+## How to download/install the mod
+- Check the Steam Workshop listing for details! This git repo is provided for access to the mod's source code
 
-## Directories
-'src': Stores the source code & build files for this project.
+## Contributions
+- I'm open to accepting pull-requests for localising this mod to other languages, to fix bugs, or to add support for other mods (where incompatibility is found)
+- Suggestions for gameplay balance can be made in the Issues tab
+
+## Dev Process
+- Requires the use of the Modbuddy tool for development & building. Instructions for how to use this software can be found elsewhere
+- To test changes to the mod as they're made:
+    - Civ V needn't be re-opened after every build in Modbuddy. Just return to the main menu to make the game unload the old build
+    - Open log files under 'My Games/Sid Mier's Civilization V/logs': Database.log, Lua.log, & xml.log
+    - In Civ V click 'Mods', 'Agree', and select 'TADC Civ Pack'
+    - In the log files, scroll to the final line. In Civ V, load our mod. Any errors (which are not Firaxis' default errors) should be noted
+- To build the mod for multiplayer, check out this Steam Workshop mod by ciero225 for instructions: https://steamcommunity.com/sharedfiles/filedetails/?id=361391109
+
+## Base directory
+- attributions.txt: Full credits for images, audio and code
+- /resources: Files used for creating art assets
+- /src: Source code for the project

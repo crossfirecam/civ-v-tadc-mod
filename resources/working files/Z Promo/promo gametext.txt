@@ -1,14 +1,11 @@
 <!-- This text was used to create promo screenshots for the Steam Workshop page -->
 
 <Row Tag="TXT_KEY_CIV5_TADC1_DOM">
-<Text>[ICON_BULLET]Summons a random land unit which you have researched in the current Era. Does not require a [ICON_RES_HORSE] Horse or [ICON_RES_IVORY] Elephant to construct.[NEWLINE][NEWLINE][ICON_BULLET]Scout replacement. Provides +1 Visibility Range, but it is weaker and heals slowly outside of Friendly Lands.</Text>
-</Row>
-<Row Tag="TXT_KEY_CIV5_TADC2_DOM">
-<Text>[ICON_BULLET]Upon being built, will provide an extra yield (50/50 chance of either +1 [ICON_HAPPINESS_1] Happiness or +1 [ICON_CULTURE] Culture). Requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE][ICON_BULLET]Spearman replacement. Cheaper, provides 16% extra defence from ranged sources, and the unit can move after attacking.</Text>
-</Row>
-<Row Tag="TXT_KEY_CIV5_TADC3_DOM">
-<Text>[ICON_BULLET]Provides +1 [ICON_CULTURE] Culture and grants +10 XP to Land Units created in the same city. Requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE][ICON_BULLET]Rifleman replacement. Possesses a promotion that provides +20HP after killing a non-barbarian enemy.</Text>
-</Row>
-<Row Tag="TXT_KEY_CIV5_TADC4_DOM">
-<Text>[ICON_BULLET]Improvement that can only be built on Forest. Provides +2 [ICON_FOOD] Food and +2 [ICON_GOLD] Gold. After Fertilizer is researched, provide +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE][ICON_BULLET]Cavalry replacement. Has +1 [ICON_MOVES] Movement but less Combat Strength. May perform a one-time Eclair Delivery to earn Gold and XP. Does not require [ICON_RES_HORSE] Horses.</Text>
+<Text>[ICON_BULLET]Circus replacement. Summons a random land unit which you have researched in the current Era. Does not require a [ICON_RES_HORSE] Horse or [ICON_RES_IVORY] Elephant to construct.[NEWLINE][NEWLINE][ICON_BULLET]Scout replacement. Provides +1 Visibility Range, but it is weaker and heals slowly outside of Friendly Lands.
+[NEWLINE][NEWLINE][NEWLINE][NEWLINE]
+[ICON_BULLET]Ampitheater replacement. Upon being built, will provide an extra yield (50/50 chance of either +1 [ICON_HAPPINESS_1] Happiness or +1 [ICON_CULTURE] Culture). Requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE][ICON_BULLET]Spearman replacement. Cheaper, provides 16% extra defence from ranged sources, and the unit can move after attacking.
+[NEWLINE][NEWLINE][NEWLINE][NEWLINE]
+[ICON_BULLET]Zoo replacement. Cheaper, and grants +10 XP to Land Units created in the same city. Requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE][ICON_BULLET]Rifleman replacement. Possesses a promotion that provides +25HP after killing a non-barbarian enemy.
+[NEWLINE][NEWLINE][NEWLINE][NEWLINE]
+[ICON_BULLET]Unique Improvement that can only be built on Forest. Provides +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold. After Civil Service, +1 [ICON_FOOD] extra Food. After Economics, +1 [ICON_GOLD] extra Gold.[NEWLINE][NEWLINE][ICON_BULLET]Cavalry replacement. Cheaper and does not require [ICON_RES_HORSE] Horses, but has less Combat Strength. May perform a one-time Eclair Delivery to earn Gold and XP.</Text>
 </Row>

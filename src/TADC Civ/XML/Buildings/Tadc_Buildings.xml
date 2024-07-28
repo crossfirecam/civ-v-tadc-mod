@@ -45,7 +45,7 @@
 	</Building_YieldModifiers>
 	
 	
-	<!-- Pomni Civ: Ampitheater replacement. -->
+	<!-- Pomni Civ: Amphitheater replacement. -->
 	<Buildings>
 		<Row>
 			<Type>BUILDING_TADC_GANGLES_THEATER</Type>
