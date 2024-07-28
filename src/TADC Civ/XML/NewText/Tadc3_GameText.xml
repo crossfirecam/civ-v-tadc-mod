@@ -35,7 +35,7 @@
 			<Text>About Jax</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC3_JAX_TEXT_1">
-			<Text>(Jax): I'd describe myself as a powderkeg. Capable of remaining completely inert and stoic, despite holding onto the potential for a lot of destructive power. Going insane with chaos isn't my thing, I'm not a nutso. I am strategic with when I let my gunpowder light up in flames.</Text>
+			<Text>(Jax): Oh, you want to hear about me? I'd describe myself as a powderkeg. Capable of remaining completely inert and stoic, despite holding onto the potential for a lot of destructive power. Going insane with chaos isn't my thing, I'm not a nutso. I am strategic with when I let that gunpowder light up in flames.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TADC3_JAX_LIVED">
 			<Text>?? - ?? AD</Text>
@@ -56,7 +56,7 @@
 			<Text>Assembly Line</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_ASSEMBLY_LINE">
-			<Text>+1 [ICON_PRODUCTION] Production from Specialists. TODO FINALISE THIS.</Text>
+			<Text>+2 [ICON_FOOD] Food &amp; +2 [ICON_PRODUCTION] Production from Manufactories. Receive a free Worker near the Capital at Masonry.</Text>
 		</Row>
 		
 		<!-- Jaxian Unique Unit -->
@@ -64,13 +64,13 @@
 			<Text>Shotgunner</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_JAXIAN_SHOTGUNNER">
-			<Text>The shotgunner excels in survivability. The unit heals 20HP after kills, unlike the Rifleman it replaces. May only be built by the House of Jax.</Text>
+			<Text>The shotgunner excels in survivability. The unit heals 25HP after kills, and is cheaper than the Rifleman it replaces. May only be built by the House of Jax.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_UNIT_JAXIAN_SHOTGUNNER_TEXT">
 			<Text>Pilfered from the Candy Canyon Kingdom, the design of this shotgun is rudimentary but effective.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_JAXIAN_SHOTGUNNER_STRATEGY">
-			<Text>The Shotgunner is the Jaxian unique unit, replacing the Riflemen. It possesses a promotion that provides +20HP after killing a non-barbarian enemy.</Text>
+			<Text>The Shotgunner is the Jaxian unique unit, replacing the Riflemen. It is cheaper to produce, and possesses a promotion that provides +25HP after killing a non-barbarian enemy.</Text>
 		</Row>
 		
 		<!-- Jaxian Unique Building -->
@@ -89,7 +89,7 @@
 			<Text>Candy Bullets</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CANDY_BULLETS_HELP">
-			<Text>Shotgunner heals 20 Damage when it kills a non-barbarian unit. Their weapon uses candies as ammunition, which doubles as a sugary &amp; refreshing snack.</Text>
+			<Text>Shotgunner heals 25 Damage when it kills a non-barbarian unit. Their weapon uses candies as ammunition, which doubles as a sugary &amp; refreshing snack.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_PROMOTION_CANDY_BULLETS">
 			<Text>Candy Bullets</Text>

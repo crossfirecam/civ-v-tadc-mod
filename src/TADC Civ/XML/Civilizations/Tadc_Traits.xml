@@ -14,6 +14,8 @@
 			<Type>TRAIT_ASSEMBLY_LINE</Type>
 			<Description>TXT_KEY_TRAIT_ASSEMBLY_LINE</Description>
 			<ShortDescription>TXT_KEY_TRAIT_ASSEMBLY_LINE_SHORT</ShortDescription>
+			<FreeUnit>UNITCLASS_WORKER</FreeUnit>
+			<FreeUnitPrereqTech>TECH_MASONRY</FreeUnitPrereqTech>
 		</Row>
 		<Row>
 			<Type>TRAIT_CANDY_COMMUNION</Type>
@@ -47,43 +49,17 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_ASSEMBLY_LINE</TraitType>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_ASSEMBLY_LINE</TraitType>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
 	</Trait_ImprovementYieldChanges>
-	<Trait_SpecialistYieldChanges>
-		<Row>
-			<TraitType>TRAIT_ASSEMBLY_LINE</TraitType>
-			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_ASSEMBLY_LINE</TraitType>
-			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_ASSEMBLY_LINE</TraitType>
-			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_ASSEMBLY_LINE</TraitType>
-			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_ASSEMBLY_LINE</TraitType>
-			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_ASSEMBLY_LINE</TraitType>
-			<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-	</Trait_SpecialistYieldChanges>
 </GameData>

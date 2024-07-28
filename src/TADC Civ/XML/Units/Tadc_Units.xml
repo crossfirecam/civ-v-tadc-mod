@@ -165,8 +165,8 @@
 			<Type>UNIT_JAXIAN_SHOTGUNNER</Type>
 			<PrereqTech>TECH_RIFLING</PrereqTech>
 			<Combat>34</Combat>
-			<Cost>225</Cost>
-			<FaithCost>450</FaithCost>
+			<Cost>191</Cost> <!-- Reduced 15%, original 225 -->
+			<FaithCost>383</FaithCost> <!-- Reduced 15%, original 450 -->
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>

@@ -36,7 +36,7 @@
 			<Description>TXT_KEY_PROMOTION_CANDY_BULLETS</Description>
 			<Help>TXT_KEY_PROMOTION_CANDY_BULLETS_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
-			<HPHealedIfDestroyEnemy>20</HPHealedIfDestroyEnemy>
+			<HPHealedIfDestroyEnemy>25</HPHealedIfDestroyEnemy>
 			<HealIfDestroyExcludesBarbarians>true</HealIfDestroyExcludesBarbarians>
 			<PortraitIndex>2</PortraitIndex>
 			<IconAtlas>TADC_MOD_PROMOTIONS_ATLAS</IconAtlas>
