@@ -47,7 +47,9 @@ function Tadc1DigitalCircusAbility(iPlayer, iCity, iBuilding)
 
 		-- Find city, spawn unit inside city
 		local pCity = pPlayer:GetCityByID(iCity)
-		local chosenUnit = eligibleUnits[math.random(#eligibleUnits)];
+		local randomNum = Game.Rand(#eligibleUnits + 1, "-- Tadc1DigitalCircusAbility: Choosing unit...");
+		print("-- Tadc1DigitalCircusAbility: Chosen unit " .. randomNum.. " of " .. #eligibleUnits);
+		local chosenUnit = eligibleUnits[randomNum];
 		local pUnit = pPlayer:InitUnit(GameInfoTypes[chosenUnit], pCity:GetX(), pCity:GetY());
 
 		-- Grant XP from Barracks etc, grant free promotions from wonders in the city.
@@ -150,7 +152,7 @@ function Tadc2GanglesTheaterAbility(iPlayer, iCity, iBuilding)
 			local pCity_x = pCity:GetX();
 			local pCity_y = pCity:GetY();
 
-			if (math.random() < 0.5) then
+			if (Game.Rand(2, "-- Tadc2GanglesTheaterAbility: Choosing a hall to grant...") == 0) then
 				pCity:SetNumRealBuilding(iTadcGangleTheaterAlt1, 1);
 				heading = "Comedy Theater is complete";
 				text = "The newly built Gangle's Theater in ".. cityName .." has opened their Comedy Hall, which provides +1 Happiness!";
@@ -191,14 +193,22 @@ end
 
 
 
---
--- Start Main Code
---
-print("TADC Lua loaded successfully")
--- Tadc1 Events
-GameEvents.CityConstructed.Add( Tadc1DigitalCircusAbility );
-GameEvents.PlayerDoTurn.Add( Tadc1GoldenAgeTrait );
-GameEvents.TeamTechResearched.Add( Tadc1BonusGoldenAgeStart );
--- Tadc2 Events
-GameEvents.CityConstructed.Add( Tadc2GanglesTheaterAbility );
-GameEvents.PlayerDoTurn.Add( Tadc2CheckForFreeGanglesTheater );
+-- Init Code
+-- Thanks to cicero225 for this 'only run this code every turn if the Civ is actually in the match' snippet
+function TadcCivStart()
+	for _, player in pairs(Players) do
+		if player:IsEverAlive() then
+			if(player:GetCivilizationType() == GameInfoTypes["CIVILIZATION_TADC1"]) then
+				GameEvents.CityConstructed.Add( Tadc1DigitalCircusAbility );
+				GameEvents.PlayerDoTurn.Add( Tadc1GoldenAgeTrait );
+				GameEvents.TeamTechResearched.Add( Tadc1BonusGoldenAgeStart );
+			end
+			if(player:GetCivilizationType() == GameInfoTypes["CIVILIZATION_TADC2"]) then
+				GameEvents.CityConstructed.Add( Tadc2GanglesTheaterAbility );
+				GameEvents.PlayerDoTurn.Add( Tadc2CheckForFreeGanglesTheater );
+			end
+		end
+	end
+end
+Events.SequenceGameInitComplete.Add(TadcCivStart);
+print("TADC Lua loaded successfully");
