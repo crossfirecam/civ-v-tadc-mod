@@ -51,7 +51,7 @@
 	
 	
 	
-	<!-- To add a strategic view icon for the Sugarbush, I need to create a new Art_Def. Credit to Firaxis for the below code, the attributes copy their Lumbermill improvement -->
+	<!-- To add a strategic view icon for the Sugarbush, new Art_Def is required. Credit to Firaxis for the below code, the attributes copy their Lumbermill improvement -->
 	<!-- Thanks to bouncymischa's Future Worlds mod for a template of this section for guidance, because I couldn't find out the XML tags to use -->
 	<ArtDefine_StrategicView>
 		<Row>

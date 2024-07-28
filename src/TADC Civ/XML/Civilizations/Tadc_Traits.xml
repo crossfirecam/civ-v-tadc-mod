@@ -59,7 +59,7 @@
 			<TraitType>TRAIT_ASSEMBLY_LINE</TraitType>
 			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 	</Trait_ImprovementYieldChanges>
 </GameData>

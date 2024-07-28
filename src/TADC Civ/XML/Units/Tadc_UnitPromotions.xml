@@ -1,6 +1,6 @@
 <GameData>
 	<UnitPromotions>
-		<!-- Caine Civ: All-Seeing-Eye has reduced healing -->
+		<!-- Caine Civ: All-Seeing-Eye has reduced healing in Non-Friendly Lands -->
 		<Row>
 			<Type>PROMOTION_SLOW_EYE_HEALING</Type>
 			<Description>TXT_KEY_PROMOTION_SLOW_EYE_HEALING</Description>

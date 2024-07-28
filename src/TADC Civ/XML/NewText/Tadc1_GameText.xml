@@ -56,7 +56,7 @@
 			<Text>Digital Feast</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_DIGITAL_FEAST">
-			<Text>[ICON_GOLDEN_AGE] Golden Ages provide +20% [ICON_FOOD] Food generation in all Cities. Upon reaching Electricity, a [ICON_GOLDEN_AGE] Golden Age begins.</Text>
+			<Text>[ICON_GOLDEN_AGE] Golden Ages provide +20% [ICON_FOOD] Food generation in all Cities. Upon researching Electricity, a [ICON_GOLDEN_AGE] Golden Age begins.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TADC_CAINETRAIT">
 			<Text>Bubble's Digital Feast</Text>
@@ -225,7 +225,7 @@
 		</Row>
 		
 		
-		<!-- Cainic Spies -->
+		<!-- Cainic Spies (Theme: Names of characters from TADC) -->
 		<Row Tag="TXT_KEY_SPY_NAME_TADC1_0">
 			<Text>digitalcircus.exe</Text>
 		</Row>

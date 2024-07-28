@@ -1,4 +1,5 @@
 <GameData>
+	<!-- Worker action for Civ 4's Maple Sugarbush-->
 	<Builds>
 		<Row>
 			<Type>BUILD_MAPLE_SUGARBUSH</Type>

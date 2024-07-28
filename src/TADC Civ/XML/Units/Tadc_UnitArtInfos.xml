@@ -1,6 +1,5 @@
 <GameData>
-	<!-- TADC 1 thru 3 - Add strategic view icons for the 3 unique units.
-	The boilerplate unitmemberinfo is copied from Firaxis' formations for Scout/Spearman/Rifleman-->
+	<!-- TADC 1 thru 3 - Add strategic view icons for the 3 unique units. Boilerplate UnitMemberInfo is copied from Firaxis' formations for Scout/Spearman/Rifleman -->
 	<ArtDefine_UnitInfos>
 		<Row>
 			<Type>ART_DEF_UNIT_TADC_ALLSEEINGEYE</Type>
@@ -64,7 +63,7 @@
 	</ArtDefine_StrategicView>
 	
 	
-	<!-- TADC4 - Reskin the Cavalry Replacement as a Late-Era Caravan model, but with the animation logic of a tank. -->
+	<!-- TADC4 - Reskin the Cavalry Replacement as a Smokey Landship model. Add a Strategic View icon for it -->
 	<ArtDefine_UnitInfos>
 		<Row>
 			<Type>ART_DEF_UNIT_TADC_WARRIG</Type>

@@ -1,5 +1,5 @@
 # civ-v-tadc-mod
-A mod for Civilization V: BNW. Aims to add 4 Civilizations to the game based on The Amazing Digital Circus.
+A mod for Civilization V: BNW. Adds 4 Civilizations to the game based on The Amazing Digital Circus.
 
 ## Info about mod creation process
 - Requires the use of the Modbuddy tool

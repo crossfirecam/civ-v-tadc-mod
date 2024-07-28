@@ -1,3 +1,0 @@
-Playtesting Todo:
-- Ensure that weird 'settler getting all promotions' bug is not my fault, by starting 30 games with no other mods installed.
-- Might be a problem: While testing, the game crashed sometime after building Oracle. Repeating similar actions from an autosave did not reproduce the crash...

@@ -5,7 +5,7 @@
 		<Row>
 			<Class>UNITCLASS_SCOUT</Class>
 			<Type>UNIT_CAINIC_ALL_SEEING_EYE</Type>
-			<Combat>4</Combat> <!-- Weaker -->
+			<Combat>4</Combat> <!-- Weaker (orig: 5) -->
 			<Cost>25</Cost>
 			<FaithCost>50</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
@@ -85,8 +85,8 @@
 			<Type>UNIT_CASTALLIED_BARRELOFMONKEYS</Type>
 			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			<Combat>11</Combat>
-			<Cost>48</Cost> <!-- Slightly cheaper -->
-			<FaithCost>95</FaithCost> <!-- Slightly cheaper -->
+			<Cost>44</Cost> <!-- 20% cheaper (orig: 56) -->
+			<FaithCost>89</FaithCost> <!-- 20% cheaper (orig: 112) -->
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>

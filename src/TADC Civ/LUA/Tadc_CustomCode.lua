@@ -3,12 +3,12 @@
 -- DateCreated: 5/9/2024 9:10:03 PM
 
 -- With help from these sources:
--- https://modiki.civfanatics.com/index.php?title=IsHasBuilding
+-- https://modiki.civfanatics.com/
+-- https://forums.civfanatics.com/
 --------------------------------------------------------------
 
-
 --
--- TADC1: Cainic Empire: Custom Circus code
+-- TADC1: Cainic Empire: Custom Circus
 --
 function Tadc1DigitalCircusAbility(iPlayer, iCity, iBuilding)
 	-- Each time a construction finishes, check if it's a TADC_CIRCUS and run randomspawn
@@ -19,7 +19,7 @@ function Tadc1DigitalCircusAbility(iPlayer, iCity, iBuilding)
 
 		-- Eligible Units for the random spawn depends on current Era, maxing out at granting Medieval Era units
 		-- If no eligible Techs from this Era are found, the search continues to Techs from the previous Era
-		-- At the very least (Rushing Camping then Theology) a Warrior is valid and can be granted
+		-- At the very least, a Warrior is valid and can be granted (Rushing 'Camping' to get Circus, then 'Theology' to get to Medieval Era)
 		local eligibleUnits = {}
 		if (pPlayer:GetCurrentEra() >= GameInfoTypes["ERA_MEDIEVAL"]) then
 			print("-- Tadc1DigitalCircusAbility: Medieval Era units are valid, checking techs...");
@@ -83,7 +83,7 @@ function insertUnitIfResearched(pPlayer, techName, unitName)
 end
 
 --
--- TADC1: Cainic Empire: Custom Golden Age code
+-- TADC1: Cainic Empire: Custom Golden Age functionality
 --
 local notifSentGoldenAge = false;
 function Tadc1GoldenAgeTrait(playerID)

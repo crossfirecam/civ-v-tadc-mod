@@ -56,7 +56,7 @@
 			<Text>Assembly Line</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_ASSEMBLY_LINE">
-			<Text>+2 [ICON_FOOD] Food &amp; +2 [ICON_PRODUCTION] Production from Manufactories. Receive a free Worker near the Capital at Masonry.</Text>
+			<Text>+2 [ICON_FOOD] Food &amp; +1 [ICON_PRODUCTION] Production from Manufactories. Receive a free Worker near the Capital upon researching Masonry.</Text>
 		</Row>
 		
 		<!-- Jaxian Unique Unit -->

@@ -1,5 +1,7 @@
 Asset Attributions
 
+Mod created by: CrossfireCam
+
 3D Icons:
 - All 3D images used for icons are screenshots from 'The Amazing Digital Circus'.
 - Produced by Glitch Productions and created/directed by Goosewerx.
@@ -32,4 +34,4 @@ Tools used:
 
 Code attributions:
 - Thanks to civfanatics.com for a helpful forum and modding wiki.
-- Any specific code that I borrowed from other people is attributed in the XML code comments of this project.
+- Any specific code that I borrowed from other people is attributed in the XML/Lua code comments of this project.

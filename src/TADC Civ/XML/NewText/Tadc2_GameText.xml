@@ -232,7 +232,7 @@
 		</Row>
 		
 		
-		<!-- Cast-Allied Spies -->
+		<!-- Cast-Allied Spies (Theme: Names of Zooble's detachable limbs) -->
 		<Row Tag="TXT_KEY_SPY_NAME_TADC2_0">
 			<Text>Zooble's Leg</Text>
 		</Row>
