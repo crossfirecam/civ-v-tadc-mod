@@ -40,7 +40,7 @@
 		<Row>
 			<BuildingType>BUILDING_TADC_CAINETRAIT</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>20</Yield>
+			<Yield>22</Yield> <!-- Intended to be 20% extra Food. Read Civlopedia entry for info -->
 		</Row>
 	</Building_YieldModifiers>
 	

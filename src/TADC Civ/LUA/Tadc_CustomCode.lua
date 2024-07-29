@@ -47,7 +47,7 @@ function Tadc1DigitalCircusAbility(iPlayer, iCity, iBuilding)
 
 		-- Find city, spawn unit inside city
 		local pCity = pPlayer:GetCityByID(iCity)
-		local randomNum = Game.Rand(#eligibleUnits + 1, "-- Tadc1DigitalCircusAbility: Choosing unit...");
+		local randomNum = Game.Rand(#eligibleUnits, "-- Tadc1DigitalCircusAbility: Choosing unit...") + 1; -- Add 1 to the result, because Lua table indexes start at 1
 		print("-- Tadc1DigitalCircusAbility: Chosen unit " .. randomNum.. " of " .. #eligibleUnits);
 		local chosenUnit = eligibleUnits[randomNum];
 		local pUnit = pPlayer:InitUnit(GameInfoTypes[chosenUnit], pCity:GetX(), pCity:GetY());
@@ -86,6 +86,8 @@ end
 
 --
 -- TADC1: Cainic Empire: Custom Golden Age functionality
+--   - 'notifSentGoldenAge' isn't remembered across saves. After a reloaded save:
+--        - The building still exists so bonus still applies, this value defaults to false, and on the next turn the notification will appear again
 --
 local notifSentGoldenAge = false;
 function Tadc1GoldenAgeTrait(playerID)
@@ -120,9 +122,13 @@ function Tadc1BonusGoldenAgeStart(iTeamID, eTech, iChange)
 	if (GameInfoTypes["TECH_ELECTRICITY"] == eTech) then
  		for iLoopPlayer = 0, GameDefines.MAX_CIV_PLAYERS-1, 1 do
 		    local pLoopPlayer = Players[iLoopPlayer];
-		    if (pLoopPlayer:GetTeam() == iTeamID) then
+		    if (pLoopPlayer:GetTeam() == iTeamID and pLoopPlayer:GetCivilizationType() == GameInfoTypes["CIVILIZATION_TADC1"] and pLoopPlayer:IsAlive()) then
 				if (iChange == 1) then -- The wiki says regarding what iChange means: "No idea". But it's in Firaxis' snippet, I'm keeping it here.
+					print("-- Tadc1BonusGoldenAgeStart: Granting a Golden Age for completing Electricity. iLoopPlayer=" .. iLoopPlayer);
 					pLoopPlayer:ChangeGoldenAgeTurns(pLoopPlayer:GetGoldenAgeLength());
+					local heading = "Caine has connected Electricity!";
+					local text = "Researching Electricity has started a Golden Age for the Cainic Empire.";
+     				pLoopPlayer:AddNotification(NotificationTypes.NOTIFICATION_GENERIC, text, heading);
 				end
 		    end
 		end
@@ -195,15 +201,20 @@ end
 
 -- Init Code
 -- Thanks to cicero225 for this 'only run this code every turn if the Civ is actually in the match' snippet
+-- Only init each Civ once, or else functions like 'TeamTechResearched' will proc twice
+local initDoneTadc1 = false;
+local initDoneTadc2 = false;
 function TadcCivStart()
 	for _, player in pairs(Players) do
 		if player:IsEverAlive() then
-			if(player:GetCivilizationType() == GameInfoTypes["CIVILIZATION_TADC1"]) then
+			if(initDoneTadc1 == false and player:GetCivilizationType() == GameInfoTypes["CIVILIZATION_TADC1"]) then
+				initDoneTadc1 = true;
 				GameEvents.CityConstructed.Add( Tadc1DigitalCircusAbility );
 				GameEvents.PlayerDoTurn.Add( Tadc1GoldenAgeTrait );
 				GameEvents.TeamTechResearched.Add( Tadc1BonusGoldenAgeStart );
 			end
-			if(player:GetCivilizationType() == GameInfoTypes["CIVILIZATION_TADC2"]) then
+			if(initDoneTadc2 == false and player:GetCivilizationType() == GameInfoTypes["CIVILIZATION_TADC2"]) then
+				initDoneTadc2 = true;
 				GameEvents.CityConstructed.Add( Tadc2GanglesTheaterAbility );
 				GameEvents.PlayerDoTurn.Add( Tadc2CheckForFreeGanglesTheater );
 			end

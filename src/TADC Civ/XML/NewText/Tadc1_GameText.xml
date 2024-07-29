@@ -62,7 +62,7 @@
 			<Text>Bubble's Digital Feast</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TADC_CAINETRAIT_TEXT">
-			<Text>Unique Ability of the Cainic Civilization[NEWLINE][NEWLINE][ICON_GOLDEN_AGE] Golden Ages provide +20% [ICON_FOOD] Food generation in all Cities.</Text>
+			<Text>Unique Ability of the Cainic Civilization[NEWLINE][NEWLINE][ICON_GOLDEN_AGE] Golden Ages provide +20% [ICON_FOOD] Food generation in all Cities.[NEWLINE][NEWLINE]Note: This effect can only kick in after being 1 turn into a Golden Age. To compensate, this building actually grants +22% [ICON_FOOD] Food generation.</Text>
 		</Row>
 		
 		<!-- Cainic Unique Unit -->
