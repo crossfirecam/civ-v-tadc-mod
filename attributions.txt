@@ -4,7 +4,7 @@ Mod created by: CrossfireCam
 
 3D Icons:
 - All 3D images used for icons are screenshots from 'The Amazing Digital Circus'.
-- Produced by Glitch Productions and created/directed by Goosewerx.
+- Produced by Glitch Productions and created/directed by Gooseworx.
 
 Audio:
 - Narrator voiceover performed by 'bbvoiceovers': https://www.castingcall.club/bbvoiceovers
