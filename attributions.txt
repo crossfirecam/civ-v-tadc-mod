@@ -1,5 +1,4 @@
 Asset Attributions
-
 Mod created by: CrossfireCam
 
 3D Icons:
@@ -7,7 +6,9 @@ Mod created by: CrossfireCam
 - Produced by Glitch Productions and created/directed by Gooseworx.
 
 Audio:
-- Narrator voiceover performed by 'bbvoiceovers': https://www.castingcall.club/bbvoiceovers
+- Narrator voiceover performed by 'bbvoiceovers':
+  - https://soundcloud.com/brett-balfour-433777777
+  - https://www.castingcall.club/bbvoiceovers
 
 Vector Icons (flaticon.com):
 - agoehlert 'barrelofmonkeys': https://www.flaticon.com/free-icon/barrel_15383642
