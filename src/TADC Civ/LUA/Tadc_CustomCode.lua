@@ -175,8 +175,8 @@ function Tadc2GanglesTheaterAbility(iPlayer, iCity, iBuilding)
 end
 
 function Tadc2CheckForFreeGanglesTheater(iPlayer)
-	-- The game grants a free Amphitheater in two scenarios: With an 'Industrial Era' game start, or when Legalism is adopted.
-	-- There's no GameEvent for when a free building is granted by Legalism. Therefore, we need to check every turn if this Civ has a theater in their city.
+	-- The game grants a free Amphitheater in two scenarios: Settling a city with an 'Industrial Era or later' game start, or when policy 'Tradition > Legalism' is adopted.
+	-- There's no GameEvent for when a free building is granted. Therefore, we need to check every turn if this Civ has a theater in their city.
 	local pPlayer = Players[iPlayer];
 	if pPlayer:GetCivilizationType() == GameInfoTypes["CIVILIZATION_TADC2"] and pPlayer:IsAlive() then
 		local iTadcGangleTheater = GameInfoTypes["BUILDING_TADC_GANGLES_THEATER"];

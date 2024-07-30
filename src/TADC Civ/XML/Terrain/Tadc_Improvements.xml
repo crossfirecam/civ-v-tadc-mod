@@ -43,9 +43,9 @@
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_MAPLE_SUGARBUSH</ImprovementType>
-			<TechType>TECH_ECONOMICS</TechType>
+			<TechType>TECH_GUILDS</TechType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 	</Improvement_TechYieldChanges>
 	

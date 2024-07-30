@@ -20,7 +20,7 @@
 			<Text>About The Candy Canyon Kingdom</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TADC4_TEXT_1">
-			<Text>Known as the Candy Kingdom for short, The Candy Canyon Kingdom is home to Princess Loolilalu and her hundreds of loyal subjects. Specialising in syrup farming, the Kingdom became renowned across the land for the sweet, full flavour of their primary export. Loolilalu and her people became prosperous, building up this once humble outpost into a well-fortified and self-sustaining kingdom.</Text>
+			<Text>Known as the Candy Kingdom for short, The Candy Canyon Kingdom is home to Princess Loolilalu and her hundreds of loyal subjects. Specialising in syrup farming, the Kingdom became renowned across the land for the sweet, full flavour of their primary export. Loolilalu and her people became prosperous, building up this once humble outpost into a well-fortified and self-sustaining kingdom. Loolilalu's cities here are named after the sweet desserts that she so adores.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TADC4_HEADING_2">
 			<Text>How Did They Arrive Here?</Text>
@@ -56,13 +56,13 @@
 			<Text>Candy Communion</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_CANDY_COMMUNION">
-			<Text>Gain +1 [ICON_PEACE] Faith from [ICON_RES_SUGAR] Sugar, [ICON_RES_COCOA] Cocoa, [ICON_RES_CITRUS] Citrus, [ICON_RES_SPICES] Spice and [ICON_RES_BANANA] Banana tiles. Temples provide +2 [ICON_FOOD] Food.</Text>
+			<Text>Gain +1 [ICON_PEACE] Faith from [ICON_RES_SUGAR] Sugar, [ICON_RES_COCOA] Cocoa, [ICON_RES_CITRUS] Citrus, [ICON_RES_SPICES] Spices and [ICON_RES_BANANA] Banana tiles. Temples provide +2 [ICON_FOOD] Food.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TADC_LOOLILALUTRAIT">
 			<Text>Candy Communion</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TADC_LOOLILALUTRAIT_TEXT">
-			<Text>Unique Ability of the Candy Canyon Kingdom[NEWLINE][NEWLINE]+1 [ICON_PEACE] Faith from [ICON_RES_SUGAR] Sugar, [ICON_RES_COCOA] Cocoa, [ICON_RES_CITRUS] Citrus, [ICON_RES_SPICES] Spice and [ICON_RES_BANANA] Banana tiles. Temples provide +2 [ICON_FOOD] Food.</Text>
+			<Text>Unique Ability of the Candy Canyon Kingdom[NEWLINE][NEWLINE]+1 [ICON_PEACE] Faith from [ICON_RES_SUGAR] Sugar, [ICON_RES_COCOA] Cocoa, [ICON_RES_CITRUS] Citrus, [ICON_RES_SPICES] Spices and [ICON_RES_BANANA] Banana tiles. Temples provide +2 [ICON_FOOD] Food.</Text>
 		</Row>
 		
 		<!-- Candy-Coated Unique Improvement -->
@@ -73,13 +73,13 @@
 			<Text>Constructed by The Candy Canyon Kingdom, the Maple Sugarbush is capable of harvesting extra food from a standard forest by tapping the trees for syrup. This syrup also sells for a decent profit.[NEWLINE][NEWLINE]A 'sugar bush' refers to a camp set up around maple trees for the purpose of harvesting maple syrup. Loolilalu's people have mastered this technique, bolstering the Kingdom's economy and feeding their people with the same delicious crop.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_IMPROVEMENT_MAPLE_SUGARBUSH_HELP">
-			<Text>The Maple Sugarbush can only be built on a Forest tile. It provides additional [ICON_FOOD] Food and [ICON_GOLD] Gold. Also provides extra [ICON_FOOD] Food at Civil Service and [ICON_GOLD] Gold at Economics.</Text>
+			<Text>The Maple Sugarbush can only be built on a Forest tile. It provides additional [ICON_FOOD] Food and [ICON_GOLD] Gold. Also provides extra [ICON_FOOD] Food at Civil Service and [ICON_GOLD] Gold at Guilds.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_MAPLE_SUGARBUSH_HELP">
-			<Text>Constructs a Maple Sugarbush, which increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold provided by this tile, while keeping the Forest intact. Also provides extra [ICON_FOOD] Food at Civil Service and [ICON_GOLD] Gold at Economics.</Text>
+			<Text>Constructs a Maple Sugarbush, which increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold provided by this tile, while keeping the Forest intact. Also provides extra [ICON_FOOD] Food at Civil Service and [ICON_GOLD] Gold at Guilds.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_MAPLE_SUGARBUSH_REC">
-			<Text>It will increase the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold provided by this tile, while keeping the Forest intact. Also provides extra [ICON_FOOD] Food at Civil Service and [ICON_GOLD] Gold at Economics.</Text>
+			<Text>It will increase the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold provided by this tile, while keeping the Forest intact. Also provides extra [ICON_FOOD] Food at Civil Service and [ICON_GOLD] Gold at Guilds.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_MAPLE_SUGARBUSH">
 			<Text>Construct a [LINK=IMPROVEMENT_MAPLE_SUGARBUSH]Maple Sugarbush[\LINK]</Text>

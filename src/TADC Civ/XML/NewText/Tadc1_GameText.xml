@@ -62,7 +62,7 @@
 			<Text>Bubble's Digital Feast</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TADC_CAINETRAIT_TEXT">
-			<Text>Unique Ability of the Cainic Civilization[NEWLINE][NEWLINE][ICON_GOLDEN_AGE] Golden Ages provide +20% [ICON_FOOD] Food generation in all Cities. (except for the first turn of a Golden Age, due to mod limitations)</Text>
+			<Text>Unique Ability of the Cainic Civilization[NEWLINE][NEWLINE][ICON_GOLDEN_AGE] Golden Ages provide +20% [ICON_FOOD] Food generation in all Cities.[NEWLINE][NEWLINE]Note: Due to mod limitations, if a Golden Age is started during a turn (using Great Artist, policies, etc.), then the first turn of that Golden Age will NOT have this bonus.</Text>
 		</Row>
 		
 		<!-- Cainic Unique Unit -->
@@ -95,7 +95,7 @@
 			<Text>Dry Eye</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SLOW_EYE_HEALING_HELP">
-			<Text>Reduces healing (in neutral or enemy lands) from +10 to +5 per turn. Cainic All-Seeing Eyes cannot blink, and require eyedrops to heal.</Text>
+			<Text>Reduces healing (in neutral or enemy lands) from +10 to +5 per turn. Cainic All-Seeing Eyes cannot blink, and require eyedrops to heal effectively.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_PROMOTION_SLOW_EYE_HEALING">
 			<Text>Dry Eye</Text>
